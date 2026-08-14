@@ -225,6 +225,8 @@ def test_manifests_reference_files_that_exist() -> None:
     manifest = _manifest_or_skip("clean")
     paths = get_paths()
     root = DataConfig().resolved_raw_root(paths)
+    if not root.is_dir():
+        pytest.skip(f"raw corpus is not available at {root}")
     sample = manifest.sample(min(50, len(manifest)), random_state=0)
     for relpath in sample["relpath"]:
         assert (root / str(relpath)).is_file(), f"manifest points at a missing file: {relpath}"
