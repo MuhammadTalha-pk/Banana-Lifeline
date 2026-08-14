@@ -21,7 +21,7 @@ they are not built here.
 ```bash
 .venv/Scripts/python -m streamlit run app.py   # web demo: upload a photo, ask questions
 .venv/Scripts/python chat.py                   # same thing in the terminal
-.venv/Scripts/python try_it.py                 # seven scripted checks, no interaction
+.venv/Scripts/python try_it.py                 # nine scripted checks, no interaction
 ```
 
 All three must run with the project venv — the package is installed there, and the project
@@ -151,6 +151,13 @@ and brown vascular tissue inside a cut pseudostem — signs a leaf close-up usua
 show. The system asks confirming questions a farmer can actually answer instead of stating a
 diagnosis the image cannot support, and it never generates a chemical cure, because there
 isn't one.
+
+**Not every message is a query.** "hi" searched against an agronomy corpus returns five
+passages that are merely *about bananas*, which the model then turns into a confident essay
+on plantation renewal cycles. Messages are routed first — greeting, technical, out of scope —
+and only technical ones reach the knowledge base. The routing is asymmetric by design:
+misrouting a greeting costs a wasted search, misrouting a real question costs a farmer their
+answer, so every uncertain case resolves to *technical*.
 
 **All photographs come from one site on one date.** Background and lighting barely vary
 between classes, so the model can learn scene shortcuts instead of leaf pathology. Grad-CAM

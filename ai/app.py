@@ -75,12 +75,16 @@ FOLLOW_UP_KEYS = (
 )
 
 #: How each decision is presented. Three of the five deliberately show no disease name.
-ACTION_STYLE = {
+#: ``None`` means no banner at all -- a greeting with a status banner over it looks like a
+#: system notice rather than a reply.
+ACTION_STYLE: dict[str, tuple[str | None, str]] = {
     "answer": ("success", "Diagnosis"),
     "answer_with_caveat": ("warning", "Likely — but not certain"),
     "ask_follow_up": ("info", "Needs a few checks on the plant"),
     "retake_photo": ("warning", "Please retake the photo"),
     "refer_to_expert": ("error", "Ask an extension officer"),
+    "greeting": (None, ""),
+    "out_of_scope": (None, ""),
 }
 
 
@@ -109,7 +113,7 @@ def render_result(result: object, *, show_header: bool = True) -> None:
     """Render one pipeline result, branching on action rather than on disease."""
     kind, heading = ACTION_STYLE.get(result.action, ("info", result.action))
 
-    if show_header:
+    if show_header and kind:
         banner = getattr(st, kind)
         label = heading
         if result.disease and result.action in {"answer", "answer_with_caveat", "ask_follow_up"}:

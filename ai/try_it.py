@@ -110,6 +110,13 @@ def main() -> int:
     rule("7. A question the corpus cannot answer — should refuse")
     show(ask("What is the market price of bananas in Lahore today?"))
 
+    rule("8. A greeting — should be answered directly, without searching")
+    show(ask("hi"), "en        ")
+    show(ask("السلام علیکم", language="ur"), "ur        ")
+
+    rule("9. Something with nothing to do with farming — should decline, not search")
+    show(ask("who won the cricket world cup"))
+
     print("\nDone.\n")
     return 0
 

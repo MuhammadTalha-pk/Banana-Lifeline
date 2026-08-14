@@ -7,12 +7,13 @@ argument of the whole system, cheapest and most certain checks first:
                                                               |
                     (retake / refer to expert / follow-up) <--+
                                                               |
-                                        question -> translate -> retrieve -> generate
-                                                                                |
-                                                                    safety rules -+
+       question -> route -> translate -> retrieve -> generate -+
+                     |                                         |
+   (greeting / out of scope)                         safety rules
 
 Nothing downstream runs if an earlier stage says stop. A blurry photo never reaches the
-classifier; a goat never reaches retrieval; a weak retrieval never reaches generation.
+classifier; a goat never reaches retrieval; "hi" never reaches the knowledge base; a weak
+retrieval never reaches generation.
 """
 
 from __future__ import annotations
@@ -45,6 +46,10 @@ class PipelineResult:
     quality: dict[str, float] = field(default_factory=dict)
     retrieval_similarity: float = 0.0
     translated_query: str | None = None
+
+    #: How the message was routed: greeting, technical, or out_of_scope. Empty for photo
+    #: diagnoses, which are never routed.
+    intent: str = ""
 
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)
@@ -156,7 +161,10 @@ def diagnose(
     from banana_lifeline.generation.answer import generate_answer
     from banana_lifeline.rag.retrieve import retrieve
 
-    asked = question or _default_question(decision.disease, language)
+    # A photo carries its own question, so small talk sent alongside one is not a reason to
+    # withhold the diagnosis -- it is a reason to answer the question the photo asked.
+    asked = question if question and _is_technical(question) else ""
+    asked = asked or _default_question(decision.disease, language)
     retrieved = retrieve(asked, disease=decision.disease, top_k=5)
 
     result.retrieval_similarity = retrieved.top_similarity
@@ -175,13 +183,46 @@ def diagnose(
     return result
 
 
-def ask(question: str, *, disease: str | None = None, language: str = "en") -> PipelineResult:
+def ask(
+    question: str,
+    *,
+    disease: str | None = None,
+    language: str = "en",
+    route: bool = True,
+) -> PipelineResult:
     """Answer a text-only question, with no photo.
 
     The chatbot must work without an image -- planting, soil, irrigation, harvesting.
+
+    Messages are routed before retrieval runs. "hi" is not a query, and searching an agronomy
+    corpus for it returns five passages that are merely about bananas, which the model then
+    turns into a confident essay on something nobody asked about. Only technical messages
+    reach the knowledge base; ``route=False`` restores the old unconditional behaviour for
+    evaluation runs, where every input is a question by construction.
     """
     from banana_lifeline.generation.answer import generate_answer
+    from banana_lifeline.generation.intent import (
+        Intent,
+        classify,
+        greeting_text,
+        out_of_scope_text,
+    )
     from banana_lifeline.rag.retrieve import retrieve
+
+    routing = classify(question) if route else None
+
+    if routing is not None and routing.intent is not Intent.TECHNICAL:
+        conversational = routing.intent is Intent.GREETING
+        return PipelineResult(
+            action=(Action.GREETING if conversational else Action.OUT_OF_SCOPE).value,
+            message="",
+            disease=disease,
+            answer=(
+                greeting_text(language, disease) if conversational else out_of_scope_text(language)
+            ),
+            reason=routing.reason,
+            intent=routing.intent.value,
+        )
 
     retrieved = retrieve(question, disease=disease, top_k=5)
     answer = generate_answer(question, retrieved, disease=disease, language=language)
@@ -196,7 +237,14 @@ def ask(question: str, *, disease: str | None = None, language: str = "en") -> P
         retrieval_similarity=retrieved.top_similarity,
         translated_query=retrieved.rewritten_query,
         reason="text-only question",
+        intent=Intent.TECHNICAL.value if routing is not None else "",
     )
+
+
+def _is_technical(question: str) -> bool:
+    from banana_lifeline.generation.intent import Intent, classify
+
+    return classify(question).intent is Intent.TECHNICAL
 
 
 def _default_question(disease: str | None, language: str) -> str:

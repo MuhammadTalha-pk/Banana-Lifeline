@@ -184,7 +184,7 @@ def main() -> int:
         print("  Thinking...", flush=True)
         result = ask(raw, disease=disease, language=language)
 
-        if result.action == "refer_to_expert":
+        if result.action in {"refer_to_expert", "greeting", "out_of_scope"}:
             print("\n" + wrap(result.answer or result.message))
             last_citations = []
             continue

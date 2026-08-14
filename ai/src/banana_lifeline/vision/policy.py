@@ -37,6 +37,16 @@ class Action(StrEnum):
     REFER_TO_EXPERT = "refer_to_expert"
     """A real banana leaf, but the model cannot call it. Send them to a human."""
 
+    # The two below never come from `decide` -- they are conversational, not visual. They
+    # live here because this enum is the single list of everything the app can be told to
+    # do next, and a second enum for chat would let the two drift.
+
+    GREETING = "greeting"
+    """Small talk. Answered directly, without touching the knowledge base."""
+
+    OUT_OF_SCOPE = "out_of_scope"
+    """Nothing to do with bananas. Declined without searching."""
+
 
 #: Confidence floor for stating a diagnosis outright. From the calibrated risk-coverage
 #: curve on the clean split, targeting <=5% error among answered cases.
