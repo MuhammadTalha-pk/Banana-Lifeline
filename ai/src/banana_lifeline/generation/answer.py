@@ -17,7 +17,9 @@ checks verify it. Neither alone is enough.
 
 # E501: several regexes and the refusal strings read worse when wrapped.
 # RUF001: the Urdu refusal text legitimately contains an Arabic full stop.
-# ruff: noqa: RUF001
+# E501: the refusal strings are prose shown verbatim to a farmer; wrapping them in
+# source would put the line breaks in the wrong places.
+# ruff: noqa: RUF001, E501
 
 from __future__ import annotations
 
@@ -80,11 +82,15 @@ class Answer:
         return bool(self.raw_text) and self.raw_text != self.text
 
 
+# A refusal has to do more than decline. Two very different questions land here: one
+# about banana farming phrased too vaguely to match a passage ("can I get some general
+# tips"), and one genuinely outside the corpus ("what is the market price"). Sending both
+# to an extension officer wastes the first farmer's time -- the corpus holds their answer
+# and only the phrasing missed. So the refusal states what the system does cover and shows
+# the shape of a question that works.
 REFUSAL_TEXT = {
-    "en": "I don't have reliable information about that in my sources. Please ask a local "
-    "agricultural extension officer.",
-    "ur": "میرے پاس اس بارے میں قابلِ اعتماد معلومات موجود نہیں ہیں۔ براہِ کرم اپنے مقامی "
-    "زرعی افسر سے رابطہ کریں۔",
+    "en": "I don't have anything reliable on that in my sources.\n\nI can help with banana diseases (Panama disease, Sigatoka) and with growing bananas - planting, spacing, soil, irrigation, and harvesting.\n\nTry asking something specific, for example:\n- What soil is best for bananas?\n- How far apart should I plant them?\n- My leaves have dark streaks, what is it?\n\nFor anything else, a local agricultural extension officer is the right person.",
+    "ur": "میرے ذرائع میں اس بارے میں قابلِ اعتماد معلومات موجود نہیں ہیں۔\n\nمیں کیلے کی بیماریوں (پاناما، سگاٹوکا) اور کیلے کی کاشت — پودے لگانا، فاصلہ، مٹی، آبپاشی اور کٹائی — کے بارے میں مدد کر سکتا ہوں۔\n\nکوئی خاص سوال پوچھیں، مثلاً:\n- کیلے کے لیے کون سی مٹی بہترین ہے؟\n- پودوں کے درمیان کتنا فاصلہ رکھنا چاہیے؟\n- میرے پتوں پر کالی لکیریں ہیں، یہ کیا ہے؟\n\nکسی اور معاملے کے لیے اپنے مقامی زرعی افسر سے رابطہ کریں۔",
 }
 
 

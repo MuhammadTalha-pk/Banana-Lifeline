@@ -27,6 +27,26 @@ from banana_lifeline.rag.index import COLLECTION_NAME, _client
 #: RRF damping. 60 is the value from the original paper and behaves well without tuning.
 RRF_K = 60
 
+#: Crop words that mean a question already carries its own subject.
+_CROP_TERMS = ("banana", "plantain", "musa", "kela", "sigatoka", "panama", "fusarium")
+
+
+def add_crop_context(query: str) -> str:
+    """Append the crop when a question does not name it.
+
+    The corpus is entirely banana agronomy, but a farmer inside a banana app writes "general
+    farming tips" or "when should I water" without repeating the subject. Retrieved against
+    banana-only documents, those score as off-topic and get refused -- the system knows the
+    context and the query does not.
+
+    Only the *search* text is expanded. The farmer's question is unchanged in what is shown
+    and in what generation is asked to answer.
+    """
+    if any(term in query.lower() for term in _CROP_TERMS):
+        return query
+    return f"{query} (banana cultivation)"
+
+
 #: Cross-encoder score below which the corpus is treated as unable to answer.
 #:
 #: Measured on the golden set, not guessed. Answerable questions score -3.1 to +7.5;
@@ -164,8 +184,11 @@ def _search(
         with_payload=True,
     ).points
 
+    # Ask the collection what it actually has rather than trusting the embedder to
+    # describe itself. A mismatch here is a 400 on every single query.
     sparse_hits: list[Any] = []
-    if embedder.produces_sparse and embedded.sparse:
+    has_sparse = bool(client.get_collection(collection).config.params.sparse_vectors or {})
+    if has_sparse and embedder.produces_sparse and embedded.sparse:
         weights = embedded.sparse[0]
         if weights:
             sparse_hits = client.query_points(
@@ -311,7 +334,7 @@ def retrieve(
     from banana_lifeline.rag.translate import translate_query
 
     translation = translate_query(query, enabled=translate)
-    search_text = translation.translated
+    search_text = add_crop_context(translation.translated)
 
     attempts: list[tuple[str | None, str | None]] = [(disease, topic)]
     if topic:

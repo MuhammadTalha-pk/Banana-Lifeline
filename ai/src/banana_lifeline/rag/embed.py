@@ -65,21 +65,29 @@ class Embedder:
         if self._model is not None:
             return
 
-        try:
+        # Capability is decided by the MODEL NAME, never by which import happened to
+        # succeed. FlagEmbedding's BGEM3FlagModel accepts any HF model and wraps it as an
+        # M3Embedder without checking, so loading all-mpnet through it produced an embedder
+        # that claimed to emit sparse vectors. Worse, it was non-deterministic: at index time
+        # the import failed and the collection was built dense-only, then a later run
+        # succeeded and queried a "sparse" vector that did not exist -- a 400 from Qdrant on
+        # every question, from code that had not changed.
+        if self._is_m3_model(self.model_name):
             from FlagEmbedding import BGEM3FlagModel
 
             self._model = BGEM3FlagModel(self.model_name, use_fp16=self.use_fp16)
             self._is_m3 = True
             return
-        except Exception:
-            pass  # fall through to the dense-only path
 
         from sentence_transformers import SentenceTransformer
 
-        name = self.model_name
-        self._model = SentenceTransformer(name)
-        self.model_name = name
+        self._model = SentenceTransformer(self.model_name)
         self._is_m3 = False
+
+    @staticmethod
+    def _is_m3_model(name: str) -> bool:
+        """Only BGE-M3 emits dense and sparse vectors from one pass."""
+        return "bge-m3" in name.lower()
 
     @property
     def produces_sparse(self) -> bool:

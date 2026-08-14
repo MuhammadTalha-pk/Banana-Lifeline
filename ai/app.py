@@ -19,18 +19,51 @@ from pathlib import Path
 
 import streamlit as st
 
+# Two mistakes are near-guaranteed here, and both used to produce a confusing traceback
+# rather than an explanation:
+#
+#   1. Running `python app.py` instead of `streamlit run app.py`. Streamlit prints a hint but
+#      keeps executing in "bare mode", where st.stop() does NOT halt the script -- so the run
+#      continued and died later on an unrelated NameError.
+#   2. Using Anaconda or the system Python, where this package is not installed.
+#
+# Both are checked before anything else, and both exit hard.
+
+if not st.runtime.exists():
+    venv = Path(__file__).parent / (
+        ".venv/Scripts/python.exe" if sys.platform == "win32" else ".venv/bin/python"
+    )
+    print(
+        """
+This is a Streamlit app -- it cannot be run as a plain script.
+
+"""
+        f"""  run this instead:
+    {venv} -m streamlit run {Path(__file__).name}
+""",
+        file=sys.stderr,
+    )
+    raise SystemExit(1)
+
 try:
     from banana_lifeline.config import get_paths
-except ModuleNotFoundError as exc:  # pragma: no cover - startup guard
+except ModuleNotFoundError as exc:
     if exc.name != "banana_lifeline":
         raise
+    venv = Path(__file__).parent / (
+        ".venv/Scripts/python.exe" if sys.platform == "win32" else ".venv/bin/python"
+    )
     st.error(
-        "`banana_lifeline` is not installed for this interpreter.\n\n"
-        f"Running: `{sys.executable}`\n\n"
-        "Run Streamlit from the project venv:\n\n"
-        "```\n.venv/Scripts/python -m streamlit run app.py\n```"
+        f"`banana_lifeline` is not installed for this interpreter."
+        f"Running: `{sys.executable}` (Python {sys.version.split()[0]})"
+        f"Start Streamlit from the project venv instead:"
+        f"```{venv} -m streamlit run {Path(__file__).name}```"
     )
     st.stop()
+    # st.stop() is a no-op outside a script run, so never fall through to code
+    # that depends on the import having succeeded.
+    raise SystemExit(1) from None
+
 
 st.set_page_config(page_title="Banana Lifeline", page_icon="🍌", layout="centered")
 
