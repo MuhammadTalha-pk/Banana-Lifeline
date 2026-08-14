@@ -1,0 +1,34 @@
+# Data pipeline configuration.
+#
+# The raw corpus at raw_root is treated as READ-ONLY. Its train/ val/ test/ folders are the
+# original contaminated split (59% of holdout images have a near-twin in train); we keep them
+# only so the "contaminated vs clean" comparison in the report can be reproduced exactly.
+# The split that actually matters is generated into data/manifests/splits_clean.csv.
+
+raw_root: Banana_Leaf_Dataset
+raw_splits: [train, val, test]
+class_names: [healthy, panama, sigatoka]
+image_glob: "*.jpg"
+
+fingerprint:
+  # 8x8 grid -> 64-bit fingerprint.
+  dhash_size: 8
+  # Bit distance below which two photos are the same scene.
+  # Validated on this corpus: 5 catches every 0->P re-encoded copy while leaving
+  # genuinely distinct leaves in separate clusters. Raising this merges real data;
+  # lowering it lets re-encoded duplicates leak across splits again.
+  hamming_threshold: 5
+  decode_scale: 4
+
+split:
+  # Ratios apply to SCENES (duplicate clusters), never to raw files.
+  train: 0.70
+  val: 0.15
+  test: 0.15
+  seed: 1337
+
+cache:
+  # Must stay above the 384px training resolution so the cache is not the bottleneck
+  # on detail. 512 keeps Sigatoka's fine speckling intact at ~200 MB total.
+  longest_side: 512
+  jpeg_quality: 90

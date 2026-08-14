@@ -1,0 +1,62 @@
+# Training recipe. Defaults target a Colab T4 (16 GB, Turing).
+#
+# Reported metric is macro-F1, never accuracy: sigatoka outnumbers panama roughly 4:1, so a
+# model that ignores panama entirely still posts ~80% accuracy while being useless for the
+# disease that actually kills the plant.
+
+# 384, not the conventional 224. Sigatoka's diagnostic signal is fine speckling and thin
+# dark streaks; downsampling to 224 destroys it. Verified against the corpus by eye.
+image_size: 384
+
+# 24 at 384px leaves headroom on a 16 GB T4. Raise to 32 if memory allows; if you hit OOM,
+# drop to 16 and set grad_accum_steps: 2 to keep the effective batch size constant.
+batch_size: 24
+grad_accum_steps: 1
+
+epochs: 30
+num_workers: 2          # Colab VMs are core-poor; more workers usually hurts
+seed: 1337
+
+# T4 is Turing generation: fp16 tensor cores, NO bf16. float16 here is a hardware fact,
+# not a preference, and it requires a GradScaler to avoid underflow.
+amp: true
+amp_dtype: float16
+channels_last: true
+
+early_stop_patience: 8
+monitor_metric: macro_f1
+
+# Panama has 329 training scenes against sigatoka's 1041. Without balanced sampling the
+# model optimises the majority class and panama recall collapses.
+balanced_sampling: true
+
+model:
+  architecture: efficientnet_b0   # a genuine CNN, per spec; small enough to export to mobile
+  pretrained: true
+  drop_rate: 0.3                  # ~1,800 training images is small: regularise hard
+  drop_path_rate: 0.1
+
+optim:
+  learning_rate: 0.0003
+  backbone_lr_scale: 0.1          # pretrained features need gentler updates than a new head
+  weight_decay: 0.0001
+  warmup_epochs: 2
+  label_smoothing: 0.05
+
+augment:
+  horizontal_flip: 0.5
+  vertical_flip: 0.5              # a leaf has no canonical "up"
+  rotate_limit: 30
+  scale_min: 0.5                  # crop into the leaf so lesion texture is learned, not shape
+  scale_max: 1.0
+  brightness: 0.2
+  contrast: 0.2
+  saturation: 0.1
+
+  # MUST stay 0. Leaf yellowing IS the class signal for both diseases -- shifting hue makes a
+  # diseased leaf look healthy while keeping the diseased label, i.e. it manufactures wrong
+  # training data. Most augmentation presets enable hue jitter by default; this one must not.
+  hue_shift: 0.0
+
+  blur_prob: 0.2                  # farmers photograph one-handed in wind
+  coarse_dropout_prob: 0.2        # occlusion by other leaves is normal in the field

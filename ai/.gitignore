@@ -1,0 +1,40 @@
+# --- Raw and derived data -------------------------------------------------------------
+# The 3.5 GB raw corpus stays out of git. It is the project's input, not its source code.
+Banana_Leaf_Dataset/
+
+# Derived artefacts, all regenerable from `banana audit && banana split && banana cache`.
+data/cache/
+data/corpus/raw/
+data/manifests/clusters.csv
+
+# Manifests ARE committed: they define the split, and reproducing a metric requires the
+# exact split that produced it.
+!data/manifests/splits_*.csv
+
+# Review sheet is generated; the expert's verdicts are not.
+data/review/review.html
+data/review/conflicts.csv
+!data/review/verdicts.csv
+
+# --- Training runs --------------------------------------------------------------------
+# Weights and plots are large; metrics.json and the resolved config are small and are the
+# audit trail for a reported number, so they stay.
+runs/**/*.pt
+runs/**/*.pth
+runs/**/*.onnx
+runs/**/*.tflite
+runs/**/*.png
+
+# --- Local environment ----------------------------------------------------------------
+.venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+__pycache__/
+
+# Notebook outputs are stripped before commit; a diff of base64 image blobs helps nobody.
+.ipynb_checkpoints/
+
+# Secrets: DeepSeek and Qdrant credentials.
+.env
