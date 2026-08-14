@@ -1,0 +1,78 @@
+Banana Pest and Disease Management in the Tropical Pacific: A guidebook for banana growers
+
+## Chapter X: Integrated Disease Management against Key Pests and Pathogens on Banana in the Pacific
+
+## Introduction
+
+This chapter will summarize the basic information discussed in previous chapters and integrate this knowledge together to develop an environmentally friendly and practically feasible integrated disease management (IDM) program specifically targeted at the three groups of diseases that trouble banana production in the Pacific Islands: Banana bunchy top virus (BBTV) transmitted by banana aphids; plant-parasitic nematodes; and black Sigatoka disease. The following guidelines are especially applicable to farmers looking to reestablish an old banana farm challenged by these three diseases.
+
+## Cleaning an old banana field for new crop planting
+
+- Inject infected banana plants with bananacide to kill BBTV and nematodes. This will remove the sources of inoculum for both pathogens for the next crop’s planting. Killing nematode-infected plants with bananacide was demonstrated to improve the potential of the successive fallow practice to reduce nematode infestation without nematicides (Chabrier & Quénéhervé 2003).
+- Grow sunn hemp ( Crotalaria juncea ), marigold ( Tagetes patula ), rapeseed ( Brassica napus ), velvetbean ( Mucuna pruriens ), sorghum-sudangrass ( Sorghum bicolor × Sorghum arundinaceum var. Sudanense) and other nematode-suppressive cover crops for 3 months or more before preparing the field for banana planting.
+
+## Obtain clean planting materials
+
+- Use disease-free micropropagated (tissue-cultured) banana plants for replanting. This is one effective tactic to prevent the inadvertent spread of BBTV and plant-parasitic nematodes. Two of the most damaging nematodes on banana, spiral nematode ( Helicotylenchus multicinctus ) and burrowing nematode ( Radopholus similis ), are endoparasitic nematodes. This means that, similar to BBTV, they can survive in the banana plant and be transferred to a new field if infected plants are used as replanting material.
+- If obtaining tissue-cultured banana plantlets is not feasible, planting symptomless banana suckers is another choice. However, the risk of farmers inadvertently transplanting BBTV-infected symptomless suckers is high. Hooks et al. (2008, 2009) found that BBTV has a long incubation period (20–85 days) in Hawai‘i climates. As such, infected plants may appear healthy for a lengthy time period. A survey of 50 symptomless banana suckers newly transplanted at a commercial banana farm on O‘ahu revealed that 100% of the suckers contained banana aphids, 92% were infested with winged morphs, and 20% of the suckers contained aphids that tested positive for BBTV (Hooks unpublished).
+- Planting of symptomless banana suckers should be accompanied by weekly scouting for BBTV symptoms after transplanting to ensure timely removal of newly symptomatic BBTV-infected plants.
+- To reduce the viability of nematodes in banana keiki that are to be transplanted, farmers can refer to the hot water treatment (55°C for 10 min) or banana keiki solarization techniques (1.5 hours) described in Chapter V.
+- Although banana root weevil is not among the top 3 pests of concern targeted in this chapter, farmers should examine the corm of the banana keiki before planting for any damage caused by this weevil (see damage of banana corm weevils in Chapter III).
+The strategy of planting disease-free tissue-cultured banana
+plantlets has been successfully adopted in banana production in areas with high
+BBTV or nematode pressure in Taiwan, the Philippines, and Australia (Espino et
+al. 1998). In 2007, a banana tissue-culture facility was established in Hawai‘i
+by Hooks and colleagues in cooperation with the University of Hawai‘i’s
+Agriculture Diagnostic Service Center. More than 200,000 tissue-cultured
+plantlets were distributed within the first 2 years of the initiation of the project.
+Due to lack of funding, the program was closed in 2014. Through close
+collaboration with CTAHR Cooperative Extension agents Sugano, Fukuda, and
+others, significantly greater numbers of stakeholders in Hawai‘i are now more
+aware of using disease-free plants through micro- or macro-propagation (Chapter
+VIII and IX).
+
+## Crop maintenance after transplanting
+
+- Maintain only 5–7 leaves per plant. This is sufficient to support banana bunch development. Remove excessive leaves to allow pesticides to come into contact with the targeted pests (banana aphids or black Sigatoka, etc.).
+- Maintain only 3–5 plants per mat. This will allow better banana bunch development. A thick mat is difficult to manage (Fig. 10-2).
+- Scout and destroy BBTV-infected plants regularly . Identify and destroy virus-infected plants as early as possible (refer to Chapter II Table II-1 for early BBTV symptoms). Banana takes 5 days to unfold a new leaf in the tropical climate of Hawai‘i. You should suspect BBTV infection if new leaves do not unfold within this time. Scout for banana aphids and always spray insecticides on BBTV-infected plants before rogueing to avoid spread of viruliferous aphids.
+- Once a BBTV-symptomatic plant is detected, destroy the plant with bananacide (see Fig. 4-1 to 5 for instructions). However, it will take the banana plant approximately 6 weeks to die back after the bananacide injection. During this period, the banana plants should be left intact in the field, as removing the plant will cause the remaining aphids on the sick plant to spread. New healthy plants can be replanted in the same planting spots after ensuring the injected plants are dead.
+- Manage nematodes after planting by using marigold. Plant marigolds 4 months after banana transplanting to reduce nematode damage and to avoid competition in growth between banana and marigold (see Chapter V for the justification for this practice). However, the marigolds might not last too long, as the banana canopy closes up and begins to shade them. Nonetheless, this provides a good approach for post-plant nematode management that might lead to prolonging productivity of the banana crop.
+
+## Insecticide treatment
+
+- Scout for banana aphids using a binomial sequential sampling plan (see Fig. 4-8) to determine when to treat the plant with insecticide. Count the number of banana plants with aphids present on the lower two leaves to determine whether insecticide spray is needed.
+- Insecticides allowed for banana in Hawai‘i are listed in the Hawaii Pesticide Information Retrieval System: http://pesticides.hawaii.edu/hipmrinn/hipmrinn.html
+- Insecticide spray should be focused on <2.5 m-tall plants, in the area between the leaf petioles and pseudostem of banana.
+- Most importantly, farmers should spray insecticide on BBTV-infected plants that are injected with bananacide as well as their neighboring plants. Once the vectors of BBTV is killed on the main source of BBTV in a field, this may eliminate preemptive spraying of insecticide throughout the entire orchard, thus saving money for the farmers.
+- If the aphid population is low, managing ants in banana fields is not necessary.
+
+## Fungicide treatment
+
+- If field sanitation can mitigate the spread of Sigatoka diseases, use of fungicide spray should be the last resort. In Australia, banana growers are recommended to trim excess banana leaves if more than 15% of the leaf is showing visible symptoms of yellow Sigatoka during the wet season, but only trim if more than 30% of the leaf is symptomatic during the dry season (State of Queensland 2003).
+- Repeated use of fungicides with the same mode of action could trigger the buildup of a fungicide-resistant population of Mycospharrella fijiensis or M. musicola . Follow the instructions in Chapter V as to a recommended fungicide-rotation program for banana growers in Hawai‘i. Most importantly, rotate fungicides with and without triazole. Add spreader sticker to fungicide spray to improve the performance of the fungicide.
+
+## Maintenance of banana fruits
+
+- Cut off flower raceme after 7 hands of fruits have developed per bunch. A longer flower raceme (Fig. 10-4) will act as a nutrient sink and rob nutrients from harvestable fruits.
+- Bag the fruits after raceme removal to protect the fruits, and label each bunch for convenience of harvest (Fig. 10-5).
+- Track bunch weight over time. If yield is declining significantly, it is time for replanting.
+
+## Web Resources
+
+Nelson, S., L. Rishardson, and T. World. 2009. Banana farming in Hawaii. University of Hawai‘i at Manoa. https://www.ctahr.hawaii.edu/bbtd/video.asp
+Australian Banana IPM guide: http://bmp.abgc.org.au/downloads/abgc-bmp-guide.pdf
+
+## References
+
+Ferreira, S.A, E.E. Trujillo, and D.Y. Ogata. 1997. Banana Bunchy Top Virus. https://www.ctahr.hawaii.edu/oc/freepubs/pdf/PD-12.pdf
+Hooks, C.R.R., M.G. Wright, D.S. Kabasawa, R. Manandhar, and R.P.P. Almeida. 2008. Effect of Banana bunchy top virus infection on morphology and growth characteristics of banana. Annals Appl. Biol . 153: 1–9.
+Hooks, C.R.R, S. Fukuda, E.A. Perez, R. Manandhar, K.-H. Wang, M.G. Wright, and R.P.P. Almeida. 2009a. Aphid transmission of Banana bunchy top virus to bananas after treatment with a bananacide. J. Econ. Entomol . 102: 493–499.
+Hooks, C.R.R., R. Manandhar, E.P. Perez, K.-H. Wang, and R.P.P. Almeida. 2009b. Comparative susceptibility of two banana cultivars to Banana bunchy top virus under laboratory and field environments. J. Econ. Entomol . 102: 897–904.
+Hooks, C.R.R, K.-H. Wang, N.C. Pradhan, R. Manandhar, and M.G. Wright. 2014. In Review. Population distribution and density of Pentalonia nigronervosa Coquerel (Hemiptera: Aphididae) within banana mats: Influence of plant age and height on sampling and management. J. Econ. Entomol .
+Mau, R.F.L., J.L. Martin Kessing, V.L. Tenbrink, and A.H. Hara. 1994. Pentalonia nigronervosa (Coquerel). http://www.extento.hawaii.edu/kbase/crop/Type/pentalon.htm
+Robson, J.D., M.G. Wright, and R.P.P. Almeida. 2007. Biology of Pentalonia nigronervosa (Hemiptera, Aphididiae) on banana using different rearing methods. Environmental Entomology 36: 46–52.
+Vezina, A. 2013. Bunchy Top in Australia: 100 not (quite) out! Australian Bananas 39.
+Wang, K.-H., and C.R.R. Hooks. 2009a. Survey of Nematodes on Banana in Hawaii and Methods Used for their Control. University of Hawai‘i CTAR, Plant Disease, PD-69.
+Wang, K.-H., and C.R.R. Hooks. 2009b. Plant-parasitic nematodes and their associated natural enemies within banana ( Musa spp.) plantings in Hawaii. Nematropica 39: 57–73.
+If you require information in an Alternative format, please contact us at: koonhui@hawaii.edu

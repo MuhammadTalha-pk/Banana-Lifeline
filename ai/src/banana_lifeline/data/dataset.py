@@ -19,13 +19,15 @@ import pandas as pd
 from banana_lifeline.config import CLASS_NAMES, DataConfig, Paths
 
 if TYPE_CHECKING:
-    # torch lives only on the GPU box. Typing against ``object`` here keeps the data pipeline
-    # importable -- and typecheckable -- on a laptop with no training stack installed.
-    Dataset = object
+    # Typed against the real base class so DataLoader accepts this dataset. When torch is
+    # absent the mypy override for ``torch.*`` resolves this to Any, so the data pipeline
+    # still typechecks on a machine with no training stack installed.
+    from torch.utils.data import Dataset
 else:  # pragma: no cover - resolved at import time, not a branch worth testing
     try:
         from torch.utils.data import Dataset
     except ImportError:
+        # Keeps audit/split/cache usable without torch; only training needs the real base.
         Dataset = object
 
 LABEL_TO_INDEX: dict[str, int] = {name: i for i, name in enumerate(CLASS_NAMES)}
@@ -71,7 +73,7 @@ def sample_weights(frame: pd.DataFrame) -> list[float]:
     return [weights[LABEL_TO_INDEX[str(label)]] for label in frame["label"]]
 
 
-class BananaLeafDataset(Dataset):
+class BananaLeafDataset(Dataset[dict[str, Any]]):
     """Images plus integer labels, resolved from the resized cache.
 
     Each item also carries its ``cluster_id`` so that evaluation code can group predictions

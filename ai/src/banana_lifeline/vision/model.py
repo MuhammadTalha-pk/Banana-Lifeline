@@ -28,6 +28,18 @@ class LoadedModel:
     class_names: tuple[str, ...]
     temperature: float
     metrics: dict[str, Any]
+    abstain_threshold: float | None = None
+
+    @property
+    def is_calibrated(self) -> bool:
+        """Whether a fitted temperature was written back after training.
+
+        Calibration is fitted post-training, so a freshly saved checkpoint carries the
+        placeholder ``temperature == 1.0``. Consuming that as if it were calibrated yields
+        overconfident scores and makes any abstain threshold meaningless -- so callers that
+        depend on confidence must check this rather than assume.
+        """
+        return self.temperature != 1.0 and self.abstain_threshold is not None
 
 
 def build_model(cfg: ModelConfig, num_classes: int = len(CLASS_NAMES)) -> Any:
@@ -120,10 +132,36 @@ def load_checkpoint(path: Path, *, device: str = "cpu") -> LoadedModel:
     model.to(device)
     model.eval()
 
+    threshold = payload.get("abstain_threshold")
     return LoadedModel(
         model=model,
         train_config=train_config,
         class_names=class_names,
         temperature=float(payload.get("temperature", 1.0)),
         metrics=payload.get("metrics", {}),
+        abstain_threshold=float(threshold) if threshold is not None else None,
     )
+
+
+def attach_calibration(
+    path: Path,
+    *,
+    temperature: float,
+    abstain_threshold: float,
+    extra: dict[str, Any] | None = None,
+) -> None:
+    """Write a fitted temperature and abstain threshold into an existing checkpoint.
+
+    Training cannot do this itself: calibration is fitted on validation logits only once
+    training has finished. Leaving it in a side report instead means every consumer of the
+    checkpoint silently gets uncalibrated confidence, so it is written back to the file that
+    actually travels.
+    """
+    import torch
+
+    payload = torch.load(path, map_location="cpu", weights_only=False)
+    payload["temperature"] = float(temperature)
+    payload["abstain_threshold"] = float(abstain_threshold)
+    if extra:
+        payload.update(extra)
+    torch.save(payload, path)

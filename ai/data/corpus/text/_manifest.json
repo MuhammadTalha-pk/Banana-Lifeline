@@ -1,0 +1,254 @@
+[
+  {
+    "slug": "aps_black_sigatoka",
+    "filename": "page.html",
+    "n_chars": 33872,
+    "n_headings": 16,
+    "usable": true,
+    "warning": null,
+    "text_file": "aps_black_sigatoka__page.txt"
+  },
+  {
+    "slug": "fao_banana_cultivation",
+    "filename": "index.html",
+    "n_chars": 4536,
+    "n_headings": 1,
+    "usable": true,
+    "warning": null,
+    "text_file": "fao_banana_cultivation__index.txt"
+  },
+  {
+    "slug": "fao_banana_cultivation",
+    "filename": "T0308E01.htm",
+    "n_chars": 845,
+    "n_headings": 1,
+    "usable": true,
+    "warning": null,
+    "text_file": "fao_banana_cultivation__T0308E01.txt"
+  },
+  {
+    "slug": "fao_banana_cultivation",
+    "filename": "T0308E02.htm",
+    "n_chars": 860,
+    "n_headings": 1,
+    "usable": true,
+    "warning": null,
+    "text_file": "fao_banana_cultivation__T0308E02.txt"
+  },
+  {
+    "slug": "fao_banana_cultivation",
+    "filename": "T0308E03.htm",
+    "n_chars": 1615,
+    "n_headings": 1,
+    "usable": true,
+    "warning": null,
+    "text_file": "fao_banana_cultivation__T0308E03.txt"
+  },
+  {
+    "slug": "fao_banana_cultivation",
+    "filename": "T0308E04.htm",
+    "n_chars": 4142,
+    "n_headings": 5,
+    "usable": true,
+    "warning": null,
+    "text_file": "fao_banana_cultivation__T0308E04.txt"
+  },
+  {
+    "slug": "fao_banana_cultivation",
+    "filename": "T0308E05.htm",
+    "n_chars": 8363,
+    "n_headings": 7,
+    "usable": true,
+    "warning": null,
+    "text_file": "fao_banana_cultivation__T0308E05.txt"
+  },
+  {
+    "slug": "fao_banana_cultivation",
+    "filename": "T0308E06.htm",
+    "n_chars": 7822,
+    "n_headings": 5,
+    "usable": true,
+    "warning": null,
+    "text_file": "fao_banana_cultivation__T0308E06.txt"
+  },
+  {
+    "slug": "fao_banana_cultivation",
+    "filename": "T0308E07.htm",
+    "n_chars": 10063,
+    "n_headings": 1,
+    "usable": true,
+    "warning": null,
+    "text_file": "fao_banana_cultivation__T0308E07.txt"
+  },
+  {
+    "slug": "fao_fusarium_wilt_manual",
+    "filename": "13ManualFusarium.pdf",
+    "n_chars": 160069,
+    "n_headings": 152,
+    "usable": true,
+    "warning": null,
+    "text_file": "fao_fusarium_wilt_manual__13ManualFusarium.txt"
+  },
+  {
+    "slug": "hawaii_banana_ipm",
+    "filename": "CHPT1",
+    "n_chars": 7927,
+    "n_headings": 6,
+    "usable": true,
+    "warning": null,
+    "text_file": "hawaii_banana_ipm__CHPT1.txt"
+  },
+  {
+    "slug": "hawaii_banana_ipm",
+    "filename": "CHPT10-IDM",
+    "n_chars": 10651,
+    "n_headings": 10,
+    "usable": true,
+    "warning": null,
+    "text_file": "hawaii_banana_ipm__CHPT10-IDM.txt"
+  },
+  {
+    "slug": "hawaii_banana_ipm",
+    "filename": "CHPT2-BBTV",
+    "n_chars": 8334,
+    "n_headings": 5,
+    "usable": true,
+    "warning": null,
+    "text_file": "hawaii_banana_ipm__CHPT2-BBTV.txt"
+  },
+  {
+    "slug": "hawaii_banana_ipm",
+    "filename": "CHPT2-BLS",
+    "n_chars": 4599,
+    "n_headings": 6,
+    "usable": true,
+    "warning": null,
+    "text_file": "hawaii_banana_ipm__CHPT2-BLS.txt"
+  },
+  {
+    "slug": "hawaii_banana_ipm",
+    "filename": "CHPT2-Nematodes",
+    "n_chars": 9737,
+    "n_headings": 7,
+    "usable": true,
+    "warning": null,
+    "text_file": "hawaii_banana_ipm__CHPT2-Nematodes.txt"
+  },
+  {
+    "slug": "hawaii_banana_ipm",
+    "filename": "CHPT2-Panama",
+    "n_chars": 4699,
+    "n_headings": 6,
+    "usable": true,
+    "warning": null,
+    "text_file": "hawaii_banana_ipm__CHPT2-Panama.txt"
+  },
+  {
+    "slug": "hawaii_banana_ipm",
+    "filename": "CHPT3-OTHER",
+    "n_chars": 5840,
+    "n_headings": 20,
+    "usable": true,
+    "warning": null,
+    "text_file": "hawaii_banana_ipm__CHPT3-OTHER.txt"
+  },
+  {
+    "slug": "hawaii_banana_ipm",
+    "filename": "CHPT4-IPM-BBTV",
+    "n_chars": 16497,
+    "n_headings": 12,
+    "usable": true,
+    "warning": null,
+    "text_file": "hawaii_banana_ipm__CHPT4-IPM-BBTV.txt"
+  },
+  {
+    "slug": "hawaii_banana_ipm",
+    "filename": "CHPT5-IPM-Nematodes",
+    "n_chars": 14339,
+    "n_headings": 11,
+    "usable": true,
+    "warning": null,
+    "text_file": "hawaii_banana_ipm__CHPT5-IPM-Nematodes.txt"
+  },
+  {
+    "slug": "hawaii_banana_ipm",
+    "filename": "CHPT6-IPM-BLS",
+    "n_chars": 18095,
+    "n_headings": 10,
+    "usable": true,
+    "warning": null,
+    "text_file": "hawaii_banana_ipm__CHPT6-IPM-BLS.txt"
+  },
+  {
+    "slug": "hawaii_banana_ipm",
+    "filename": "CHPT7-IPM-Panama",
+    "n_chars": 3030,
+    "n_headings": 6,
+    "usable": true,
+    "warning": null,
+    "text_file": "hawaii_banana_ipm__CHPT7-IPM-Panama.txt"
+  },
+  {
+    "slug": "hawaii_banana_ipm",
+    "filename": "CHPT8-TissueCulture",
+    "n_chars": 8638,
+    "n_headings": 13,
+    "usable": true,
+    "warning": null,
+    "text_file": "hawaii_banana_ipm__CHPT8-TissueCulture.txt"
+  },
+  {
+    "slug": "hawaii_banana_ipm",
+    "filename": "CHPT9-Macropropagation",
+    "n_chars": 3789,
+    "n_headings": 6,
+    "usable": true,
+    "warning": null,
+    "text_file": "hawaii_banana_ipm__CHPT9-Macropropagation.txt"
+  },
+  {
+    "slug": "hawaii_banana_ipm",
+    "filename": "index.html",
+    "n_chars": 2293,
+    "n_headings": 4,
+    "usable": true,
+    "warning": null,
+    "text_file": "hawaii_banana_ipm__index.txt"
+  },
+  {
+    "slug": "ippc_tr4_guidelines",
+    "filename": "page.html",
+    "n_chars": 13496,
+    "n_headings": 1,
+    "usable": true,
+    "warning": null,
+    "text_file": "ippc_tr4_guidelines__page.txt"
+  },
+  {
+    "slug": "tnau_expert_system",
+    "filename": "page.html",
+    "n_chars": 126865,
+    "n_headings": 44,
+    "usable": true,
+    "warning": null,
+    "text_file": "tnau_expert_system__page.txt"
+  },
+  {
+    "slug": "tnau_panama_wilt",
+    "filename": "page.html",
+    "n_chars": 5209,
+    "n_headings": 0,
+    "usable": true,
+    "warning": null,
+    "text_file": "tnau_panama_wilt__page.txt"
+  },
+  {
+    "slug": "tnau_yellow_sigatoka",
+    "filename": "page.html",
+    "n_chars": 2748,
+    "n_headings": 0,
+    "usable": true,
+    "warning": null,
+    "text_file": "tnau_yellow_sigatoka__page.txt"
+  }
+]

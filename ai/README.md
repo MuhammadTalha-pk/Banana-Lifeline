@@ -10,11 +10,55 @@ they are not built here.
 | Phase | State |
 |---|---|
 | 0 — Foundation | Done |
-| 1 — Data audit, leakage-free split, cache | **Done** |
-| 2 — CNN classifier | Next |
-| 3 — OOD rejection and abstain policy | Planned |
-| 4 — RAG knowledge system | Planned |
-| 5 — DeepSeek answer generation | Planned |
+| 1 — Data audit, leakage-free split, cache | Done |
+| 2 — CNN classifier | Done — macro-F1 **0.765**, calibrated |
+| 3 — OOD rejection and abstain policy | Done |
+| 4 — RAG knowledge system | Done — Recall@1 **0.85**, MRR **0.90** |
+| 5 — DeepSeek answer generation | Done — grounded, cited, safety-enforced |
+
+## Try it
+
+```bash
+.venv/Scripts/python -m streamlit run app.py   # web demo: upload a photo, ask questions
+.venv/Scripts/python chat.py                   # same thing in the terminal
+.venv/Scripts/python try_it.py                 # seven scripted checks, no interaction
+```
+
+All three must run with the project venv — the package is installed there, and the project
+pins Python 3.11 because 3.13 lacks wheels for parts of the training stack.
+
+## Results
+
+| Vision (clean split) | | Retrieval (25-question golden set) | |
+|---|---|---|---|
+| Macro-F1 | 0.765 | Recall@1 | 0.85 |
+| Balanced accuracy | 0.791 | Recall@5 | 0.95 |
+| Panama recall | 0.704 | MRR | 0.900 |
+| Calibration temperature | 2.582 | Refusal accuracy | 60% |
+| Abstain threshold | 0.936 | Urdu Recall@5 | 1.00 |
+
+The contaminated split scored 0.833 macro-F1 against the honest 0.765. That 6.8-point gap is
+the portion of the original number that was memorisation.
+
+## How a question is answered
+
+```
+photo -> quality gate -> OOD -> classify -> calibrate -> policy
+                                                          |
+                (retake / refer to expert / follow-up) <--+
+                                                          |
+                            question -> translate -> retrieve -> generate (English)
+                                                                      |
+                                                        safety rules -+-> translate out
+```
+
+Nothing downstream runs if an earlier stage says stop: a blurry photo never reaches the
+classifier, a goat never reaches retrieval, weak retrieval never reaches generation.
+
+**Answers are generated in English and translated afterwards.** The safety rules are English
+patterns, so generating straight into Urdu produced an answer quoting a spray rate with no
+protective-equipment warning that passed every check — because none of the patterns matched.
+A safety layer that silently does nothing for half the users is worse than none.
 
 Full design: [PLAN.md](PLAN.md). Audit findings: [reports/data_audit.md](reports/data_audit.md).
 
@@ -96,6 +140,11 @@ fine speckling and thin dark streaks, and it is simply gone at 224.
 
 **Hue jitter is excluded from augmentation.** Leaf yellowing *is* the class signal; shifting
 hue destroys the label. Standard augmentation recipes get this wrong on plant disease data.
+
+**Safety rules are code, not prompts.** A model asked politely to be careful is not a safety
+mechanism. Panama cure claims are blocked outright; dosages absent from a retrieved passage
+are stripped; chemical advice gains PPE and pre-harvest warnings; TR4 triggers official
+reporting; advice from non-Pakistani sources carries a registration caveat.
 
 **Panama predictions do not assert.** Fusarium wilt is diagnosed from whole-plant collapse
 and brown vascular tissue inside a cut pseudostem — signs a leaf close-up usually cannot

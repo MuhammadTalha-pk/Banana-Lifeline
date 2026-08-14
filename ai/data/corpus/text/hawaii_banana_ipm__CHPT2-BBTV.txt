@@ -1,0 +1,53 @@
+Banana Pest and Disease Management in the Tropical Pacific: A guidebook for banana growers
+
+## Chapter II: Key Pests and Pathogens of Banana in the Pacific
+
+## II-1. Banana Bunchy Top Virus (BBTV)
+
+Banana bunchy top disease (BBTD) caused by Banana bunchy top virus (family Nanoviridae, genus Babuvirus, BBTV), is one of the most economically important diseases of bananas in most production regions including Asia, Africa, and the South Pacific (Dale 1987, Dale and Harding 1998). The virus was first reported in Hawai‘i in 1989 (Ferreira 1991) and has since progressively spread throughout banana-growing areas along the island chain. BBTV is one of the greatest challenges to local banana production in Hawai‘i (Robson et al. 2007). In March 2003, a pest-management strategic plan for banana production in Hawai‘i ( http://www.ipm centers.org/pmsp/pdf /HIBananaPMSP.pdf ) listed managing BBTV as the top priority of banana research. Plants infected early with BBTV do not bear fruit, and fruit of later-infected plants is typically stunted and unmarketable. Additionally, the virus spreads to suckers via the rhizome; thus, the entire banana mat eventually becomes infected (Dale and Harding 1998). Banana bunchy top virus is transmitted in a circulative, persistent, non-propagative manner by the banana aphid, Pentalonia nigronervosa Coquerel (Hemiptera: Aphididae) (Magee 1927, Hafner et al. 1995, Hu et al. 1996). Most recently, Watanabe et al. (2014) reported that another closely related aphid, Pentalonia caladii , though preferring to feed on taro, ginger, or heliconia, can also transmit the virus if force-fed BBTV-infected banana leaves. The virus was first reported on O‘ahu in 1989 (Conant 1992) and has since progressively spread throughout banana-growing areas in Hawai‘i. Statewide reductions in harvested acreage were reported to be 26 and 16% in 2004 and 2005, respectively (Anonymous 2005, 2006). Much of this continual decline in acreage and output has been attributed to the progressive spread of BBTV on O‘ahu and the windward side of Hawai‘i Island in 2004
+Persistent viruses, once acquired by the virus vector, are
+associated with the vector for the remainder of its life. These viruses require
+long acquisition and inoculation times (hours to days) and latency periods of 1
+day to several weeks before symptom expression. Successful transmission of
+persistent viruses requires that the ingested virus be internalized, which
+means that the virus is actively transported across multiple cell membranes and
+is found in the hemocoel (vector body cavity), and ultimately must associate
+with the vector’s salivary system to be inoculated into a plant host. These
+viruses are at this point referred to as circulative viruses. They can be
+further divided into propagative viruses, which replicate in their insect
+vector in addition to their plant hosts, and non-propagative viruses, which
+replicate only in their plant hosts.
+Infected banana plants in abandoned fields or residential
+backyards serve as an infection reservoir, making the battle against BBTV more
+challenging for actively engaged commercial farmers. Early detection followed
+by prompt destruction of the diseased plants is the key to the successful
+mitigation of BBTD. Fig. 2-1 provides a pictorial guide from early symptom
+development to severe disease symptoms.
+
+## Aphids as the vector of BBTV
+
+Banana bunchy top virus is transmitted by the banana aphid, Pentalonia nigronervosa (Fig 2-3). Banana aphid management is a key factor in BBTV control. When a banana aphid feeds on a BBTV-infected plant and moves to a healthy banana plant, it can transmit the virus through its piercing and sucking mouthparts. Banana aphid colonies are often found under leaf petioles or in other hidden, tender areas of the banana plant (Fig. 2-4). It is accepted by growers and Extension personnel that inspecting the most recently unfurled leaf (i.e., cigar leaf) of a banana plant is a good way to check for the presence of banana aphids. However, a study conducted by Robson et al. (2006) at the University of Hawai‘i found that checking only cigar leaves for the presence of banana aphids led to false negatives in more than 50% of plants inspected in Hawai‘i. Banana aphids are found all over the banana plant, from the flowers to below the soil level on the pseudostem (Robson et al. 2007).
+Winged adults often develop after 7 to 10 generations of wingless individuals (Mau et al. 1994). Dispersing winged adults help to establish new colonies on new host plants. Although not strong fliers, winged adults may be carried long distances by light winds. Banana aphids produce offspring with wings when conditions are crowded or when the plant host is under stress, such as when BBTV infection has severely stunted a plant.
+Ants tend aphids, protecting them from predators and unfriendly environmental conditions, and in return the aphids provide the ants with honeydew. Several natural enemies of banana aphids have been introduced into Hawai‘i by the Hawai‘i Department of Agriculture, including braconid wasps ( Lysiphlebius testaceipes ), 7-spotted lady beetles ( Coccinella 7-punctata var brucki), variable lady beetles ( Coelophora inaequalis ), ten-spotted lady beetles ( Coelophora pupillata ), convergens lady beetles ( Hippodamia convergens ), yellow-shouldered ladybeetles ( Apolinus lividigaster ), and minute two-spotted lady beetles ( Diomus notescens ) in the order of Coleoptera: Coccinelidae, as well as brown lacewing (Neuroptera: Hemerobiidae) (Fig. 2-5).
+Although parasitized banana aphids were not commonly seen during a statewide survey (Hooks et al. 2011), all of these introduced natural enemies have been reported to parasitize or prey on banana aphids in Hawai‘i (Waterhouse 1987).
+
+## Home Gardener’s Corner
+
+Nelson, S., L. Richardson, et al. 2006. BBTV in Hawaii. University of Hawai‘i at Manoa. https://www.ctahr.hawaii.edu/bbtd/video.asp
+Videos on BBTV in Australia: http://abgc.org.au/projects-resources/industry-projects/banana-bunchy-top-virus/
+
+## References
+
+Conant, P. 1992. Banana bunchy top disease, a new threat to banana cultivation in Hawaii. Proc. Hawaiian Entomol. Soc . 31: 91–95.
+Dale, J.L. 1987. Banana bunchy top: an economically important tropical plant virus disease. Adv. Virol. Res . 33:301–325.
+Dale, J.L. and R.M. Harding. 1998. Banana bunchy top disease: current and future strategies for control. pp. 659–669. In A. Hadidi, R. K. Khetarpal, and H. Koganezawa (eds.) Plant Virus Disease Control. APS Press, St. Paul, MN.
+Ferreira, S.A., E.E. Trujillo, and D.Y. Ogata. 1997. Banana bunchy top virus. https://www.ctahr.hawaii.edu/oc/freepubs/pdf/PD-12.pdf
+Hafner, G.J., R.M. Harding, and J.L. Dale. 1995. Movement and transmission of banana bunchy top virus DNA component one in bananas. J. Gen. Virol . 76: 2279–2285.
+Hu, J.S., M. Wang, D. Sether, W. Xie, and K.W. Leonhardt. 1996. Use of polymerase chain reaction (PCR) to study transmission of banana bunchy top virus by the banana aphid ( Pentalonia nigronervosa ). Ann. Appl. Biol . 128: 55–64.
+Magee, C.J.P. 1927. Investigation on the bunchy top disease of the banana. Council for Scientific and Industrial Research, Bull. 30.
+Robson, J.D., M.G. Wright, and R.P.P. Almeida. 2006. Within-plant distribution and binomial sampling of Pentalonia nigronervosa (Hemiptera: Aphididae) on banana. J. Econ. Entomol . 99: 2185–2190.
+Robson, J.D., M.G. Wright, and R.P.P. Almeida. 2007. Biology of Pentalonia nigronervosa (Hemiptera: Aphididae) on banana using different rearing methods. Environ. Entomol . 36: 46–52.
+Mau, R.F.L., J.L. Martin-Kessing, V.L. Tenbrink, and A.H. Hara. 1994. Pentalonia nigroneruosa (Coquerel). Crop Knowledge Master, UH-CTAHR Integrated Pest Management Program. http://www.extento.hawaii.edu/kbase/crop/Type/pentalon.htm .
+Watanabe, S., A.M. Greenwell, and A. Bressan. 2013. Localization, concentration, and transmission efficiency of banana bunchy top virus in four asexual lineages of Pentalonia aphids. Viruses 5: 758–775 (doi:10.3390/v5020758).
+Waterhouse, D.F. 1987. Chapter 6. Pentalonia nigronervosa Coquerel. pp. 42–49 In : Biological Control: Pacific Prospects. (D.F. Waterhouse & K.R. Norris, eds.) Inkata Press: Melbourne. 454 pp.
+If you require information in an Alternative format, please contact us at: koonhui@hawaii.edu

@@ -216,3 +216,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Temporary upload archive built for Colab. Regenerate on demand; never source.
+banana_ai_upload.zip

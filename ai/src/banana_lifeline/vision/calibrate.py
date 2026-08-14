@@ -90,7 +90,8 @@ def fit_temperature(
         loss.backward()
         return loss
 
-    optimizer.step(closure)
+    # torch stubs leave LBFGS.step untyped; the closure protocol here is the documented one.
+    optimizer.step(closure)  # type: ignore[no-untyped-call]
     return float(log_temperature.exp().item())
 
 

@@ -1,0 +1,28 @@
+Banana Pest and Disease Management in the Tropical Pacific: A guidebook for banana growers
+
+## Chapter II: Key Pests and pathogens of banana in the Pacific
+
+## II-3. Black Leaf Streak or Sigatoka Disease
+
+Sigatoka disease is another commonly encountered problem on banana in tropical areas, especially in high-rainfall regions like the windward sites of the southern Pacific Islands. Two fungal pathogens cause similar but slightly different Sigatoka diseases. Black Sigatoka is caused by the plant-pathogenic fungus Mycosphaerella fijiensis , whereas yellow Sigatoka is caused by M. musicola (Bennett and Arneson 2003).
+Black Sigatoka or black leaf streak (BLS) is the most important fungal disease of banana ( Musa species) worldwide. The disease only affects banana, and through reduced photosynthesis and defoliation can severely reduce banana bunch yield and fruit quality (Fig. 2-11). Although both Black and Yellow Sigatoka form leaf streaks, BLS’s early streaks and spots streaks are black and lack the distinct yellow halo that is present in young streaks of yellow Sigatoka (Fig. 2-12).
+
+## Disease symptom and development
+
+Most dessert bananas, cooking bananas, and plantains are susceptible to Black Sigatoka disease, whereas most cooking bananas and plantains (AAB and ABB) are moderately to highly resistant to Yellow Sigatoka (Bennette and Arneson 2003). ‘Cavendish’ banana types are generally susceptible to Yellow Sigatoka. However, in a conducive environment, symptom development will still be apparent in an ‘Apple’ banana (AAB) field.
+
+## The pathogen
+
+The scientific name of a fungus changes whether it is in its sexual (teleomorph) stage or its asexual stage (anamorph). Mycosphaerella fijiensis is the sexual stage of the pathogen of Black Sigatoka. The asexual form (anamorph) of this fungus is called Pseudocercospora fijiensis and produces conidia spores. The conidia germinate during periods of high relative humidity (92–100% RH) and infect the leaf through leaf openings such as the stoma. This infection will form lesions on the undersurface of the leaf. As the lesion matures, conidia and hyphae cluster together to form spermagonium (fungal structures that produce male reproductive cells, spermatia). Spermatia fertilize receptive neighboring female hyphae, and form pseudothecia that contain sexual spores (ascospores). For a more detailed description of the life cycle of this fungus, please see the illustration by Bennett and Arneson (2003). A similar life cycle can be seen for Yellow Sigatoka, in which the teleomorph is M. musicola and the anamorph is P. musae . Windborne ascospores are the major inoculum for Black Sigatoka, whereas the inoculum of Yellow Sigatoka consists of both conidia (water-dispersed) and ascospores. The first symptom (chlorotic flecking) appears about 15–20 days after infection. The fungus survives on dead banana leaves as spores or mycelium and will reinocuate healthy tissues.
+Although both pathogens prefer high humidity, black sigatoka is more common in warmer environments, whereas Yellow Sigatoka is more common in cooler environments. Black Sigatoka produced ascospores 2 weeks after the appearance of leaf streaks, but Yellow Sigatoka produced them about 4 weeks after the streaks appear. In general, Black Sigatoka is a more challenging pathogen to manage than Yellow Sigatoka.
+Depending on factors such as cultivar, location, cultural practices, and fungicide(s) selected, up to 24 fungicide spray applications per year may be needed to produce acceptable banana yields at large plantations in Hawai‘i. However, with a sufficient fertilizer plan and the use of sound cultural practices, the average backyard grower can cope with BLS fairly well. Chapter VI discusses an economical approach to managing black leaf streak more efficiently in the Southern Pacific.
+
+## References
+
+Bennett, R. and P.A. Arneson. 2003. Black sigatoka of bananas and plantains. The American Phytopathological Society. DOI: 10.1094/PHI-I-2003-0905-01. http://apsnet.org/edcenter/intropp/lessons/fungi/ascomycetes/Pages/BlackSigatoka.aspx
+Nelson, S. 2008. Black leaf streak of banana. CTAHR Cooperative Extension Service publication PD-50, 10 pp.
+
+## Home Gardener’s Corner
+
+Sigatoka diseases might not be a severe problem for home gardeners who have only a few banana plants. Since fungicide treatment is not a good option for home gardeners, they should learn to recognize the disease and practice good sanitation practices (see Chapters V and VII).
+If you require information in an Alternative format, please contact us at: koonhui@hawaii.edu
