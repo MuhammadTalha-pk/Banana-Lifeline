@@ -74,6 +74,46 @@ def test_an_empty_message_is_not_a_query() -> None:
 
 
 # --------------------------------------------------------------------------------------
+# Questions about the assistant itself
+# --------------------------------------------------------------------------------------
+
+
+@pytest.mark.parametrize(
+    "message",
+    [
+        "can you help me",
+        "Can you help?",
+        "what can you do",
+        "who are you",
+        "what is your name",
+        "what is this",
+        "how does this work",
+        "help",
+        "آپ کون ہیں",
+    ],
+)
+def test_meta_questions_get_the_capability_reply(message: str) -> None:
+    """The model routed these to out_of_scope, which was actively wrong.
+
+    Someone typing "can you help me" was answered "I only know about bananas -- I cannot
+    help with that." They are asking to be helped, not asking about an unrelated topic, and
+    the greeting already says what the system can do.
+    """
+    assert classify(message, use_model=False).intent is Intent.GREETING
+
+
+def test_meta_questions_cost_no_api_call() -> None:
+    assert classify("what can you do", use_model=False).used_model is False
+
+
+def test_a_meta_phrase_carrying_a_real_question_is_still_technical() -> None:
+    """Exact-phrase matching only, so the offer of help does not swallow the question."""
+    assert classify("can you help me with my banana leaves", use_model=False).intent is (
+        Intent.TECHNICAL
+    )
+
+
+# --------------------------------------------------------------------------------------
 # Questions must survive routing — the direction that actually matters
 # --------------------------------------------------------------------------------------
 
@@ -134,7 +174,7 @@ def test_a_routing_outage_sends_the_message_to_retrieval(
         raise RuntimeError("deepseek down")
 
     _with_router(monkeypatch, boom)
-    result = classify("what can you do")
+    result = classify("tell me more")
 
     assert result.intent is Intent.TECHNICAL
     assert "RuntimeError" in result.reason
@@ -144,18 +184,18 @@ def test_an_unreadable_reply_sends_the_message_to_retrieval(
     monkeypatch: pytest.MonkeyPatch,
 ) -> None:
     _with_router(monkeypatch, lambda *_, **__: "well, it could be a greeting or technical")
-    assert classify("what can you do").intent is Intent.TECHNICAL
+    assert classify("tell me more").intent is Intent.TECHNICAL
 
 
 def test_an_empty_reply_sends_the_message_to_retrieval(
     monkeypatch: pytest.MonkeyPatch,
 ) -> None:
     _with_router(monkeypatch, lambda *_, **__: "")
-    assert classify("what can you do").intent is Intent.TECHNICAL
+    assert classify("tell me more").intent is Intent.TECHNICAL
 
 
 def test_disabling_the_model_leaves_ambiguous_messages_technical() -> None:
-    result = classify("what can you do", use_model=False)
+    result = classify("tell me more", use_model=False)
     assert result.intent is Intent.TECHNICAL
     assert result.used_model is False
 
@@ -210,6 +250,20 @@ def test_the_greeting_carries_the_diagnosis_forward() -> None:
     """Forgetting the photo it was just shown would make the assistant look broken."""
     assert "sigatoka" in greeting_text("en", disease="sigatoka").lower()
     assert "healthy" in greeting_text("en", disease="healthy").lower()
+
+
+@pytest.mark.parametrize("language", ["en", "ur"])
+def test_the_greeting_claims_no_photo_when_there_is_none(language: str) -> None:
+    """The counterpart to the test above, and the one that caught a real bug.
+
+    A farmer who had sent no photo was told "Your photo looked healthy", because the app
+    held a diagnosis in session state that nothing ever cleared. The reply must not mention
+    a photo unless one was actually passed in.
+    """
+    text = greeting_text(language)
+    photo_word = "photo" if language == "en" else "تصویر"
+    assert "healthy" not in text.lower()
+    assert text.count(photo_word) == 1  # the offer to send one, nothing more
 
 
 def test_the_greeting_is_translated() -> None:

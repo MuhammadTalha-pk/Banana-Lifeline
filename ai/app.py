@@ -191,6 +191,15 @@ uploaded = st.file_uploader(
     label_visibility="collapsed",
 )
 
+# The uploader is the only evidence a photo exists. `st.session_state.disease` outlives it:
+# nothing but the Clear button ever put it back to None, so removing the photo -- or landing
+# in a session that still held an old diagnosis -- left later answers claiming a photo that
+# was not there. A greeting would end with "Your photo looked healthy" to someone who had
+# never uploaded one. State that describes an upload has to be owned by the uploader.
+if uploaded is None and st.session_state.get("disease") is not None:
+    st.session_state.disease = None
+    st.session_state.pending_follow_up = None
+
 if uploaded is not None and st.button("Diagnose this photo", type="primary"):
     from banana_lifeline.pipeline import diagnose
 

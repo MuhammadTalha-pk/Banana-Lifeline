@@ -135,6 +135,27 @@ _GREETING_TOKENS: frozenset[str] = frozenset(
     }
 )
 
+#: Questions about the assistant itself. Neither farming nor small talk, and a third
+#: category for them would earn nothing: the greeting already answers "what can you do".
+#:
+#: These are here because the model got them badly wrong. Asked to route "can you help me"
+#: it answered out_of_scope, so a farmer opening with that was told "I only know about
+#: bananas -- I cannot help with that." Exact phrases only, never token matching, so
+#: "can you help me with my leaves" is untouched (and caught by the domain scan first).
+_ABOUT_PHRASES: frozenset[str] = frozenset(
+    {
+        "who are you", "what are you", "who r u", "what r u",
+        "what can you do", "what do you do", "what can u do",
+        "what is this", "what's this", "whats this", "what is this app",
+        "how do you work", "how does this work", "how do i use this",
+        "can you help", "can you help me", "can u help", "can u help me",
+        "how can you help", "how can you help me", "can you help me please",
+        "what is your name", "whats your name", "what's your name",
+        "help", "what do you know",
+        "آپ کون ہیں", "آپ کیا کر سکتے ہیں", "یہ کیا ہے", "مدد",
+    }
+)
+
 #: Whole phrases that are greetings even though a token check would pass them anyway.
 #: Kept explicit because they are what people actually type first.
 _GREETING_PHRASES: frozenset[str] = frozenset(
@@ -182,7 +203,7 @@ def looks_like_greeting(text: str) -> bool:
     cleaned = normalise(text)
     if not cleaned:
         return False
-    if cleaned in _GREETING_PHRASES:
+    if cleaned in _GREETING_PHRASES or cleaned in _ABOUT_PHRASES:
         return True
 
     tokens = cleaned.split()
@@ -201,12 +222,15 @@ _SYSTEM_PROMPT = """You route messages in an assistant for banana farmers in Pak
 
 Reply with ONE word and nothing else:
 
-greeting - a greeting, thanks, goodbye, or small talk containing no question
+greeting - a greeting, thanks, goodbye, small talk, OR a question about you and what you can \
+do, such as "who are you", "what can you do", "can you help me"
 technical - anything about bananas, plants, crops, soil, weather, pests, disease, or farming, \
 including vague ones like "any tips?" and follow-ups like "how much?"
 out_of_scope - clearly nothing to do with bananas or farming, such as sport, politics, \
 celebrities, coding, or general trivia
 
+Never answer out_of_scope for a question about you or about what this assistant does. \
+Someone asking "can you help me" is asking to be helped, not asking about an unrelated topic.
 If you are unsure between technical and out_of_scope, answer technical.
 Reply with the single word only."""
 
