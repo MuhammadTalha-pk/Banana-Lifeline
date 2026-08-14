@@ -3,7 +3,6 @@
 Banana_Leaf_Dataset/
 
 # Derived artefacts, all regenerable from `banana audit && banana split && banana cache`.
-data/cache/
 data/corpus/raw/
 data/manifests/clusters.csv
 
