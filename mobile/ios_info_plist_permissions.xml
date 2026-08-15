@@ -1,0 +1,10 @@
+<key>NSCameraUsageDescription</key>
+<string>Banana Lifeline uses the camera to photograph banana leaves for disease screening.</string>
+<key>NSPhotoLibraryUsageDescription</key>
+<string>Banana Lifeline lets you select a banana leaf photo for disease screening.</string>
+<key>NSMicrophoneUsageDescription</key>
+<string>Banana Lifeline uses the microphone for farmer voice questions and voice notes.</string>
+<key>NSSpeechRecognitionUsageDescription</key>
+<string>Banana Lifeline converts farmer speech to text for AI chat.</string>
+<key>NSLocationWhenInUseUsageDescription</key>
+<string>Banana Lifeline stores scan location so farmers can track disease by farm and plot.</string>
