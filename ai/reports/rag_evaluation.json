@@ -1,0 +1,13 @@
+{
+  "recall_at_1": 0.85,
+  "recall_at_3": 0.95,
+  "recall_at_5": 1.0,
+  "mrr": 0.9041666666666666,
+  "ndcg": 0.931847136608007,
+  "refusal_accuracy": 0.8,
+  "per_language": {
+    "en": 1.0,
+    "ur": 1.0
+  },
+  "n_questions": 25
+}

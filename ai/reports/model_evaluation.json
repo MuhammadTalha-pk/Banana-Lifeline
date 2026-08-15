@@ -1,0 +1,147 @@
+{
+  "clean": {
+    "accuracy": 0.7877237851662404,
+    "macro_f1": 0.7654737130622271,
+    "balanced_accuracy": 0.7912894030851777,
+    "panama_recall": 0.704225352112676,
+    "per_class_precision": {
+      "healthy": 0.7565217391304347,
+      "panama": 0.6097560975609756,
+      "sigatoka": 0.8814432989690721
+    },
+    "per_class_recall": {
+      "healthy": 0.90625,
+      "panama": 0.704225352112676,
+      "sigatoka": 0.7633928571428571
+    },
+    "per_class_f1": {
+      "healthy": 0.8246445497630331,
+      "panama": 0.6535947712418301,
+      "sigatoka": 0.8181818181818182
+    },
+    "support": {
+      "healthy": 96,
+      "panama": 71,
+      "sigatoka": 224
+    },
+    "confusion": [
+      [
+        87,
+        2,
+        7
+      ],
+      [
+        5,
+        50,
+        16
+      ],
+      [
+        23,
+        30,
+        171
+      ]
+    ],
+    "scene_accuracy": 0.7518248175182481,
+    "scene_macro_f1": 0.7049375745027918
+  },
+  "original": {
+    "accuracy": 0.8372549019607843,
+    "macro_f1": 0.8325527270897414,
+    "balanced_accuracy": 0.8671442716523967,
+    "panama_recall": 0.8556701030927835,
+    "per_class_precision": {
+      "healthy": 0.6826347305389222,
+      "panama": 0.83,
+      "sigatoka": 0.9465020576131687
+    },
+    "per_class_recall": {
+      "healthy": 0.9661016949152542,
+      "panama": 0.8556701030927835,
+      "sigatoka": 0.7796610169491526
+    },
+    "per_class_f1": {
+      "healthy": 0.8,
+      "panama": 0.8426395939086294,
+      "sigatoka": 0.8550185873605948
+    },
+    "support": {
+      "healthy": 118,
+      "panama": 97,
+      "sigatoka": 295
+    },
+    "confusion": [
+      [
+        114,
+        0,
+        4
+      ],
+      [
+        5,
+        83,
+        9
+      ],
+      [
+        48,
+        17,
+        230
+      ]
+    ],
+    "scene_accuracy": 0.8298755186721992,
+    "scene_macro_f1": 0.8197976317410914
+  },
+  "ablation": {
+    "accuracy": 0.7135549872122762,
+    "macro_f1": 0.6677934920087386,
+    "balanced_accuracy": 0.681715291750503,
+    "panama_recall": 0.4647887323943662,
+    "per_class_precision": {
+      "healthy": 0.6377952755905512,
+      "panama": 0.559322033898305,
+      "sigatoka": 0.8048780487804879
+    },
+    "per_class_recall": {
+      "healthy": 0.84375,
+      "panama": 0.4647887323943662,
+      "sigatoka": 0.7366071428571429
+    },
+    "per_class_f1": {
+      "healthy": 0.726457399103139,
+      "panama": 0.5076923076923077,
+      "sigatoka": 0.7692307692307693
+    },
+    "support": {
+      "healthy": 96,
+      "panama": 71,
+      "sigatoka": 224
+    },
+    "confusion": [
+      [
+        81,
+        0,
+        15
+      ],
+      [
+        13,
+        33,
+        25
+      ],
+      [
+        33,
+        26,
+        165
+      ]
+    ],
+    "scene_accuracy": 0.6788321167883211,
+    "scene_macro_f1": 0.593732217457079
+  },
+  "calibration": {
+    "temperature": 2.581695318222046,
+    "ece_before": 0.1321078315567787,
+    "ece_after": 0.08726340326506771,
+    "threshold": 0.9357195496559143,
+    "coverage_at_threshold": 0.27621483375959077,
+    "target_risk": 0.05
+  },
+  "device": "cpu",
+  "config": "train_cpu.yaml"
+}

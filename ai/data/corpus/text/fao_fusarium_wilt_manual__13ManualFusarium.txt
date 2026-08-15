@@ -1,0 +1,2883 @@
+1
+
+## Technical Manual
+
+Prevention and diagnostic of Fusarium Wilt
+(Panama disease) of banana caused by
+Fusarium oxysporum f. sp. cubense Tropical
+Race 4 (TR4)
+
+Luis Pérez-Vicente PhD.
+Senior Plant Pathologist, INISAV, Ministry of Agriculture, Cuba.
+
+Expert Consultant on Fusarium wilt disease of banana
+
+Miguel A. Dita, PhD.
+Research Scientist on Plant Pathology, Brazilian Research Agricultural
+Corporation – EMBRAPA, Brazil.
+Expert Consultant on Fusarium wilt disease of banana
+
+## Einar Martínez-
+
+de la Parte, MSc
+Plant Pathologist, INISAV, Ministry of Agriculture, Cuba.
+Expert Consultant on Fusarium wilt disease of banana
+
+Prepared for the Regional Workshop on the Diagnosis of Fusarium Wilt
+(Panama disease) caused by Fusarium oxysporum f. sp. cubense Tropical Race
+4: Mitigating the Threat and Preventing its Spread in the Caribbean
+
+## FOOD AND AGRICULTURE ORGANIZATION OF THE UNITED NATIONS
+
+## May 2014
+
+2
+
+## Technical Manual
+
+Prevention and diagnostic of Fusarium Wilt
+(Panama disease) of banana caused by
+Fusarium oxysporum f. sp. cubense Tropical
+Race 4 (TR4)
+
+Luis Pérez-Vicente PhD.
+Senior Plant Pathologist, INISAV, Ministry of Agriculture, Cuba.
+Expert Consultant on Fusarium wilt disease of banana
+
+Miguel A. Dita, PhD.
+Research Scientist on Plant Pathology, Brazilian Research Agricultural
+Corporation – EMBRAPA, Brazil.
+Expert Consultant on Fusarium wilt disease of banana
+
+Einar Martínez- de la Parte, MSc
+Plant Pathologist, INISAV, Ministry of Agriculture, Cuba.
+Expert Consultant on Fusarium wilt disease of banana
+
+Prepared for the Regional Workshop on the Diagnosis of Fusarium Wilt
+(Panama disease) caused by Fusarium oxysporum f. sp. cubense Tropical Race
+4: Mitigating the Threat and Preventing its Spread in the Caribbean
+
+## FOOD AND AGRICULTURE ORGANIZATION OF THE UNITED NATIONS
+
+## May 2014
+
+3
+
+## INDEX
+
+## Introduction:……………………………………………………………………………………………………………………………………4
+
+Fusarium wilt of banana or panama disease by Fusarium oxysporum f. Sp. cubense: a review on
+history, symptoms, biology, epidemiology and management………………....……………………….................6
+
+## Introduction………………………….…………………………………………………………………………………….…………………… .…………….6
+
+Fusarium wilt symptoms….………………………………………………………………………………….……………………………..……….. 7
+Causal agent: notes on taxonomy and nomenclature ................................................................................... 9
+Morphology and anatomy .………………………………………..……………………………………………………………...11
+Pathogen variability………………………………………………………………………………………………………….…..……12
+Biology and ecology.......…………………………………………………………………………………………………………....13
+
+## Hosts …………………………………………………………………………………………………………………………………………14
+
+Geographic distribution…………………………………………………………………………………………….……............16
+Fusarium wilt impact and damages……………………………………………………………………………….………… 17
+Phytosanitary risks ………………………………………………………………………………………………………..…..…..…18
+Risk management …………………………………………………………………………………………………..…………………19
+Erradication of an outbreak of Foc TR4 …………………………………………………………………..……….…….….20
+Disease management……………………………………………………………………………………………..………….….....22
+
+## References …………………………………………………………………………….…………………………………..…….…......23
+
+PROTOCOLS……………………………………………………………………………………………………………………….….…....32
+Protocol for sampling, transport and storage of samples……………………………………………..………..….33
+Protocol for the isolation of Fusarium oxysporum f. sp. cubense……………………….…..…..………….....36
+Protocol for determination of vegetative compatibility groups (VCG’s)………………..…………………...41
+Protocol for Fusarium oxysporum cultures storage………………………………………………..………….……...54
+Inoculation of Fusarium oxysporum f. sp. cubense in banana………………………………..…………….…….57
+Protocols for DNA extraction…………………………………………………………………………………..………….……..61
+Protocols for molecular identification of Fusarium oxysporum f. sp. cubense………..……….………….66
+4
+
+## INTRODUCTION
+
+Global banana production is seriously threatened by the re-emergence of a Fusarium Wilt. The
+disease, caused by the soil-borne fungi Fusarium oxysporum f. sp. cubense (Foc) and also known
+as “Panama disease”, wiped out the Gros Michel banana industry in Central America and the
+Caribbean, in the mid-twentieth century. The effects of Foc Race 1 were overcome by a shift to
+resistant Cavendish cultivars, which are currently the source of 99% of banana exports.
+Unfortunately, a new strain of Foc called Tropical race 4 (TR4) has overcome Foc resistance in
+Cavendish clones. Perhaps even more seriously, other banana cultivars such as plantains, cooking
+bananas and a diverse range of dessert banana varieties (not susceptible to races 1 and 2) are also
+susceptible to TR4. These local varieties include are mostly grown by smallholder farmers for
+local consumption and income generation. More than 80% of global banana and plantain
+production is thought to be based on TR4 susceptible germplasm. This strain of Foc has caused
+epidemics in Cavendish in the tropics different from those less-severe infections previously
+reported in the sub-tropics. This brings back memories of the devastating damage caused by R1
+that led to losses estimated at more than a billion dollars during that era.
+The devastating impact of Fusarium wilt on Cavendish plantations in Asia was first observed in
+Taiwan in the late 1960s, which eventually caused a significant reduction of production to just
+10% of former levels, and had caused significant increases in production costs rendering its
+exports much less competitive. In the early 1990s, thousands of hectares of Indonesian and
+Malaysian Cavendish commercial plantations failed to establish due to severe epidemics of TR4,
+causing hundreds of millions of dollars in production losses, including from those cultivars
+grown by smallholder growers.
+The occurrence of TR4 epidemics in Cavendish farms in China (2004) and the Philippines (2008)
+and more recently in Mozambique (2013) has renewed serious concerns with regard to its
+destructive potential in the tropics where most bananas for export and local consumption are
+produced. It now threatens the 400 million-dollar banana export industry of the Philippines,
+currently the second largest supplier of the global market after Ecuador. It is also spreading and
+causing damage to the predominantly Cavendish-based banana production in China, which is
+presently the third largest banana producer of the world after India and Brazil. Preliminary risk
+analysis indicated that the spread of TR4 to Africa and the Americas was only a question of time.
+The recent wide TR4 outbreaks reported in Oman, Jordan, Pakistan (under evaluation),
+and
+Mozambique during 2013 has proven its threat as a trans-boundary disease of special importance
+to other major banana producing countries in the world. This trans-boundary phenomenon
+threatens not only the multimillion-dollar banana export industry, but also millions of people in
+rural communities, who depend on bananas for their food security and livelihoods.
+Planting material, water, soil particles, tools footwear and machineries can efficiently disseminate
+the pathogen. The fungus can survive in soil for more than 20 years, has a long latent period (it
+might be detected long time after the introduction) and there is no symptomatic differences
+among races. Besides this, cultural practices and socioeconomic factors that contribute to Race 1
+epidemic still present and would contribute to a TR4 epidemic if the pathogen reaches Latin
+America and the Caribbean (LAC). Early detection of symptoms in the field and fast laboratory
+diagnostic is an essential step to either eradication or containment an eventual outbreak.
+5
+
+Aware on the potential threat of TR4 to LAC, MUSALAC (The Latin American Network for
+Research and Development of Musa) and Bioversity International embarked on many awareness
+campaigns since 2004 about TR4’s threat. Raising awareness was stated as a key step to prevent
+the introduction of this pathogen in LAC, a highly dependent region on banana and plantains.
+In 2009, an expert meeting was carried out at the headquarters of the Regional Organisation for
+Plant and Animal Health (OIRSA) in El Salvador. As a consequence of this meeting, specific
+legislations on phytosanitary and quarantine were adopted by different countries in the region. In
+addition, training courses and capacity building workshops on the disease have been developed.
+These events included relevant aspects on Fusarium wilt such as symptoms recognition, sampling
+procedures, pathogen diagnosis as well as available options for eradication and disease
+management. The first training course was carried out in Costa Rica in 2009 and subsequently
+Cuba (2010), México (2011), Colombia (2011, 2012), Ecuador (2011, 2013), Peru (2011),
+Nicaragua (2011), Puerto Rico (2013) and Dominican Republic (2013) were capacitated. In all
+the cases, the National Plant Protection Organizations (NPPOs) and different government
+agencies were involved.
+As a complement to the aforementioned initiatives, a Contingency Plan for an eventual TR4
+outbreak was recently developed by OIRSA, with the participation of researchers of Bioversity
+International, INISAV and an OIRSA expert. This document offers guidelines to NPPOs on how
+to deal with a putative incursion of TR4 in the region. The document has open access, can be
+consulted on
+OIRSA’s web site and will be provided to the participants of this Workshop.
+Fusarium wilt is currently considered (with some exceptions) a minor disease in LAC. Many of
+the persons that dealt with the first epidemic of race 1 in the past are no longer alive or are long
+retired. Therefore, there is a lack of capacity to deal with this disease at different levels and even
+with the efforts carried out in LAC on awareness and capacity building, the perception of many
+stakeholders on the potential impact of TR4 remains low.
+Bananas and plantains are important to the Caribbean Islands, Guyana and Suriname. The Food
+and Agriculture Organization (FAO) of the United Nations has been concerned about the impact
+and recent dissemination of TR4 outside Asia and collaborated with relevant Agricultural
+Research and Development institutions to create and strengthen capacities to address Fusarium
+wilt in the Caribbean islands through the development of a Regional Workshop on Prevention
+and diagnostic of Fusarium wilt of banana caused by Fusarium oxysporum f. sp. cubense
+Tropical Race 4 (TR4).
+We express thank to FAO, CARDI, The University of West Indies, St. Augustine in Trinidad and
+Tobago and all who supported the organization of this training workshop.
+
+## Workshop Facilitators
+
+6
+
+FUSARIUM WILT OF BANANA OR PANAMA DISEASE BY Fusarium oxysporum f. sp.
+cubense: A REVIEW ON HISTORY, SYMPTOMS, BIOLOGY, EPIDEMIOLOGY AND
+
+## MANAGEMENT
+
+Luis Pérez-Vicente (1) and Miguel A. Dita (2)
+1) Instituto de Investigaciones de Sanidad Vegetal. Ministerio de Agricultura de Cuba. PO Box
+634, 11300, Havana, Cuba (Email: lperezvicente@inisav.cu)
+2) Brazilian Research Agricultural Corporation – EMBRAPA, Brazil. Caixa Postal 69,
+Jaguariúna - São Paulo - Brazil - CEP: 13820-000. (Email: miguel.dita@embrapa.br)
+
+## INTRODUCTION
+
+Banana and plantains are essential crops in Latin America and the Caribbean (LAC), where
+beside economic importance, both have deep cultural roots. Although LAC is not the centre of
+origin of bananas, it grows 28% of the global production, estimated at 117 million tons in 2009
+(Lescot, 2011). Six of the top-ten producing countries are in LAC. The sector is an important
+source of employment,
+with 1.28 million ha under cultivation (Dita et al ., 2013). Bananas are
+attacked by many pests that affect productivity and sustainable production. Fusarium wilt or
+Panama disease, together with black Sigatoka ( Mycosphaerella fijiensis ) and bacterial wilt or
+Moko (caused by R. solanacearum
+race 2) is by far the most important disease of Musa.
+The history of Fusarium oxysporum f. sp. cubense (Foc) has been reviewed by Stover (1962),
+Ploetz and Pegg, (2000), Pérez-Vicente (2004) and Ploetz (2005). Stover (1962) provided a
+detailed list of Foc
+reports by country.
+All phylogenetic studies indicate that Fusarium wilt originated in South-East Asia (O’Donnel et
+al., 1998; Ploetz and Pegg, 2000).
+The first description of Fusarium wilt in banana and plantains came from Australia; it was done
+by Bancroft (1876), who was unaware that he was dealing with a disease widely recognized
+today as one of
+the most destructive globally in the history of agriculture. At the beginning of the
+20th century, the number of reports of the occurrence of this disease increased rapidly, mostly on
+commercial plantations. Its global distribution has an important anthro pogenic component: the
+infected but symptomless rhizomes or suckers used for planting material were introduced into
+new areas with conventional plantation material (Ploetz and Pegg, 2000). Although the economic
+impact of the disease on industry is well kno wn, its impact on subsistence agriculture is not well
+documented and was most likely not recorded or included in the losses reported during the 1950s.
+It should be noteworthy that currently approximately 20 million tons (64% of production) of
+Musa are locally consumed in LAC, (Dita et al., 2013
+).
+The impact of Fusarium wilt in LAC was negligible after the introduction of Cavendish in 1950.
+The disease,
+however, still causes serious losses in subsistence agriculture in Central America,
+mainly in the variety Gros Michel, which is grown in agroforestry systems or in intercropping
+with coffee. Particular scenarios are those of Prata type (AAB) varieties and Apple (Silk, AAB),
+susceptible to the disease, which corresponds for more than 70% of the total (~ 500.000 ha)
+production in Brazil, and Bluggoe and Pisang awak (ABB) types which are cultivars that are
+appreciated
+due to their resistance to stress factors and very adapted to subsistence farming.
+7
+
+Fusarium wilt was reported in 1890 in Central America (Ashby, 1913). The earliest published
+report of the disease in the West Indies is from Cuba (Smith, 1910), although there are
+indications of its presence before 1900. There is evidence that the disease was present in Trinidad
+(Rorer, 1911), Puerto Rico (Fawcett, 1911), and Jamaica since 1903 (Ashby, 1913; Smith 1910).
+The chronology of spread to other Caribbean Islands is not known, but by 1925, the disease was
+likely present in most of them (Stover, 1962).
+Stover (1962) summarized the possible origins of Fusarium wilt epidemics as follows: a) the wilt
+probably evolved on several susceptible varieties of edible bananas in the India-Malayan area; b)
+susceptible variety Silk (Apple AAB) was present in the Caribbean in 1750, while Gros Michel
+(AAA) was not introduced until early 1800s and was not extensively planted before 1850; the
+wilt was already present in some areas where Silk was planted even
+before Gros Michel was
+introduced; c) during the rapid expansion of Gros Michel in the Caribbean between 1890 and
+1910, lands formerly infested with diseased Silk were planted with Gros Michel. It has been
+estimated that between 1890 and the mid-1950s, more than 40,000 ha of Gros Michel were
+destroyed (Stover, 1962). The Cavendish cultivars were only reported affected in the subtropics.
+Tropical race 4 of Foc (VCG 01213) arose in the early 1990s in Malaysia and Indonesia (Masdek
+et al., 2003; Nasdir, 2003) and spread in South East Asia and Australia in less than a decade,
+causing significant losses and affecting the family income of thousands of workers and farmers in
+all the affected countries. Its introduction to the Cavendish plantations of America would have an
+even greater social and economic impact.
+
+## FUSARIUM WILT SYMPTOMS AND DAMAGES
+
+Fusarium wilt or Panama disease of banana produces two types of external symptoms: “yellow
+leaf syndrome” and “green leaf syndrome” (Stover, 1962; Pérez-Vicente, 2004).
+Yellow leaf syndrome: this is the most conspicuous and classic symptom of Fusarium wilt on
+banana. It is characterized by the yellowing border on older leaves that can at times be confused
+with potassium deficiency, especially in drought and cold environment. The yellowing of the
+leaves progresses from older to younger leaves (Figure 1A). The leaves collapse gradually,
+bending at the petiole, commonly close to the midrib and hang down, forming a “skirt” of death
+leaves around the pseudostem.
+Green leaf syndrome: In contrast to the yellow leaf syndrome, the leaves of affected plants i n
+some cultivars eventually remain predominantly green until the petioles bend and collapse
+(Figure 1C).
+In general, younger leaves are the last to show symptoms, frequently remaining unusually erect,
+giving a bristle-like appearance. Growth does not stop in an infected plant and emerging leaves
+are of pale colou
+r. The lamina of the emerging leaf can be markedly reduced, shrivelled and
+distorted. The pseudostem eventually splits longitudinally at the plant base (Figure 1B). There is
+no evidence of symptoms in the fruits.
+A susceptible banana plant infected with Fusarium wilt will rarely recover. While it can occur,
+the growth is poor and the mother plant produces many infected suckers before it dies.
+Internal symptoms are characterized by vascular discoloration: this begins with a yellowing of the
+root and rhizome vascular tissue, which progresses to develop continuous yellow, red or
+8
+
+brownish strands in the pseudostem. These are very characteristic of the disease (Figure 2). In
+susceptible cultivars, reddish coloured vessels can also be observed in petioles.
+
+Figure 1. External symptoms of Fusarium wilt. A. Plant showing general yellowing and necrosis
+of leaves (
+‘yellow leaf syndrome’) in advance stage of disease. B. Pseudostem splitting.
+C. Plant affected by Fusarium wilt with green leaves (´green leaf syndrome´). D. Details
+of leaf fall down by petiole collapse (Photos: L. Pérez-Vicente and M. A. Dita; adapted
+from Dita et al., 2013).
+As the plant dies, fungus grows outside the xylem in the surrounding tissues and develops
+abundant chlamydospores that remain in soil when plant decomposes. Foc colonizes and persists
+in secondary host roots, including those related to banana and some weed species, although these
+plants remain asymptomatic in the field.
+There are no differences in the symptoms among different F. oxysporum f. sp. cubense races in
+Musa. Hence, the races cannot be differentiated on the basis of disease-induced symptoms
+(Stover, 1962; Ploetz, 1990; Ploetz and Pegg, 2000; Dita et al.,
+2013).
+In some cases, Fusarium wilt can co-exist with bacterial wilt (Moko) caused by R. solanacearum
+race 2 and symptoms of both diseases can be misinterpreted. Table 1 presents some criteria for
+differentiating the symptoms caused by the two diseases.
+
+TABLE 1. Differentiation of symptoms caused by Fusarium wilt and bacterial wilt (Moko)
+Fusarium wilt Moko
+Disease symptoms progress from older
+to younger leaves
+Symptoms usually progress from younger to older
+leaves
+No symptoms in young growing buds
+or suckers
+Young emerging buds can be distorted and necrotic,
+eventually dying
+No exudations in exposed surfaces Bacterial ooze can be observed on exposed cut surfaces
+(roots, pseudostem, rachis, flowers, rhizome etc.)
+No development of symptoms in fruits Internal fruit rot and necrosis develop
+9
+
+Figure 2. Internal symptoms of Fusarium wilt in banana. A. Transversal section of rhizome
+showing tissue necrosis. B. Transversal cut of pseudostem showing an advanced necrosis
+of vascular tissues. C. Longitudinal cut of pseudostem showing necrosis of the vascular
+strands (Photo: M. A. Dita and L. Pérez-Vicente, adapted from Dita et al., 2013).
+
+## CAUSAL AGENT: NOTES ON TAXONOMY AND NOMENCLATURE
+
+The causal agent of Fusarium wilt or Panama disease of banana is the fungus Fusarium
+oxysporum f. sp. cubense (E.F. Sm.) W.C. Snyder & H.N. Hansen ( Foc). Its taxonomic position
+is as follows:
+
+## Domain Eukaryota
+
+## Kingdom Fungi
+
+## Phylum Ascomycota
+
+## Class Ascomycetes
+
+## Subclass: Sordariomycetidae
+
+## Order: Hypocreales
+
+Fusarium oxysporum is a complex of anamorphic, filamentous, morphologically undifferentiated
+fungal species featuring saprophytes, antagonists and pathogens to plants, animals and humans
+(O’Donnell and Cigelnick, 1998). In the case of plant pathogens, these mostly cause wilting,
+damping off and root and organs necrosis and rots. From an agricultural and economical point of
+view, it is the most important taxon of Fusarium
+(Ploetz, 2006).
+Specialization of pathogenicity to plant genera and families gave rise to the formae speciales (f.
+sp.) classification (Snyder and Hansen, 1940). Initially, it was believed that formae speciales
+were specific to one host and henc, the name was taken from the host, e.g. betae, callistephi, apii,
+mori, and about 60 others. This early concept of highly specific pathogenicity led to the
+establishment of several formae speciales, which are merely races of formae speciales described
+in other hosts. Armstrong and Armstrong (1968) demonstrated that F. oxysporum f. sp. batatas
+from sweet potato could also attack tobacco. Earlier studies on Fusarium wilt in Central America
+produced symptoms of Panama disease in Gros Michel banana with inoculation of isolates
+obtained from Heliconia sp. (R.H. Stover, personal communication, 1990). The formae speciales
+designated as cubense
+is applied, based solely on evidence from pathogenicity tests in banana.
+Bancroft (1876) isolated for the first time the fungal organism from diseased banana wilt plants.
+Higgins (1904) noted a fungal association in banana plants suffering of a lethal wilt. Smith in
+1908 (Smith, 1910) realized the first isolation of the fungus from Cuban diseased banana plants
+10
+
+and named the species as Fusarium cubense. Ashby (1913) gave the first detailed description of
+the causal agent in culture and Brandes (1919) confirmed Koch postulates, not only in Gros
+Michel (AAA) and Manzano (Apple, AAB), but also in the cultivar Bluggoe (ABB).
+Wollenweber and Reinking (1935) recognized that Fusarium cubense as a variant of the almost
+omnipresent Fusarium oxysporum . When Snyder and Hansen (1940) developed the formae
+speciales system, all species of the complex Fusarium oxysporum that produced wilt symptoms
+in Musa were renamed as Fusarium oxysporum f. sp. cubense (Foc). Phylogenetic studies reveal
+that Foc is an asexual polyphyletic fungus with various strains due to convergent evolution
+(Bentley et al., 1998; O’Donnell et al., 1998; Ploetz, 2006; Fourie et al., 2011).
+
+## MORPHOLOGY AND ANATOMY
+
+Foc cannot be morphologically distinguished from other formae speciales that cause wilting in
+other hosts and other non-pathogenic F. oxysporum endophytes, saprophytes and antagonists
+(Snyder and Hansen, 1940; Messiaen and Cassini, 1968; Booth, 1972; Leslie and Summerell,
+2006).
+Foc is an anamorphic fungus without a known sexual stage (teleomorph). The fungus produces
+macroconidia, microconidia and chlamydospores for reproduction and dispersal. Macroconidia
+and microconidia are produced in orange structures called sporodochia. Sexual stage
+(teleomorph) has not been found even in isolates carrying genes Mat 1 and Mat 2 (Fourie et al.,
+
+## 2011). Macroconidia (27-55 × 3.3
+
+-5.5 μm) are abundant, falcate to erect to almost straight, of
+thin walls, with 3 to 5 septa (usually 3 septa). Apical cell is attenuated or hook shaped in some
+isolates. Basal cells are foot shaped. Macroconidia are developed in single phialids in hypha
+
+## (Figure 3A). Microconidia (5-16 × 2.4
+
+-3.5 μm), usually without septa, can be oval, elliptic to
+kidney shaped and developed abundantly in false heads in short monophialides (Figures 3B and
+3C). Chlamydospores (7-11 μm diameter), are abundantly formed in hyphae or in conidia, single
+or in chains, usually in pairs, but their development can be slower in some isolates (Figure 3D).
+On potato-dextrose-agar (PDA) medium, colonies have a variable morphology. Mycelia can be
+hairy to cottony, spaced or abundant and variable from white, salmon, to pale violet. Black to
+violet sclerotia can be produced in some isolates.
+Fusarium oxysporum usually produces pale violet to dark red color pigments in PDA (Stover,
+1962; Ploetz, 1990; Pérez-Vicente et al ., 2003). Some isolates mutate rapidly from pionnotal
+(with abundant greasy or brilliant conidia aggregates) to a flat humid mycelia of white-pale
+yellowish to peach color on a
+PDA culture (Stover, 1962; Ploetz, 1990).
+In modified Komada media (K2), some isolates of TR4 develop laciniated radial colonies, which
+are not found in isolates of races 1 and 2 (Sun et al ., 1978; Qi et al ., 2008
+). However, this
+characteristic is not a determinant of a Foc TR4 diagnostic.
+
+## PATHOGEN VARIABILITY
+
+The term and concept of race have been used to classify isolates of Foc since the 1950s (Stover,
+1962). Foc races have been designated, based on pathogenicity to different reference varieties in
+field conditions. Four pathogenic races have been described (Stover and Waite, 1960; Stover,
+1962; Moore et al., 1993; Su et al., 1998). Current classification, even when it does not represent
+11
+
+the full variability of the pathogen and is not based on genetic relationships of plant-pathogen
+interaction, has brought useful and practical information (Pérez-Vicente, 2004, Ploetz, 2006). In
+Table 2 the races and differential cultivars are presented.
+
+Figure 3. Reproductive structures of Fusarium oxysporum f. sp. cubense. A. Macroconidia (27 -
+55 x 3.3 - 5.5 μm, 4-8 cells straight to lightly falcate and foot shaped basal cells B.
+Microconidia (5 - 16 x 2.4 - 3.5 μm, 1 or 2 cells from oval to kidney like shape) C.
+Phialides and microconidia grouped in false heads. D. Chlamydospores (7-11 μm diameter,
+usually globose developed isolate or in chains). E. Fus
+arium oxysporum f. sp. cubense
+tropical race 4 in PDA media. F. Orange-colored sporodochia developed in a PDA culture
+media (Photo: M.A. Dita and L. Pérez-Vicente).
+
+TABLE 2. Pathogenic races of Fusarium oxysporum
+f. sp. cubense
+Cultivars Race 1 Race 2 SR4 TR4
+Gros Michel (AAA),
+Manzano (AAB),
+Pome (AAB),
+
+## Latundan
+
+Pisang awak (ABB)
++ - + +
+Bluggoe (ABB) - + +
+Cavendish (AAA) + (in subtropics) +
+
+Race 1 attacks cultivars Gros Michel (AAA), Manzano/Apple/Latundan (Silk, AAB) and Pome
+(AAB); race 2 attacks Bluggoe and other cultivars (ABB genome); race 3 previously described as
+Foc (Stover, 1962; Waite and Stover, 1960) attacks Heliconia spp., but is no longer considered to
+belong to race structure of Foc (Ploetz, 2005 b). Race 4 is pathogenic to Cavendish and to all
+banana cultivars susceptible to race 1 and 2. Until the 1990s, all cases of Cavendish infection
+were related to stressed plants, particularly by temperature, as occurs in the subtropical banana
+crops in Taiwan (Su et al., 1986), Canary Islands, South Africa, and the South of Australia and
+12
+
+Brazil (Ploetz, 1990). These populations were named subtropical race 4 (SR4; Su et al., 1986;
+Grimbeek et al ., 2001; Ploetz 2005b). With the development of banana plantations in the
+Equatorial regions of Indonesia and Malaysia in the late 1980s, reports began to emerge of cases
+of Foc populations pathogenic to Cavendish subgroup varieties, that were denominated as
+tropical race 4 (TR4). TR4 is able to infect Cavendish in both subtropical and tropical conditions
+plus all those that are affected by race 1 and 2 as well as other cultivars such as ‘Pisang Mas’
+(AA) (Pegg et al., 1993; Ploetz, 1994; Ploetz and Pegg, 2000; Ploetz, 2006). It is a genetically
+distinct race, compared to the previously populations classified as subtropical race 4 (Pegg et al.,
+1994; Bentley et al., 1998; Koenig et al., 1997).
+Due to a lack of genetic basis for the discrimination of Foc into races, heterocompatibility or
+heterokaryon development capacity between isolates has been used to characterize populations.
+Twenty-four vegetative compatibility groups (VCGs) have been identified, including populations
+from all over the world (Ploetz and Correll, 1988; Ploetz, 1990a y Ploetz, 1990b; Brake et al.,
+1990; Leslie, 1990 and 1993; Moore et al., 1993; Pegg et al. 1993; Hernández et al., 1993; Batlle
+and Pérez, 1999; Ploetz and Pegg, 2000). To date, TR4 belongs to a single group of vegetative
+compatibility (VCG 01213) while 9 vegetative compatibility groups have been associated with
+SR4. TR4 with VCG 1216 or 1213/16 complex has also been reported but current evidence
+indicates that it is the same group as 1213 (Dita et al. 2010; R.C. Ploetz & A. Viljoen personal
+communication, 2009).
+Foc isolates are divided in to different lineages (at least 8), with closely-related compatible
+vegetative groups (VCGs),
+even when are distributed over a wide geographic area. These
+relationships have been documented by multigenetic studies using RFLPs, AFLPs and RAPDs,
+electrophoretic karyotyping and phylogenies with multiple genes (Bentley et al ., 1994;
+O’Donnell et al., 1998; Boehm et al., 1994; Fourie et al., 2009; Groenwald et al., 2006; Koenig
+et al., 1997; Pegg et al., 1995), suggesting the pathogen’s clonal reproductive strategy.
+
+## BIOLOGY AND ECOLOGY
+
+In the absence of live host tissues, the pathogen is able to survive as chlamydospores in
+previously colonized tissues and in soil where it can persist for long periods, latent or as a
+endophyte of host weeds. Stover (1972), reported that chlamydospores could survive in the soil
+for more than 20 years, but there is
+empirical evidence that this period could be even longer.
+Proximity to banana roots induces chlamydospore germination. Banana infection occurs as
+response to primary and secondary root exudates (Li et al., 2009). Major roots and rhizome are
+not usually affected directly. After germination, hyphae adhere to and directly penetrate the
+epidermis; mycelia then advance intracellular through the cortex and reach the xylem vessels.
+Once in, the fungus remains within the xylem, producing microconidia and toxins that move
+upstream in the plant sap, colonizing neighbouring vessels and producing new fugal structures.
+Studies of infection and pathogenesis of banana roots carried out with a green fluorescent protein
+(GFP)-tagged TR4 isolate (Li et al., 2011), showed that: a) potential invasion sites include the
+epidermal cells of the root caps and the elongation zone as well as natural wounds in the lateral
+root base; b) the fungus is capable of invading the epidermal cells of the banana roots directly; c)
+in banana roots, fungal hyphae were able to penetrate cell walls and grow directly inside and
+outside the cells; and d) fungal spores were produced in the root system and rhizome. In this
+13
+
+study, root exudates from highly-resistant cultivars inhibited the germination and growth of Foc.
+Moderately resistant genotypes reduced spore germination and hyphal growth, whereas the
+susceptible cultivars did not affect fungal germination and growth.
+In artificial inoculation studies with young plants of Apple (Silk, AAB), Costa et al. (2013)
+observed infection through secondary roots, with cortex colonization 5 days after infection (dai),
+and xylem vessel colonization and chlamydospore development 15 dai. In more tolerant cultivars
+delayed colonization of tissues and lower chlamydospores formation were observed, indicating
+host/pathogen recognition and defence response processes and inhibition of fungal colonization
+and reproduction in the host.
+Typical symptoms of wilting are the result of severe water stress due to occlusion of the
+perforated plates of the xylem vessels as well as by the combination of pathogen activities such
+as accumulation of mycelia, toxin production and/or host defence response including tylose
+production, gum and vessel shrinkage due to parenchymatic companion cell growth (Beckman,
+1990). When the plant is alive, the pathogen is confined to xylem cells and some companion
+cells, but once the plant dies, the pathogen invades the parenchyma and sporulates profusely
+(Ploetz and Pegg, 2000). In conclusion, Foc infection is a complex phenomenon requiring a
+series of highly-regulated processes: 1) recognition of host roots by a signalling process not fully
+understood; 2) adhesion to the root surface and differentiation of the penetrating hyphae: 3) root-
+cortex penetration and degradation of physical barriers of the host to infection (e.g. endodermis)
+to reach the xylem; 4) adaptation to the host
+cell environment including antifungal compounds; 5)
+proliferation in the xylem vessels and production of reproductive structures and 6) secretion of
+virulence determinants, such as little polypeptides or phytotoxins (Di Pietro, et al., 2003).
+Foc grows between 9 and 38 °C under in vitro conditions, with a favou
+rable range of growth
+between 23 and 27 °C (Pérez et al., 2003).
+Usually, the disease is more intense during the warmer and wet months of the year, but some
+factors have a preponderant influence in disease development. The most important factor is the
+degree of resistance/susceptibility of the Musa genotype, cultivar or variety present in the area.
+The second factor is the Foc pathotype present. Finally, other factors such as internal and surface
+drainage, environmental conditions and soil type have a decisive influence on disease
+development. There are some soils with physical, chemical and microbiological properties that
+suppress disease development. These soils were first described in the 1930’s in Central America
+and also in Australia, Canary Islands and South Africa. Among the factors mentioned are pH
+(infection is lower in soils with pH of 7 or higher); use of nitrates versus ammonia (infection is
+lower where nitrates are used as n it
+rogen source instead of ammonium); high calcium content
+could also induce soil suppressiveness (Peng et al., 1999; Nel et al., 2006). Forsyth et al. (2006)
+reported endophytic F. oxysporum populations with capacity of suppression of Foc in greenhouse
+conditions in Australia. However, the strategy of biocontrol has not been successful when used
+alone. Pérez-Vicente et al. (2003) reported the reduction of Fusarium wilt in susceptible cultivars
+in Cuba by combining the use of Trichoderma harzianum A24 with healthy tissue-cultured
+plants. The use of a bio-organic compost was recently reported as highly efficient to reduce TR4
+incidence in China (Shen et al. 2013). This compound caused a shift in the soil microbial profile,
+which favoured disease suppression. However, application of organic matter could not be
+considered alone as a factor of success for Fusarium wilt management in banana.
+14
+
+## HOSTS
+
+a) Primary hosts (cultivated or wild). Under field conditions, T R4 is primarily confined to the
+genera of Musa [Musa spp., Musa textilis, Musa acuminata, Musa balbisiana (Stover, 1962;
+CABI, 2007)] and Heliconia [Heliconia spp., H. caribaea, H. psittacorum, H. mariae (Stover,
+1962; CABI, 2007).
+b) Other hosts (cultivate or wild): have been also reported as present in different wild host some
+of them weeds in banana fields such as:
+− Chloris inflata = Chloris barbata (purpletop chloris) (CABI, 2006; Hennessy et al., 2003)
+− Commelina diffusa (spreading day flower), (Wardlaw, 1972)
+− Ensete ventricosum (Ensete) (Wardlaw, 1972)
+− Euphorbia heterophylla,(wild poinsettia) (CABI, 2007; Hennessy et al., 2003)
+− Tridax procumbens (coat buttons) (CABI, 2007; Hennessy et al., 2003).
+− Panicum purpurescens
+
+In all cases, infection is restricted to the vascular system in root and stem. The epidemiological
+importance of hosts that do not belong to Musa and Heliconia has been little documented.
+
+Figure 4. Weed host of Fusarium oxysporum f sp. cubense ( adapted from Rodríguez et al., 2014
+;
+INISAV): A) Commelina diffusa; B) Euphorbia heterophylla ; C) Tridax procumbens; D)
+Chloris inflata
+15
+
+## GEOGRAPHIC DISTRIBUTION
+
+Races 1 and 2 of Foc are spread worldwide (Stover, 1962; Ploetz and Pegg, 2000, Perez-Vicente,
+2004). SR4 is present in Taiwan, Canary Island, South Africa and southern Brazil (Ploetz and
+Pegg, 2000, Perez-Vicente, 2004). Current confirmed distribution of TR4 is Taiwan (Su et al.,
+1986; Ploetz and Pegg, 2000; Hsieh and Ko, 2004), Malaysia (peninsular Malaysia and Sarawak;
+Ong, 1996), Indonesia (Halmahera, Irian Jaya, Java, Sulawesi, Kalimantan y Sumatra) (Nuthardi
+et al., 1994; Pegg et al., 1996; Ploetz and Pegg, 2000; Lee et al., 2001; Ploetz, 2005b; O’Neill et
+al., 2009), Philippines (Molina et al., 2008), People´s Republic of China (Guangdong, Guangxi,
+Hainan, Fujian, Yunnan) (Qi, 2001; Qi et al ., 2008), Australia (North Territories) (Ploetz and
+Pegg, 2000), Jordan (García Bastidas et al., 2013) and Mozambique (IITA, 2013). There are
+informal reports of the presence of TR4 in Oman and Pakistan. A race 1 population (VCG 0124)
+was reported to attack varieties of Cavendish subgroup in India (Tangavelu and Mustafa, 2010),
+but there is a lack of official reports on the impact. This caused certain international concern but
+it is important to indicate that this report cannot be considered as confirmation of the presence of
+TR4 in India.
+
+## DISPERSAL
+
+Results from epidemiological studies indicate that TR4 infected plants occur with a high degree
+of aggregation throughout a field (Meldrum et al. 2013) and a high frequency of infected plant
+clusters are evidence of plant- to-plant dissemination of the pathogen. However, the presence of
+isolated plants in the field shows that other mechanisms of dispersion may also exist. Fusarium
+oxysporum f. sp. cubense can be dispersed through planting material and contaminated plant
+parts, soil and water. It is hypothesized that winds accompanied by rains could disperse Foc, but
+there are no studies that confirm this. Sporodochia formation (conidial masses) of TR4 has been
+confirmed in the greenhouse (Dita, unpublished), but have not yet been observed or reported
+under field conditions. In dry places where wind can carry contaminated dust particles, wind
+could also be a dissemination vehicle of Foc. In Caribbean countries frequently affected by
+hurricanes, strong winds and heavy rains causing flooding could be considered as an important
+vehicle for
+Foc dissemination.
+There is also the possibility of dissemination by insect vectors, especially the banana weevil
+borer Cosmopolites sordidus (Coleoptera: Curculionidae). This insect is found wherever banana
+is grown and it moves through the soil, feeding on the roots and corm of the plants (Gold et al.
+2001). Meldrum et al. (2013) confirm by PCR the presence of TR4 in exoskeleton of C. sordidus
+in banana fields in Australia.
+Panama disease dispersal is rapid on susceptible banana cultivars. When Fusarium wilt (race 1)
+was by first observed in Jamaica in the early 1900s, 70% of 14,000 ‘Gros Michel’ plants
+developed the disease within the first 2 years of planting (Cousins and Sutherland 1930).
+
+Dispersal by plant material
+Local (on-farm) or long distance (other farms, regions, or countries) Foc dispersal occurs mainly
+by the movement and planting of asymptomatic but already-infected suckers. According to
+16
+
+Hwang and Ko (2004), between 30 and 40% of the suckers obtained from a TR4-infected
+Cavendish banana rhizome are infected. However, it is possible that 100% of the suckers of a
+diseased plant are infected and are a potential source of pathogen dissemination. TR4 and all Foc
+races in general can also be disseminated via infected propagating material of other hosts (e.g.
+
+## Heliconia
+
+spp. and weeds).
+Pseudostem tissues and leaves of infected plants can also be ways of dispersal of Foc. Banana
+and plantain leaves and pseudostem are frequently used for wrapping or packing banana that are
+transported from place to
+place.
+
+Dispersal through the soil
+Fusarium oxysporum f. sp. cubense is dispersed on contaminated soil, by natural or artificial
+means. Natural means include soil drift due to wind or rain (erosion). Artificial means are related
+to soil adhering to agricultural implements, containers, tools, animals, footwear, clothes, use of
+soil as a substrate for nurseries.
+
+Dispersal through water
+Fusarium oxysporum f. sp. cubense is be efficiently dispersed through irrigation, rainfall or
+surface drainage waters after rainfall as well as in river streams between disease-infested and
+disease-free areas. If a Foc
+contaminated water reservoir is used to irrigate a disease-free area, the
+disease could disperse rapidly and efficiently.
+As yet, there is no scientific evidence of dispersal of Foc in banana fruits.
+
+## FUSARIUM WILT DAMAGE AND IMPACT
+
+The first global trade of banana relied almost exclusively on Gros Michel (Simmonds, 1960;
+Stover, 1962). The downfall of Gros Michel was its extreme susceptibility to race 1. Panama
+disease was first reported in Australia, but became most important in monocultures of Gros
+Michel used by exporters in the Western Hemisphere (Stover, 1962) (Panama was one of the first
+countries to experience major epidemics). It caused staggering losses in the banana trade before
+the conversion to Cavendish. Between 1940 and 1960, 30,000 ha were lost in Honduras and in a
+decade complete losses were recorded in operations of 4,000 ha in Suriname and 6,000 ha in
+Costa Rica (Ploetz, 2005). Losses caused by race 1 in Gros Michel during the first half of the 20 th
+century were estimated at USD 2.3 billion (Ploetz, 2005) to the export companies alone and was
+the cause of the change in the banana export industry to Cavendish cultivars resistant to race 1
+and race 2. Besides, race 1 wiped out the economic cultivation of Apple banana (Silk, Manzano)
+and Gros Michel in Cuba and is the main phytosanitary problem for Prata-types cultivars in
+Brazil. Race 1 is still present and causing damage wherever Gros Michel and Apple cultivars are
+cropped in America, grown alone or mixed with cacao, coffee, trees and/or other plants.
+TR 4 impact in the affected countries has been as follows:
+− Taiwan. The oldest international banana trade in Asia began in the early 1900s in Taiwan and
+the industry began to decline in the early 1970s due to high labou r cost and competition from
+foreign producers; hence, by the 1990s only around 5,000 ha remained in production (Hwang
+and Ko, 2004). In the 1960s, Taiwan exported 60, 000, 12-kg boxes of Giant Cavendish. The
+17
+
+first incidence of Fusarium wilt was reported on Cavendish cultivars in 1967 in the main
+banana producing area of southern Taiwan (Su et al. in 1977, cited by Hwang and Ko, 2004).
+The disease dispersed rapidly and the number of infected plants increased 5,536 in three
+years. In 1976, 1, 200 ha were infected representing approximately 500,000 banana plants
+(Hwang and Ko, 2004). In 1989, it was determined that the most frequent populations in
+epidemics belonged to VCG 1213, confirming the presence of TR4 (Molina, 2009). Due to
+cold temperatures in winter and typhoons, banana plantations have to be replanted every year.
+Due of TR4, new lands need to be considered
+for planting every year.
+− Peninsular Malaysia. TR4 was detected in a 392-ha Cavendish farm in 1992 and 4 years later
+had dispersed to 30% of plants (Meng et al., 2001). Two years later, the epidemic in
+established plantations reached 50 plants / ha / month (Ong, 1996).
+− Indonesia. In early 1990s, commercial companies such as Chiquita and Del Monte tried to
+establish Cavendish plantations in Indonesia and Malaysia, to take advantage of fertile soils,
+favourable climate and low labour costs to supply the growing markets of East Asia and Mid
+
+## Ea
+
+st. Many of these farms were previously forest areas. Within two years of establishment,
+these farms were severely infected with TR4 . More than 8 million plants were destroyed
+annually and plantations had to be abandoned with annual losses over USD 75 million. This
+negatively affected the family income of thousands of workers and farmers (Nasdir, 2003).
+The pathogen dispersed from one to other islands in planting material moved by growers
+(Molina, 2009) causing a dramatic reduction of the production area by half in only three years
+(2005-2008). The government estimated that the average speed of disease dissemination in
+Sumatra was 100
+-km/ year (Plant Protection Department, 2007).
+− Australia. TR4 was identified in North Australia between 1997 and 1999 and caused
+significant damage, limiting commercial production of the crop (Molina, 2009).
+− China. The pathogen was probably introduced from Taiwan in planting material obtained
+from infected areas. The disease attacked >65,000 plants and is still dispersing along the Pearl
+River (Molina, 2009 ). In 2006, studies showed that TR4 had infected more than 6,700 ha.
+TR4 has also seriously attacked the popular local variety ‘Fenjiao’ (ABB, subgroup Pisang
+awak). It was largely concentrated in plantations in the delta of Pear River in Guangdong.
+(Molina, 2009). Today TR4 is distributed in Guangdong, Guangxi, Hainan,
+Fujian and
+Yunnan (Qi, 2001; Qi et al., 2008) affecting more than 40,000 ha (Yi et al., 2012).
+− The Philippines. The disease was suspected to be present in the country since the 1970s, but
+TR4 was only confirmed in 2008. Its incidence in the surveyed farms increased from 700
+cases in 2005 to 15,000 in 2007 (Molina et al., 2008). Large companies currently manage the
+disease following the protocol established for bacterial wilt (Moko, Ralstonia solanacearum)
+management, which is based on quarantine, sanitation, soil disinfection and fallows (Molina,
+2009).
+- Jordan. TR4 was only confirmed in 2013 even though it could have been present since
+2006 (García-Bastides et al. 2013). Currently, 80% of the Jordan Valley production area
+is affected and 20-80% of the plants are affected in the different farms.
+
+- Mozambique. TR4 was discovered in early 2013 and reported at the end of the year in
+some farms. Data of the disease impact is not yet available.
+18
+
+## PHYTOSANITARY RISK
+
+The main pathways for transmission of TR4 are living or dead host plant s, infected plant parts
+and soil from infected fields, carried out of the field by persons, machinery and animals or
+mechanically as contaminant on articles.
+Once the disease is introduced, secondary dispersal from the outbreak site could take place with
+soil movement with transport and irrigation water, drainage, or other water fluvial resources from
+regions where the disease is present to disease-free sites. It is important to emphasize that the
+higher risk of dispersal is via propagation material that has historically been the main dispersal
+mechanism.
+
+Introduction of TR4 in any country could signify substitution of most popular banana genotypes
+by others of lower acceptance and introduction of new paradigms of banana production requiring
+different and more costly cropping practices.
+
+## RISK MANAGEMENT
+
+Risk management is carried out via application of
+(1) phytosanitary measures to prevent the entry
+of TR4 into the country and (2) erad ication-confinement or suppression-contention measures in
+case of an incursion.
+The first step should be establishing an absolute prohibition of the entry of plant or plant parts
+from sites where TR4 is present. At entry points, TR4 presence can be detected by carrying out
+inspection of plants with wilt and vessel-necrosis symptoms or plant parts with necrotic
+symptoms in roots and rhizome. Such plants should be seized and sent to a diagnostic laboratory
+Presence of symptoms and damage (as described earlier) should be verified during inspection.
+Once the presence of
+any organism of the TR4 complex is confirmed, the material should be
+confiscated and immediately destroyed.
+
+Some prevention measures are:
+− TR4 should be included in the
+national list of quarantine pests and of obligatory declaration;
+− Prohibit importation of Musa plants or plantlet as well as of other hosts from countries where
+TR4 is present. Imports of Musa germplasm or of plants for propagation should use the route
+of intermediate quarantine stations. Those materials should be adequately indexed and
+identified as free of TR4;
+− Capacity-building and sensitization campaigns among personnel that in the line of duty, visit
+fields in countries where TR4 is present. This should include measures to take after field
+visits to prevent transfer of soil or plant parts in clothes, shoes, and/or work equipment.
+− Carry out surveillance (e.g. surveys) for early detection of potential incursions of the disease.
+− Determination by NPPOs reference laboratories where TR4 can be diagnosed;
+− Capacity building in symptoms, sampling, treatment and manipulation of samples and
+diagnostics (in case laboratories capable of carrying out the diagnostic exist in the country).
+19
+
+− A list of national and international experts that can contribute to disease diagnosis and
+management of an eventual outbreak of TR4.
+
+Once an outbreak or incursion is detected, some risk management measures are as follows:
+− If TR4 is confirmed in Cavendish banana or plantain (AAB): proceed to establish quarantine
+in the outbreak area and delimit control area; restrict personnel, equipment and animal access;
+collect samples to confirm diagnosis and eliminate symptomatic plants. In the case of plants
+belonging to other varieties (that could be susceptible to other races also), it is advisable to
+wait for confirmation of TR4 diagnosis;
+− Survey of personnel, equipment, animals, plant parts and soil movement from and to TR4
+outbreak site.
+− Record of epidemiological information to try to establish the possible initial incursion (origin)
+of TR4.
+
+## − Af
+
+ter diagnostic confirmation, eradication should be carried out by destruction of affected
+plants and all plants in the surrounding 7.5 m radius. These should be eliminated by fire.
+Plants should be cut in pieces of approximately 60 -80 cm long and rhizome and roots should
+be extracted. All weeds in area should be cut and all material covered with a plastic shield to
+fumigate with methyl bromide (MB) to disinfect soil and plant materials. For the use of
+Methyl Bromide,
+national legislation needs to be taken into consideration.
+− All tools used in diseased plant elimination, as well as shoes, equipment and wheels of
+equipment that access the infected area must be disinfected to avoid secondary dispersal. An
+intermediate disinfection of tools between infected and suspect plants should also be carried
+out during plant elimination activity. Among the active ingredients for disinfection are
+formaldehyde and quaternary ammonium formulations (Nel et al, 2006; Medrum, et al .,
+2013).
+− All outbreak areas should be kept under quarantine for one-and
+-a-half years. Periodic surveys
+should be carried out to confirm if there are no new plants or re-growths to verify or declare
+disease eradication. Any production involving soil movement or TR4 host plants should be
+prohibited. The area should be prohibited for any crop that needs soil movement or
+establishment of nurseries.
+− In case an outbreak eradication/confinement is unsuccessful, procedures of suppression /
+containment should be established, which in essence are the same, only changing the radius
+of
+plant elimination and use of dazomet instead Methyl Bromide.
+
+## ERADICATION OF AN OUTBREAK OF FOC TR4
+
+To date, there are no reports on eradication of outbreaks of TR4 or other Foc races. The first step
+is to evaluate the technical feasibility of the eradication of TR4 incursion. For this, an important
+aspect to consider is the origin of outbreak and its history. If the outbreak is an isolated event of
+introduction in one site, the probability of success of eradication-confinement is higher than in
+case of multiple introductions or dispersion after introduction. The alternative to adoption of
+eradication-confinement, based on long-term suppression-containment
+measures can always have
+20
+
+a higher socio-economic impact. It is also important to take into consideration that Foc produces
+resistant chlamydospores that survive for a long time and that the alternative program of
+suppression-containment would have to be implemented. Another aspect to consider is
+information on proven efficacy of the measures to apply and the complexity of operations in
+terms of their capacity requirements (Dita et al., 2013).
+Some factors to consider to deciding implementation of eradication program are:
+a) How soon was the pathogen detected and diagnosed;
+b) Availability of reliable information on the introduction date/period;
+c) Extent and characteristic of the outbreak (banana monoculture or mixed crop with coffee or
+other crops that also require adoption of regulatory and control measures);
+d) If it is an isolated case or secondary dispersal has probably already occurred;
+e) Support expected from farmers;
+f) Level of relative isolation of the outbreak area to implement restriction measures to access
+area;
+g) Topography of the area that could enable superficial drainage and pathogen movement;
+h) Possibility to implement safe movement of germplasm;
+i) Possibility to use the area for other objectives;
+Dita et al ., (2013) developed a contingency plan to eradicate a potential TR4 outbreak, which
+establishes the organization and procedures to be followed in case of an outbreak, which are
+available on the website of OIRSA
+1. Important remarks on the procedures are:
+1. Irrespective of the pathway of introduction, when a TR4 outbreak is found, it is very probable
+that a long time period has already passed between the introduction and its detection, due to
+the long incubation period of disease. The success of eradication-confinement strategy will be
+largely determined if introduction have occurred in one or several places, and if all outbreaks
+have been detected. It is desirable to destroy infected plants that show symptoms and have a
+preliminary diagnostic; this includes other host species such as weeds (see list of hosts).
+2.
+After taking samples of symptomatic plants, it is necessary to confirm TR4 using the
+procedures described in the Protocols section of
+this manual.
+- A determination of preliminary area or areas under quarantine;
+- Destruction of infected plants;
+- Establishment of a secured or protected area, the dimensions of which are determined
+after a delimitation of outbreak dimensions
+To establish security area, the following aspects should be taken into account: (1) the distribution
+of water surface drainages and internal flux (inside the soil) with possible drift or movement of
+infective fungal structures; (2) soil topography and the possibility that the fungus comes in
+
+1 http://www.oirsa.org/aplicaciones/subidoarchivos/BibliotecaVirtual/PlandecontingenciacontraFocR4TOIRSA.pdf
+21
+
+contact with cropped or wild hosts. It is also necessary to consider if the outbreak has occurred
+upstream or downstream of a water source and the direction of currents.
+The outbreak borders can be delimited until the limits of infected host (cropped or wild) are
+detected or until there was a high probability of pathogen dispersal.
+Important facts to consider are the movement of workers, equipment and animals from or to
+infected fields. Quarantine restriction to access the outbreak site should be established in order to
+restrict secondary distribution of pathogen: a single access way and disinfection points for shoes
+(footbaths), tools, wheels and machineries. As personnel in charge of sampling and elimination of
+plants can become important vectors of the disease, strict biosecurity measures should be adopted
+to prevent
+pathogen dispersion during and after their activities.
+
+## DISEASE MANAGEMENT
+
+In countries were the disease is present, phytosanitary management (suppression-containment
+activities) of Foc has been implemented through a similar protocol to that used to the bacterial
+wilt (Moko, caused by Ralstonia solanacearum) based on maintenance more or less permanent
+quarantine measures and limitation of area access, use of soil fumigants, sanitation of infected
+and neighbouring plants, use of soil fumigants and replanting.
+Most of measures are not available to low-resource farmers. On the other hand, in the case of
+Taiwan, cultivars with partial resistance to TR4 can only be used in high-density plantations for a
+limited number of cycles that requires
+significant investment to replant at short periods.
+The most efficient method of control is the use of resistant varieties. Due to the impact of
+planting material on disease dissemination, use of healthy planting material is a key component
+of any management system of Fusarium wilt of banana. Development of certified healthy
+planting material program that can be accessed by growers is important, together with adoption of
+other control measures. Chemical control has in general been of poor efficacy and limited
+success. Even though many reports on biological control alternatives have been published, most
+of them are related to in vitro and glasshouse studies and as yet, there are no biocontrol agents
+with proven efficacy in the field to be considered as part of management programs for TR4.
+Pérez-Vicente et al ., (2003; 2009) reported the efficacy of a combination of Trichoderma
+
+harzianum A24 isolate applications at planting and every three months together with the use of
+healthy tissue culture planting material for race 2 management in conducible infected soils. These
+procedures allow production for more than 5 years in fields where the disease had previously
+destroyed Burro CEMSA plantations.
+Phytosanitary management of TR4 in affected areas is directed to inoculum reduction,
+eliminating infected plants and delimitation of infected areas. Additionally, in Taiwan Giant
+Cavendish tissue culture mutants with a certain tolerance to TR4 are being cultivated in annual
+planting or short cycle systems (Hwang and Ko, 2004; Gus Molina, personal communication)
+Crop rotation with Foc non-host plants has been used in the purpose to reduce Foc population in
+soil. Banana rotation with sugarcane+ fallow reduced disease incidence by 48% (Sequeira, 1962);
+with rice ( Oryza sativa) disease reduction was not long-lasting (Hwang et al ., 1985). Cassava
+(Manihot esculentum) is used by small growers in Indonesia and the Phillippines to reduce TR4
+in soil (Molina, 2009; Buddenhaguen 2009). Chinese leek ( Allium tuberosum),
+used in rotation
+22
+
+with banana, reduced TR4 incidence and severity index in Cavendish and Guangfen (AAA)
+cultivars by 58% and 62% respectively in China (Huang et al., 2012).
+Stover (1962) gave a detailed summary of the results obtained from the studies of chemical and
+physical soil properties and its influence on incidence of Fusarium wilt of banana. There are
+reports on the influence of different mineral nutrition elements and pH on Fusarium wilt
+development in soil that can be considered as part of suppression-containment
+measures:
+Nitrogen. Use of NO3-based fertilizers reduces disease development (Huber and Watson, 1974),
+whereas an increase in NH 4 favo urs disease development (Dominguez et al., 1995). There is
+consensus among growers that urea use notably favours Fusarium wilt of banana.
+Phosphorus. High P content in soil reduces Fusarium wilt incidence (Woltz and Jones, 1981).
+Potassium. Dominguez et al., (2001 and 2010) reported that edaphic factors, such as structural
+stability of soil aggregates (200–2000 μm) and available Fe (Fe-DTPA) in soil in areas with high
+levels of banana disease expression, might be affected by a strong selectivity for K. Therefore,
+they conclude that soil-K status may exert an indirect influence on the biological mechanisms of
+disease expression.
+Calcium. High lime (CaO) content (175-280 ppm) increments disease suppression in the soil
+(Volk and Gallatin in1962 cited by Stover, 1962; Höper et al., 1995). High CaO content reduces
+chlamydospores germination (Peng et al ., 1999). Adding calcium carbonate (CaCO3), calcium
+hydroxide [Ca(OH)2], calcium sulphate (CaSO4) or iron chelates such as Fe-EDDHA to the soil,
+reduces Foc germination and disease severity by one-third to one-half in soils. Smaller Ca
+amounts had the greatest effect and were insufficient to change soil pH (Peng et al., 1999)
+Iron. Reduction of iron availability increase soil suppression (Scher and Baker, 1982) as well as
+reduce chlamydospore germination (Peng et al., 1999).
+Manganese and Zinc. Deficiencies of manganese and zinc cause reduction of F. oxysporum
+disease in tomato (Jones and Wolf 1967; Jones e t al., 1989).
+Soil pH . pH values close to 7 are less optimal to Fusarium wilts (Dominguez et al ., 2001).
+Suppressive soils in general have higher pH values. When pH is reduced below 6.5, there is an
+increase in the Fusarium wilt disease (Rishbeth, 1957; Reinking and Manns 1932b Peng et al.,
+1999). Lower pH values were significantly correlated with higher incidence of Fusarium wilt in
+Peru (Roman, 2012).
+Soil texture. Soils with a light texture are more favourable for Fusarium wilt disease than soils
+with heavy clay texture (Stover, 1962).
+An important measure in Foc management is the control of root and rhizome pests. Medrum et
+al., (2013) reported that the black weevil Cosmopolites sordidus can carry TR4 spores in its
+exoskeleton. Therefore, plans for managing Foc on plantations should take into consideration the
+presence of C. sordidus in the field and its possible role as a vector for Foc. It has been suggested
+that nematodes may also play an important role on Fusarium wilt of banana. While the co-
+infection of Radopholus similis with Foc in a susceptible cultivar Gros Michel had no influence
+on disease severity when compared with plants only inoculated with Foc, co-inoculated plants
+showed a significant root weight reduction (Chaves, 2014). Therefore, nematode control should
+be also taken into account mainly in Cavendish,
+which is highly susceptible to R.similis.
+23
+
+## REFERENCES
+
+Ashby, S.F. 1913. Banana disease in Jamaica. Science 31: 754-755.
+Amstrong, G.M. and Amstrong, J.K., 1958. The Fusarium wilt complex as related to the sweet
+potato. Plant Disease Rptr. 42: 1319 -1329.
+Bancroft, J., 1876. Report of the board appointed to inquire into the cause of disease affecting
+livestock and plants. Queensland, 1876. Votes and Proceedings (3): 1011-1038.
+Beckman, C.H. 1990. Host responses to infection. In: Ploetz, RC. (ed.) Fusarium wilt of banana.
+Minnesota, US. APS. p 93-105.
+Bentley, S., Pegg, K., Dale, J.L. 1994. Optimization of RAPD-PCR fingerprinting to analyse
+genetic variation within populations of Fusarium oxysporum f.sp. cubense. Phytopathology
+142: 64–78.
+Bentley, S., Pegg, K.G., Moore, N.Y., Davis, R.D. and Buddenhagen, I.W. 1998. Genetic
+variation among vegetative compatibility groups of Fusarium oxysporum f. sp. cubense
+analysed by DNA fingerprinting. Phytopathology 88: 1283–1293.
+Boehm, E.W.A., Ploetz, R.C. and Kistler, H.C. 1994. Statistical analysis of
+electropherickaryotype variation among vegetative compatibility groups of Fusarium
+oxysporum f.sp. c ubense Molecular Plant-Microbe Interactions 7: 196–207.
+Booth, C. 1971. The Genus Fusarium. Surrey, UK. CMI. 58 p.
+Brake, V.M., Pegg, K.G., Irwin, J.A.G. and Langdon, P.W. 1990. Vegetative compatibility
+groups within Australian populations of F. oxysporum f. sp. cubense the cause of Fusarium
+wilt of banana. Agricultural Research 41: 863-870.
+
+## B
+
+randes, E.W. 1919. Banana wilt. Phytopathology 9: 339-389.
+Buddenhagen, I. 2009. Understanding strain diversity in Fusarium oxysporum f. sp. cubense and
+history of introduction of ‘tropical race 4’ to better manage banana production. ISHS Acta
+Horticulturae 828: International Symposium on Recent Advances in Banana Crop Protection
+for Sustainable Production and Improved Livelihoods.
+CABI (CAB International). 2007. Crop Protection Compendium. Wallingford, UK.
+Carlier, J., De Waele, D. and Escalant, J. 2002. Evaluación global de la resistencia de los bananos
+al marchitamiento por Fusarium, enfermedades de las manchas foliares causadas por
+Mycosphaerella y nemátodos. En Vezina, A. and Picq, C. (eds.). Guías Técnicas del INIBAP
+no. 6. Montpellier, FR. 67 p.
+Costa, J.L., Haddad, F., Rossi, M.L., Martins, F.M., Amorim, E.P., de Figueira, A.V.O. 2013.
+Histopathology interaction of Musa spp. x Fusarium oxysporum f. sp. cubense. Proceedings,
+XX International Meeting ACORBAT. Sept 9 -13., Fortaleza, CE, Brazil. Pp. 267.
+
+Cousins, H.H. and Sutherland, J.B. 1930. Plant diseases and pests. Report of the Secretary of the
+Advisory Committee on the Banana Industry. In: Annual Report Department of Science and
+Agriculture Jamaica for the year ending 31st December, 1929. Pp: 15–19
+24
+
+Davis, R., Moore, N,Y., Bentley, S., Gunua, T.H. and Rahamma, S. 2000. Further records of
+Fusarium oxysporum f. sp. cubense from New Guinea. Australasian Plant Pathology 29:
+224.
+Di Pietro, A., Madrid, M., Caracuel, Z., Delgado-Jarana, J. and Roncero, M.I., 2003. Fusarium
+oxysporum: exploring the molecular arsenal of vascular wilt fungus. Molecular Plant
+Pathology 4: 321-325.
+Dita, M.A., Waalwijk, C., Buddenhaguen, I.W., Souza, M.T. and Kema, G.H.J. 2010. A
+molecular diagnosis for tropical race 4 of the banana Fusarium wilt pathogen. Plant
+Pathology 59: 348–357.
+Dita, MA. 2011. Corrigendum. Plant Pathology 60: 384.
+Dita, M.A., Garming , H., Bergh I. Van den, Staver , C. and Lescot, T. 2013. Banana in Latin
+America and the Caribbean: current State, challenges and perspectives. Proc. Int. ISHS-
+ProMusa Symp. on Bananas and Plantains: Towards Sustainable Global Production and
+Improved Uses Eds.: I. Van den Bergh et al. Acta Hort. 986, ISHS 2013: 365-380.
+Dita, M.A., Echegoyen, P.E. and Pérez-Vicente, L. 2013. Plan de contingencia ante un brote de la
+raza 4 tropical de Fusarium oxysporum f. sp. cubense en un país de la región del OIRSA.
+Organismo Internacional Regional de Sanidad Agropecuaria – OIRSA. 155pp. San Salvador,
+El Salvador, julio de 2013.
+Http://www.oirsa.org/aplicaciones/subidoarchivos/BibliotecaVirtual/PlandecontingenciacontraFo
+cR4TOIRSA.pdf.
+Domínguez-Hernández, J.D., Negrín-Medina, M.A. and Rodríguez-Hernández, C.M. 2010.
+Potassium selectivity in transported volcanic soils (sorribas) under banana cultivation in
+relation to banana-wilt expression caused by Fusarium oxysporum f. sp. cubense. Soil
+Science and Plant Analysis, 41:1674–
+1692.
+Domínguez, J.; Negrín, M.A.; Rodríguez, CM. 2001. Aggregate water stability, particle size and
+soil solution properties in conducive and suppressive soils to Fusarium wilt of banana from
+Canary Islands. Soil Biology and Biochemistry 33; 349-455.
+
+Domínguez, J.; Rodríguez, C.M, Hernández-Moreno, J.M. (1995). Iron and Fusarium wilts in
+banana crops and Andic soils. In: Abadia, J. (Ed.), Iron nutrition in soils and plants Kluwer
+Academic, Dordrecht, The Netherlands, pp 255-258.
+Fawcett, G.L. 1911. Report of the plant pathologist. Ann. Rep. Porto Rico Exp. Stat. : 35-36
+
+Fourie, G., Steenkamp, E.T., Gordon, T.R. and Viljoen, A. 2009. Evolutionary relationships
+among the vegetative compatibility groups of Fusarium oxysporum f. sp. cubense. Applied
+and Environmental Microbiology 75: 4770–4781.
+Fourie, G., Steenkamp, E.T., Ploetz, R.C., Gordon, T.R. and Viljoen, A. 2011. Current status of
+the taxonomic position of Fusarium oxysporum formae speciale cubense within the
+Fusarium oxysporum complex. Infection, Genetics and Evolution 11: 533–542.
+Forsyth, L., Smith, L., and Aitken, E. 2006. Identification and characterization of non-pathogenic
+Fusarium oxysporum capable of increasing and decreasing Fusarium wilt severity.
+Mycological Research 110: 929-935.
+25
+
+García-Bastidas, F. Ordóñez, N., Konkol, J., Al-Qasim, M., Naser, Z., Abdelwali, M., Waalwijk,
+C., Ploetz, R.C. and Kema, G.H.J. 2013. First Report of Fusarium oxysporum f. sp. cubense
+Tropical Race 4 associated with Panama Disease of banana outside Southeast Asia. Plant
+Disease. Published online.
+http://dx.doi.org/10.1094/PDIS-09-13-0954-PDN.
+Grimbeek, E.J., Viljoen, A., and Bentley, S. 2001. First occurrence of Panama disease in two
+banana growing areas of South Africa. Plant Disease 85: 1211.
+Groenewald, S., Van Den Berg, N., Marasas, W.F.O., and Viljoen, A. 2006. The application of
+high throughput AFLPs in assessing genetic diversity in Fusarium oxysporum f. sp. cubense.
+Mycological Research 110: 297–305.
+Gold C.S., Pena J.E., Karamura, E.B. 2001. Biology and integrated pest management for the
+banana weevil Cosmopolites sordidus (Germar) (Coleoptera: Curculionidae). Integrated Pest
+Management Review 6 (2):79–155.
+Higgins, J.E. 1904. The banana in Hawaii. Hawaii, US. Hawaii Agricultural Experiment Station,
+University of Hawaii. 51 p. (Bulletin No. 7).
+Hennessy, C., Walduck, G., Daly, A. and Padovan, A. 2005. Weed hosts of Fusarium oxysporum
+f. sp. cubense tropical race 4 in northern Australia. Australasian Plant Pathology 34: 115-
+117.
+Hernandez, J.M., Freitas. G., Ploetz, R.C. and Kendricks, C. 1993. Fusarial wilt of banana in the
+Canary Islands with some data regarding the Madeira Archipelago. In: Hwang, S.C., Ploetz,
+R.C., Lee, S.W., and Roa, V.N. (eds.). Proceedings: International Symposium on Recent
+Developments in Banana Cultivation Technology. 1992. Pingtung, TW. Taiwan Research
+Institute. Pp. 247-254.
+Huang, Y. H., Wang, R.C., Li, C.H., Zuo, C.W., Wei, Y.R., Zhang, L. and Yi, G.J. 2012. Control
+of Fusarium wilt in banana with Chinese leek. European Journal of Plant Pathology 134:
+87–95.
+
+Höper, H., Steinberg, C. and Alabouvette, C. 1995. Involvement of clay type and pH in the
+mechanism of soil suppressivness to Fusarium wilt of flax. Soil biology and Biochemistry
+27; 955-967.
+Huber, D.M. and Watson, R.D. 1974. Nitrogen form and plant disease. Annual Review of
+Phytopathology 12; 139-165.
+Hwang. S.C. and Ko, W.H. 2004. Cavendish banana cultivars resistant to Fusarium wilt acquired
+through somaclonal variation in Taiwan. Plant Disease 88: 580-588.
+II
+TA, 2013. New banana disease to Africa found in Mozambique. Joint statement issued by the
+Mozambique Department of Agriculture, Matanuska, IITA, Stellenbosch University and
+Bioversity International. Press release.
+http://www.iita.org/2013-press-releases/-/asset_publisher/CxA7/content/new-banana-disease-to-
+africa-found-in-mozambique?redirect=%2F2013-press-
+releases&utm_source=dlvr.it&utm_medium=twitter#.Upv_QdJQKSo.
+Jones, J.P. and Woltz, S.S. 1967. Fusarium wilt (race 2) of tomato: effect of lime and
+micronutrient soil amendments on disease development. Plant Dis. Reptr. 51: 645-648.
+26
+
+Jones, J.P., Engelhard, A.W. and Woltz, S.S. 1989. Management of Fusarium wilt of vegetables
+and ornamentals by macro- and microelements. In: Soilborne Plant Pathogens: Management
+of Diseases with Macro and Microelements. A.W. Engelhard, (ed.) American
+Phytopathological Society, St. Paul, MN pp 18-32.
+Katan, K. and Di Primo, P. 1999. Current Status of Vegetative Compatibility Groups in Fusarium
+oxysporum: Supplement (1999). Phytoparasitica
+27(4): 273-277.
+Koenig, R., Ploetz, R.C. and Kistler, H.C. 1997. Fusarium oxysporum f. sp. cubense consist of a
+small number of divergent and globally distributed lineages. Phytopathology 87: 915-923.
+Lee, Y.M., Teo, L. and Ong, K.P. 2001. Fusarium wilt of Cavendish banana and its control in
+Malaysia. In: Molina, AB.; Nik Masdek, N.H. and Liew, K.W. (eds.) Banana Fusarium wilt
+management: towards sustainable cultivation. Laguna, PH. INIBAP. p. 252-259.
+Lescot, T. 2011. Close-up Banana: Statistics. FruiTrop. 189:59-62.
+
+Leslie, J.F. 1990. Genetic exchange within sexual and asexual populations in the genus
+Fusarium. In: Ploetz, RC. (ed.). Fusarium wilt of banana. Minnesota, US. APS. p. 37-48.
+Leslie, J.F. 1993. Fungal vegetative compatibility. Annual Review of Phytopathology 31: 127-
+150.
+Leslie, J.F. and Summerell, B.A. 2006. The Fusarium Laboratory Manual. Iowa, USA. Blackwell
+Publishing. 388 pp.
+Li, C.Y., Yi, G.J., Chen, S., Sun, Q.M., Zuo, C.W., Huang, B.Z., Wei, Y.R., Huang, Y.H., Wu,
+Y.L., Xu, L.B. and Hu, C.H. 2011. Studies on some of the early events in the Fusarium
+oxysporum-Musa interaction. Acta Horticulture 897: 305-312.
+Li, C.Y., Chen S., Zuo, C.W., Sun, Q.M., Ye, Q. & Ganjun Yi, G.J. and Huang, B.Z. 2011. Eur.
+J. Plant Pathol.131: 327–340.
+Messiaen, C.M. and Cassini, R. 1968. Recherches sur les Fusarioses IV: La systématique des
+Fusarium. Annals Epiphyte 19 (8): 387-454.
+Ministerio de Desarrollo Agropecuario. 2008. Resuelto No. DAL-048 -ADM-08 PANAMÁ 18
+DE JULIO DE 2008. Panamá, PA. Gaceta Oficial Digital No. 26130.
+Meldrum, R.A., Daly, A.M., Tran -Nguyen, L.T.T., Aitken, E.A.B. 2013. The effect of surface
+sterilants on spore germination of Fusarium oxysporum f. sp. cubense tropical race 4. Crop
+Protection 54: 94-198.
+Meldrum, R.A., Daly, A.M., Tran -Nguyen L.T.T. and Aitken, E.A.B. 2013. Are banana weevil
+borers a vector in spreading Fusarium oxysporum f. sp. cubense tropical race 4 in banana
+plantations? Australasian Plant Pathol. 42:543–549.
+Moore, N.Y., Pegg, K., Allen, A.R. and Irvin, J.A.G. 1993. Vegetative compatibility and
+distribution of Fusarium oxysporum f. sp. cubense in Australia. Australian Journal of
+Experimental Agriculture 33 (6) 797 – 802.
+Molina, A.B. 2009. Estado de la incidencia en Asia del marchitamiento por Raza 4 tropical de
+Fusarium en el cultivo del banano. In Reunión de Grupos de Interés sobre los Riesgos de la
+27
+
+Raza 4 tropical de Fusarium, BBTV y otras Plagas de Musáceas, OIRSA (San Salvador, El
+Salvador). Resúmenes. 71 pp.
+Molina, A., Fabregar, E., Sinohin, V.G., Herradura, L., Fourie, G. and Viljoen, A. 2008.
+Confirmation of tropical race 4 of Fusarium oxysporum f. sp. cubense, infecting Cavendish
+bananas in the Philippines. In: Centennial Meeting of the American Phytopathological
+Society. (2008, Minnesota, US). Abstracts.
+Molina, A.B., Fabregar, E.G., Ramillete, E.G., Sinohin, V.O. and Viljoen, A. 2011. Field
+resistance of selected banana cultivars against Tropical Race 4 of Fusarium oxysporum f. sp.
+cubense in the Philippines. Phytopathology 101: S122.
+Nasdir, N. 2003. Fusarium wilt race 4 in Indonesia. Research Institute for Fruits west. Sumatra,
+Indonesia. Abstracts of Papers 2nd. International Symposium on Fusarium wilt on banana.
+PROMUSA-INIBAP/EMBRAPA. Salvador de Bahía, Brazil. 22 -
+26 Sept.
+Nel, B., Steinberg, C., Labuschagne, N. and Viljoen, A. 2006. Isolation and characterization of
+nonpathogenic Fusarium oxysporum isolates from the rhizosphere of healthy banana plants.
+Plant Pathology 55: 207–216.
+Nel, B., Steinberg, C., Labuschagne, N. and Viljoen, A. 2006. Evaluation of fungicide and
+sterilizants for potential application in management of Fusarium wilt of banana.
+Nurhadi, M. and Harlion. R. 1994. The disease incidence of bacterial and Fusarium wilt disease
+in Lampung province. Indonesian Info. Hort. 2(1): 35-37.
+O’Donnell, K. and Cigelnik, E. 1999. A DNA sequence-based phylogenetic structure for the
+Fusarium oxysporum species complex. Phytoparasitica 27: 69.
+O’Neill WT., Gulino, L.M., Pattison, A.B., Daniells, J.W., Hermanto C. and Molina, A. 2009.
+Vegetative compatibility group analysis of Indonesian Fusarium oxysporum f. sp. cubense
+isolates. In: Proceedings of the International ISHS-ProMusa Symposium on Global
+Perspectives on Asian Challenges. Van den Bergh, I. et al. (eds.). Acta Horticulturae 897.
+ISHS 2011.
+Ong, K.P. 1996. Fusarium wilt of banana in a Cavendish banana in a commercial farm in
+Malaysia. In: New frontiers in resistance breeding for nematode, Fusarium and Sigatoka
+(1995, Kuala 70 Lumpur, MY). 1996. Proceedings. Frison, E.A., Horry, J.P. and De Waele,
+D. (eds.). Montpellier, FR. INIBAP. 242 pp.
+Pegg, KG., Moore, N.Y. and Sorensen, S. 1993. Fusarium wilt in the Asian Pacific region. In
+International symposium on recent development in banana cultivation technology. (1993,
+Los Baños, PH). Abstracts. p. 255-314.
+
+Pegg K.G. and Moore, N.Y. and Sorensen, S. 1994. Variability in populations of Fusarium
+oxysporum f. sp. cubense from the Asia/Pacific region. In: The Improvement and Testing of
+Musa: A Global Partnership. Jones, D.R. (ed). Proceeding of the First Global Conference of
+the International Musa Testing Program. HN. INIBAP. Montpellier, FR. 70–
+82 pp.
+Pegg K.G., Moore N.Y. and Bentley, S. 1996. Fusarium wilt of banana in Australia: a review.
+Australian Journal of Agricultural Research 47: 637-650.
+28
+
+Peng, H.X., Sivasithamparama, K., Turner, D.W. 1999. Chlamydospore germination and
+Fusarium wilt of banana plantlets in suppressive and conducive soils are affected by physical
+and chemical factors. Soil Biology and Biochemistry 31: 1363-1374.
+Pérez, L., Batlle, A. y Fonseca, J. 2003. Fusarium oxysporum f. sp. cubense en Cuba: biología de
+las poblaciones, reacción de los clones híbridos de la FHIA y biocontrol. En: Memorias del
+Taller “Manejo convencional y alternativo de la Sigatoka negra, nematodos y otras plagas
+asociadas al cultivo de Musáceas” Rivas, G. y Rosales, F. (Eds.). Guayaquil, Ecuador, 11- 13
+de Agosto. Pp: 141-155.
+Pérez-Vicente, L., 2004. Fusarium wilt (Panama disease) of bananas: an updating review of the
+current knowledge on the disease and its causal agent. In. Memorias de XV Reunion
+Internacional de ACORBAT (Oaxaca, MX). Pp: 1-14.
+
+Pérez-Vicente, L. 2010. Estudios de poblaciones de Fusarium oxysporum f. sp. cubense en
+AL&C y necesidades de entrenamiento de jóvenes científicos de la región. Simposio Global
+sobre Avances de Investigación sobre el mal de Panamá ( Fusarium oxysporum f. sp.
+cubense): Raza 4 Tropical y su Amenaza para la Industria Bananera de Latinoamérica y el
+Caribe. Guayaquil, Ecuador, Abril 18 al 22.
+Pérez-Vicente, L., Batlle-Viera, A. and Chacón-Benazet, J. 2003. Fusarium oxysporum f. sp.
+cubense en Cuba: biología de las poblaciones, reacción de los clones híbridos de la FHIA y
+biocontrol. En: Memorias del Taller “Manejo convencional y alternativo de la Sigatoka
+negra, nemátodos y otras plagas asociadas al cultivo de Musáceas en los trópicos.
+(Guayaquil, EC). Rivas, G.; Rosales, F. (eds.). Pp. 141-155.
+
+Pérez-Vicente, L.; Batlle-Viera, A.; Chacón-Benazet, J. y Montenegro-Morasén, V. 2009
+Reacción de clones naturales e híbridos de la FHIA de bananos y plátanos a las poblaciones
+de Cuba de Fusarium oxysporum f. sp. cubense agente causal de la marchitez por Fusarium o
+mal de Panamá. Fitosanidad 13 (4): 237-242.
+Pérez-Vicente, L., Batlle-Viera, A., Chacón-Benazet, J. y Montenegro-Moracén, V. 2009.
+Eficacia de Trichoderma harzianum A34 en el biocontrol de Fusarium oxysporum f. sp.
+cubense agente causal de la marchitez por Fusarium o Mal de Panamá de los bananos en
+
+## Cuba. Fitosanidad
+
+13 (4): 259-264.
+Ploetz, RC. 1990. Fusarium Wilt of Banana. Minnesota, US. APS. 139 p.
+Ploetz R.C. 2005a. Panama disease: an old nemesis rears its ugly head. Part 1. The beginnings of
+the banana export trades. Online. Minnesota, US. APS.
+http://www.apsnet.orgonline/feature/panama/
+Ploetz, R.C. 2005b. Panama disease: an old nemesis rears its ugly head. Part 2: The Cavendish
+era and beyond. Online. Minnesota, US. APS.
+http://www.apsnet.orgonline/feature/panama2/default.asp
+Ploetz R.C. 2006. Fusarium wilt of Banana is caused by several pathogens referred to as
+Fusarium oxysporum f. sp. cubense. Phytopathology 96: 653-656.
+Ploetz, R.C.and Correll, J.C. 1988. Vegetative compatibility among races of Fusarium
+oxysporum f. sp. c ubense . Plant Disease 72: 325–328.
+29
+
+Ploetz, R.C. and Pegg, K.G. 2000. Fusarium wilt. In: Diseases of Banana, Abaca and Enset.
+Jones, D.R. (Ed.). Wallingford, UK. CABI. Pp. 143-159.
+Puhalla, J.E. 1985. Classification of strains of Fusarium oxysporum on the basis of vegetative
+compatibility. Canadian Journal of Botany 63: 179-183.
+Qi, P. 2001. Status report of banana Fusarium wilt disease in China. In Molina, A.B., Nik
+Masdek, N.H.; Liew, KW. (eds.) Banana Fusarium wilt management: towards sustainable
+cultivation. Laguna, PH. INIBAP. p. 119-120. 71
+Qi, Y.X., Zhang, X., Pua, J,J., Xie, Y.X., Zhang, H.Q., Huang, S.L. 2008. Race 4 identification of
+Fusarium oxysporum f. sp. cubense from Cavendish cultivars in Hainan province, China.
+Australasian Plant Disease Notes 3: 46-47.
+Rishbeth, J. 1957. Fusarium wilt of banana in Jamaica. I. Some observations on the epidemiology
+of the disease. Ann. Bot. 19, 293
+Reinking O.A. and Manns, M.M. 1932. Significance of disease spread in the field under different
+conditions. Bull 44. Res. Dept. United Fruit Co.
+Rorer, J.B (1911). A preliminary list of of Trinidad fungi. Board of Agriculture, Trinidad and
+
+## Tobago, Circ. No 4: 37-44
+
+Scher, FM.; Baker, R. 1982. Effect of Pseudomonas putida and synthetic iron chelator on
+induction of soil suppresivness to Fusarium wilt pathogens. Phytopathology 72: 1567-1773.
+Sequeira, L. 1962. Influence of organic amendments on survival of Fusarium oxysporum f. sp.
+cubense in soil. Phytopathology 52: 976-982.
+Simmonds, N. W. 1966. Bananas, 2nd ed. Longmans, London, UK.
+Smith, E.F. 1910. A Cuban banana disease. Science 31: 754-755.
+Snyder, W.C. and Hansen, H.N. 1940. The species concept in Fusarium. American Journal of
+Botany 27: 64-67.
+Stover, R.H. 1962. Fusarium wilt (Panama disease) of bananas and other Musa species. Kew,
+UK. Commonwealth Mycological Institute. 177 p.
+Stover, R.H., 1972. Banana, plantain and abaca diseases. Kew, UK. Commonwealth Mycological
+Institute. 316 p.
+Stover, R.H. and Waite, B.H. 1960. Studies on Fusarium wilt of bananas V. Pathogenicity and
+distribution of F. oxysporum f. sp. cubense races 1 and 2 . Canadian Journal of Botany 38:
+31-61.
+
+## S
+
+u, H.J., Hwang, S.C. and Ko, W.H. 1986. Fusarium wilt of Cavendish bananas in Taiwan. Plant
+Disease 70: 814-818.
+Summerell, B., Salleh, B. and Leslie, J.F. 2003. A utilitarian Approach to Fusarium
+identification. Plant Disease 87 (2): 117-128.
+
+## S
+
+un, E.J., Su, H.J. and Ko, W.H. 1978. Identification of Fusarium oxysporum f. sp. cubense race
+4 from soil or host tissue by cultural characters. Phytopathology 68: 1672-1673.
+30
+
+Thangavelu, R., Mustaffa, M.M. 2010. First report on the occurrence of a virulent strain of
+Fusarium wilt pathogen (Race-1) infecting Cavendish (AAA) group of bananas in India.
+Plant Disease 94: 1379.
+Waite, B.H. and Stover, R.H. 1960. Studies on Fusarium wilt of bananas. VI. Variability and
+cultivar concept in Fusarium oxysporum f. sp. cubense. Canadian Journal of Botany 38:
+985–994.
+Wardlaw, C.W. 1972. Banana diseases: including Plantain and Abaca. London, UK. Longman.
+878 pp.
+Wollenweber, H.W. and Reinking, O.W. 1935. Die Fusarien. Berlin, DE. Paul Parey. 355 pp.
+Woltz, S.S. and Jones, J.P. 1981. Nutritional requirements of Fusarium oxysporum. Basis for a
+disease control system. In: Nelson, P.E., Tousson, T.A. Cook, R.J. (Ed.), Fusarium: Diseases
+Biology and Taxonomy. The Pennsylvania State University Press. Univ. Park. Pennsylvania,
+pp 340-349
+31
+
+## PROTOCOLS
+
+32
+
+## PROTOCOL FOR SAMPLING FUSARIUM WILT OR PANAMA DISEASE BY
+
+Fusarium oxysporum f. sp. cubense INFECTED PLANTS AND TISSUES.
+(Procedure adapted from Natalie Moore, QDPI).
+Luis Pérez Vicente and Alicia Batlle
+
+Procedures for sampling from of Fusarium wilt or Panama disease infected plants.
+
+1.
+Sampling preparation.
+ Samples should consist of a section of pseudostem of wilted banana plants with evident
+continuous coloured vascular strands.
+ Take the sa mple as low and close to the centre of the pseudostem as possible, but not from
+sector with advanced rotting, in opposite sense to the base of most external leaf sheaths
+(Figure 1). As banana tissue is very humid, risk of bacterial contamination is high,
+particularly in hot humid weather and samples can be rapidly deteriorated. The more the
+sample deteriorates the possibility of recovering pure Fusarium oxysporum f. sp. cubense
+(Foc) cultures is
+simultaneously reduced.
+
+## Figure 5
+
+. Procedure for sample collection from suspected infected banana plants by Fusarium
+oxysporum f. sp. cubense in disease free areas. A and B Cut of a pseudostem fragment. C.
+View if the pseudostem fragment severed showing necrotic vascular strands. D.
+Fragments of affected tissue inside a flask or envelop hermetically closed. E. Dissected
+vascular strands of pseudostem showing necrosis caused by pathogen. F and G. Sampled
+plant with reposition of the fragment cut in the original place and covered by adhesive
+tape to avoid exposition of tissues and exudates at environment. (Photos from P. E.
+Echegoyen taken from Dita et al.,
+2013).
+33
+
+ Keep the sample in strong paper bags, paper envelop or glass vials until colou red vessel
+strands can be extracted. Avoid use of plastic bags because they make the samples sweat and
+promote bacterial growth.
+Take precise notes of each simple such as:
+a) Sample number (one sample per plant)
+b) Date
+c) Cultivar name of host plant including local names (and uses if known)
+d) Genomic constitution of the host (i.e. AAA, AAB, etc.). This is not as important as the
+precise identification of cultivar.
+e) If the sa mple plant is taken from a garden, commercial plantation, city, town or
+community or if it is from the wild
+f) Locality (i.e. province name, state, distance from the closest city, name of the road, name
+of the property and if it is a commercial plantation, etc.
+g) Name of the collector.
+h) Other useful observations to be included such as source of planting material,
+if soils are
+waterlogged, how many diseased plants are affected, which other varieties are growing
+close
+by, and if they are healthy or diseased.
+i) A small piece of rhizome (5 cm × 5cm) that shows colou red streams of vessels can be
+used as sample, but this is only recommended where rhizome rot are not advanced. This
+piece of rhizome should also be covered
+in paper or placed on a paper sheet to dry.
+NOTE: When affected wilted plants are observed, it is better take the samples from established
+plants (mature plants or plantations) than one with recently planted plants.
+
+2. Dissection of coloured vascular strands of the sample.
+ Dissect the coloured vascular strands of the sample in the same day as collected or as soon as
+possible after collection. Sterile paper filter use is recommended and an aseptic technique for
+disease vessel dissection from the sample.
+ Firstly, sterilize sample surface by submerging in 70% alcohol. When processing different
+samples, use a different filter paper for each sample and the scalpel blades and forceps should
+be flamed or at least submerged in alcohol between the different samples.
+ Place the extracted coloured vessels on sterile filter paper in a paper envelop in order to dry it
+under natural conditions. Usually a few days
+of drying is enough
+ NOTE: Do not expose the strands to heat or high temperature (i.e. direct sunlight or the back
+of the car), because this can kill the fungus. Do not dry the sample in an oven!
+Fusarium specimens do not need to be kept in a refrigerator; laboratory room temperature is
+enough. Leaf samples do not
+need to be enveloped in a moist paper. Dry paper is better.
+34
+
+To send samples by mail.
+ If it is necessary to mail samples for analysis and isolation, send the sample in a paper
+envelope as soon as it is dry enough, with sample number and details of each sample. Include
+a copy of the official import permit in case there are international samples inside the parcel.
+NOTE: If there is any chance that the samples becoming mixed or if details of some samples are
+missing or confusing or suspected to be incorrect, the sample should be discarded and a new
+sample should taken.
+35
+
+PROTOCOL FOR THE ISOLATION OF Fusarium oxysporum f. sp. cubense FROM
+
+## TISSUE SAMPLES OF FUSARIUM WILT OR PANAMA DISEASE AFFECTED
+
+## BANANA PLANTS AND SOIL
+
+Luis Pérez Vicente, Einar Martínez and Miguel A. Dita.
+
+ISOLATION OF THE FUNGUS FROM PLANT DISEASED COLLECTED MATERIAL.
+
+Fungal isolation from affected colored strands.
+ The isolation can be attempted as soon as the strands with vessels are dry (possibly the day
+after the collection)
+ Plate small sections (3-6 mm long) of the tissues with vascular vessels in Petri plates with ¼
+strength potato dextrose agar (PDA) or water agar (WA) with an antibacterial agent (i.e.
+streptomycin sulfate1.2 mL
+/ 240 mL of PDA).
+ If Fusarium is present, it will grow out from the vessels in 2-4 days (see Figure 6).
+ If the sample is contaminated with bacteria, the fungal growth could be masked. If this
+occurs, allow the sample dry more and increase
+the streptomycin sulfate in the media.
+ From samples that have been prepared correctly, a high rate of Fusarium recovery is
+possible.
+ Prepare single conidia cultures of each specimen.
+
+Figure 6.
+Foc growth in agar plates. A. Foc colonies from pseudostem discoloured strands in
+Water Agar. B. Foc single conidia culture in PDA plate.
+
+## 1. Isolation from soil
+
+ Collect a soil sample from the first 25 cm depth and store in a paper bag.
+
+##  L
+
+et samples air dry in the more aseptic conditions for 24-48 hours
+ Grind the larger particles in a mortar
+36
+
+ Prepare a soil suspension in sterile water in a proportion of 1:50 soil weight / water volume
+(If the suspension is too concentrated because of high Fusarium population in the sample, a
+1:100 proportion can be prepared). Shake the suspension for better release and distribution
+of soil particles and fungal structures.
+ Dilute 1 mL suspension in 10 cm Petri plates with modified K2 media at close to melting
+temperature to achieve a good dispersion of the soil in the culture media.
+ 1 mL of suspension can also be distributed on the surface of the plate with solidified K2
+media. Agar should be allowed to dry for 3-4 days in the plates before plating the spore
+suspension so that it can absorb
+a higher amount of the spore suspension.
+ Distribute the suspension as uniformly possible and allow it to stand for two minutes.
+Remove excess soil suspension from the plate and incubate it at 27C upside down.
+ Recovered colonies are transferred to other appropriate media to obtain single conidial
+isolates.
+
+2. Single spore isolations (single conidia).
+Fusarium oxysporum single spore isolations are obtained by the plate dilution method and
+streaking plates (showed ahead). For both methods:
+ Collect a scrape of sporulating hyphae from cultures growing on PDA (¼ strength) and
+dissolve in 10 mL sterile distilled water in test tubes.
+ From an initial suspension, a dilution serial can be prepared. Pipette or streak 1 mL of
+each of the dilutions on water agar.
+ Incubate plates overnight at 25°C with caps in upside position
+ Check the plates under a dissecting microscope the following day to localize germinated
+conidia and transfer with a sterile needle or scalpel single conidia isolated from the
+water agar to new 90 mm plates with ¼ strength PDA.
+ Additionally, single-spore cultures c
+an also be obtained by dissecting the tip of a single
+growing hypha of an old culture grown in carnation leaf agar (CLA).
+
+CULTURE MEDIA FOR THE ISOLATION AND CULTURE OF F. oxysporum
+1. Potato dextrose agar ¼ strength (PDA ¼).
+(Ainsworth, G.C., 1971. Ainsworth and Bisby’s Dictionary of the Fungi. 6th. Ed. Commonwealth
+Mycological Institute, Kew Surrey, England, 663 pp).
+Ingredients for a litre of distilled water.
+
+## P
+
+eeled pieces of potatoes 100 g
+Dextrose 10 g
+Agar. 20 g
+37
+
+Method. Boil the potatoes in the distilled water for an hour and filter through eight cheese cloth
+layers. Discard the solid portion; then add dextrose and agar to the liquid portion, dissolve well
+and return to heat until the agar is fully dissolved (around 40-50 min). Withdraw the media from
+heat, dispense in flasks or bottles and autoclave immediately (humid cycle, 100 kPa at 121°C for
+20 min.) When fresh, tighten the caps and mark the flasks or bottles with PDA and date.
+
+2. PDA supplemented with streptomycin.
+Proceed to melt the required number of 240 mL PDA bottles in a water bath. When media has
+melted, place the bottles in a water bath at 50°C for 20 min or until the media reach es 50°C. For
+each 240 mL of media, add 1.2 mL of streptomycin solution (1g of streptomycin sulfate powder
+to
+100 mL distilled water) just before dispensing the media in the Petri plates.
+
+3. Carnation leaves agar (CLA).
+(Burguess, L.W., Liddell, C.M. and Summerell, B.A. 1988. Laboratory Manual for Fusarium
+Research, 2nd Edition, University of Sydney, Australia, 156 pp.)
+Method. Four to ten sterilized pieces of carnation leaves are placed on water agar surface before
+media hardens (solidifies). After the media has solidified, the plates with CLA are stored in a
+refrigerator at 4°C.
+
+Figure 7. Preparation of Carnation Leaf Agar. 1. Biological safety cabinet. 2. Water Agar 2%
+poured in plates. 3. Sterilized Carnation leaf fragments placed in plates and tubes. 4.
+Plates and tubes with CLA ready for inoculation
+
+Preparation of carnation leaves
+(Figure 7):
+ Fresh carnation leaves not treated with agrochemicals, are cut in 8 x 3 mm pieces before
+being placed in an oven at 70C to dry.
+ When dry, place it in containers that are suitable to receive Gamma radiations (i.e. glass,
+polystyrene containers or Petri plates sealed with Parafilm). Note that after repeated
+exposure to Gamma radiations, plastic will degrade.
+38
+
+ Radiate containers in a Gamma cell for a total rate of 2.5 Mega Rad.
+ Store sterile pieces in a refrigerator at 4 °C until use.
+
+## 4. Komada modified media (K2)
+
+(Sun, E.J., Su, H.J and Ko, W.H., 1978. Identification of Fusarium oxysporum f. sp. cubense race
+4 from soil or host tissue by cultural characters. Phytopathology 68: 1672-1673).
+Ingredients for 900 mL of distilled water:
+D-galactose 10.0 g
+L-Asparagine 2.0 g
+KH2PO4 1.0 g
+KCl 0.5 g
+MgSO4•7H2O 0.5 g
+FeNa EDTA 10.0 mg
+Agar 20.0 g
+Distilled H2O 900 mL
+ Sterilize at 120C for 20 min.
+ Adjust pH to 3.8 with 10% phosphoric acid.
+ Add at a temperature close to 50C, 100 mL of a solution is sterilized by filtration with:
+Streptomycin sulfate 0.3 g
+Oxgall 0.5 g
+Na2B4O7. 0.5 g
+PCNB (75% PH) 0.9 g
+Inoculate plates with a 0.5 ml diluted suspension of soil in sterile water.
+
+5. Spezieller Nährstoffarmer agar (SNA).
+KH2PO4 1 g
+KNO3 1 g
+MgSO4•7H2O 0.5 g
+KCl 0.5 g
+Glucose 0.2 g
+Sucrose 0.2 g
+
+## Distilled H2O 1L
+
+Sporulation is stimulated if sterile filter paper Whatman # 1 pieces are included.
+This media is appropriate for producing microconidia in a stable way. Suitable for
+chlamydospores detection.
+39
+
+Figure 8. Scheme of the process of isolation, obtain single spore isolates and store for different
+purposes.
+40
+
+PROTOCOL FOR DETERMINATION OF VEGETATIVE COMPATIBILITY GROUPS
+(VCGs): TECHNIQUE OF PUHALLA (1985) AND CORRELL ET AL. (1987) BASED ON
+THE GENERATION OF AUXOTROPHIC MUTANTS THAT DO NOT USE NO 3 ( NIT
+MUTANTS).
+
+Luis Pérez Vicente, Alicia Batlle and Miguel A. Dita.
+Introduction.
+
+Heterocompatibility and heterokarion development.
+Heterokarion formation is a process that normally haploid fungi can use to get the benefit of a
+functional diploidy (as are complementation and heterosis) and constitute the first step in a
+parasexual cycle for character transmission (Leslie, 1990; 1993). Fungi capable of developing
+such heterokaryons are known as vegetative compatible. The vegetative compatibility has been
+used to identify genetically isolated sub populations of fungal pathogens (Puhalla, 1985).
+
+Figure 9. Scheme of heterokarions (according Leslie 1990 (Ploetz, 1990)
+Vegetative compatibility results are a useful technique to study relationships among fungi wi th
+asexual reproduction as Foc. The technique was developed by Cove (1976) and refined by
+Puhalla (1985) and Correll et al. (1987). As vegetative compatibility in many fungi (including
+Fusarium species) requires that alleles of at least 10 different loci ( vic loci) be identical (Puhalla
+and Spieth, 1985), the members of a vegetative compatibility group (VCG), constitute clonally
+derived sub-populations and hence closely related (vegetative compatibility among lines of
+different formae speciales has never been observed). It is improbable that individuals having the
+same VIC alleles complement are not clonally related. This then indicates that two vegetative
+compatible individuals should be identical for many genes including those responsible for
+41
+
+pathogenicity, ecological fitness and other characteristics that affect their roles as banana
+pathogens. Due to this, association between vegetative compatibility and other characters
+genetically controlled, VCGs are strong indicators of pathogenic behaviour and a powerful tool in
+the study of biology and genetics of populations (particularly in the case of Foc-Musa where
+genetic analysis of pathogenicity is practically impossible).
+
+Generation of mutants that do not use nitrate (nit).
+This technique was originally used with Aspergillus nidulans by Cove (1976) and modified by
+Puhalla (1985) and Correll et al. (1987), for use with Fusarium oxysporum.
+ Cultures grown in CLA media and/or PDA are used to inoculate Petri plates in a media that
+contains potassium chlorate. Potassium chlorate is an analog of potassium nitrate and is taken
+and processed through the metabolic route of reductase nitrate (Correll et al., 1987). This
+process results in the production of chlorite that is toxic to the fungus (in substitution of
+nitrite that is beneficial to the fungus) giving place to characteristic colonies of slow growth
+with unrestricted nodose mycelia.
+ After 5-12 days, fast-growing sectors begin to grow from the slow growing sectors of these
+restricted colonies (Figure 10
+). The mycelia of these fast-growing sectors have a mutation
+that allows the fungus to resist the chlorate (and hence also the toxic chlorite). However the
+mutation also determines that the fungus is unable to reduce nitrate. So, these sectors are
+known as mutants that do not use nitrate and are nit mutants in abbreviate form.
+ To test if fast growing sectors are able to use nitrate, a small mycelia piece (2 × 2 mm) is
+taken from the border of the sector. This is transferred to a medium that contains nitrogen
+only in nitrate form, such as Minimal Media (MM) (Puhalla, 1985). If the sector is a true nit
+mutant, it will not be capable of reducing the nitrate in the media and will grow as a
+characteristic N-deficient,
+poor sparse mycelia. If the resulting growth in MM is not sparse,
+the culture is discarded because it will not be useful in VCG tests (complementation assays).
+ It is advantageous to allow the sectors to grow for two or three days after emergence of the
+mutated sector in plates with the chlorate media (KPS), so that
+the growth in the fast-growing
+sectors is clean with no mutated mycelia that could grow underneath. Each unrestricted
+colony that is grown on the KPS media can give up to five separated sectors. When each
+sector is transferred to a MM media, the sector should be labelled for identification. This is
+particularly important if the tests have to be repeated or the mutants are required for other
+tests. For instance, if the isolate that is being tested has the access number 2354, the sectors
+should be sequentially number as 2354
+-1, 2354-2, 2354-3, etc. (Figure, 10).
+42
+
+Figure 10. Foc colonies of restrict growth in media with potassium chlorate, with a mutated fast
+growth
+
+## Figure 11
+
+. Fast growing sectors that emerge of a Foc restrict colony in KPS media. Mycelia of
+the advance axis are transferred to a MM media to test the capacity to reduce nitrate.
+1. Determination of the mutant phenotype.
+Some nit mutants are better than others to be used in VCG tests. The nit mutant phenotype is
+determined by the type of growth (sparse- / nitrogen deficient or dense nitrogen-sufficient) that is
+produced when the nit mutant is transferred to a single N source (Correll et al., 1987). For a more
+comprehensive explanation about phenotypes and which combinations are better to be used in
+complementation tests, consult Correl et al., (1987). It is advantageous to generate 3-5 nit 1 or nit
+3 mutants of each isolate to mate in combination with Nit M testers (mutants of known VCG).
+The mutants of phenotypes nit 1 and nit 3 are the more frequently-generated mutants. Nit M
+mutants are the less commonly generated and better used as reference for VCGs testers.
+Table 3.Tests to determine mutant phenotypes (Correl et al. 1987)
+
+Phenotype ClO3 NO3 NO2 Hypoxanthine NH4
+Wild type - + + + +
+nit 1 + - + + +
+nit 3 + - - + +
+
+## Nit M + - + - +
+
+crn + + + + +
+43
+
+Nitrate Minimal Media (MM)
+Nitrite Basal media + 0.5 g NaNO 2/L
+Hypoxanthine Basal media + 0.2 g hypoxanthine.
+
+## Ammonia
+
+Basal media + 1.0 g ammonium tartrate/L.
+
+2. Nit mutant mating in VCGs tests.
+ A little colonized fragment of agar (2 × 2 mm) of a Nit M mutant culture of a known
+VCG, is placed in the centre of a plate with MM.
+ The bottom of the plate is marked with the VCG number that represents the Nit M.
+ Small similar pieces of mutant nit cultures that have been generated with the unknown
+VCG isolates are then placed in at least 10-15 mm of distance from Nit M fragment
+around the border of the plate (Figure 1 2). Before proceeding to transfer the nit mutants
+the bottom of the plate should be marked (using permanent markers that do not dissolve)
+with the number of the sample, to avoid confusions.
+
+## Figure 1
+
+2. Disposition of the mating test of four nit mutants belonging to an unknown VCG
+(isolate No. 1435) with Nit M testers of VCGs 1210, 0124 and 0128 located in the
+centre of the plates with MM media and the nit mutants around the border.
+
+ If it is consider ed that a nit mutant fragment has been placed in an incorrect position, the
+plate should be discarded and operation repeated.
+ If the unknown isolate has the access 1435, the nit mutants that are generated from it
+should be numbered 1435-1, 1435-2, 1435-3 and 1435-4. If these are mated with Nit M
+that belong to VCGs 01210, 0124 or 0128 in Petri plates with MM, the complementation
+test to determine the VCG should looks like as the following form:
+44
+
+ The plates with the mated isolates are kept in an incubator at 25 C and are checked every
+two days to detect heterokarion growth.
+ If heterokarion develops (if the isolate is vegetative compatible with one of the Nit M
+testers), a dense line of mycelial growth will form after 7-12 days where the hyphae of nit
+have contacted hyphae of Nit M representative of the VCG to which the isolate under
+study belong. If a line of heterokaryotic growth is not evident, it is considered that the
+isolate do es not belong to the tested VCG. For instance, if the isolate 1437 belongs to
+VCG 1210, after 12 days the plate of the test will appear in the following manner (Figure
+13):
+
+## Figure 13
+
+. Example of a positive complementation test for VCG determination. There is
+formation of heterokaryons between the nit mutant and VCG 1210 Nit M tester. Isolate
+C.Ca 1.1 belongs to VCG 1210 because develop a heterokaryon (shown by the dense
+mycelia en MM media
+
+CULTURE MEDIA TO DETERMINE VCGs
+1. KPS Media. (Puhalla, J.E., 1985. Classification of Fusarium oxysporum on the basis of
+vegetative compatibility. Canadian Journal of Botany 63, 179-183.)
+Boil 200 g peeled potatoes and cut in pieces in 1L of distilled water for 50 min. Filter liquid using
+8 layers of cheese cloth and discard solid portion. Complete the liquid to a 1 L volume and add:
+Sucrose 20 g
+KClO3 15.0 g
+Agar. 20.0 g
+Mix agar under heat until it has dissolved. Remove the media from the heat immediately and
+dispense 240 mL in bottles of 250 mL. Plug with autoclavable caps (left the caps loose to release
+vapor). Sterilize in an autoclave (humid cycle of 100 kPa at 121 °C for 20 min). When fresh,
+tighten the caps and label the bottles with KPS and a date.
+45
+
+2. Minimal Media -MM (Puhalla J.E. and Speigh, P.T., 1983. Heterokaryosis in Fusarium
+moniliforme. Experimental Mycology 7, 328-335.)
+
+Ingredients for 1 L of distilled water:
+Sucrose 30 g
+BBL agar or of similar analytic grade 20 g
+KCl (potassium chlorate) 0.5 g
+NaNO3 (sodium nitrate) 2 g
+KH2PO4 (di acid potassium phosphate) 1 g
+MgSO4.7H20 (magnesium sulfate heptad hydrated) 0.5 g
+FeSO4.7H20 (ferrous sulfate) 10 mg
+Sterile solution of trace elements 0.2 mL
+(Add this solution after media is melted and before autoclaving).
+Method. Introduce the media in a water bath shaking from time to time until agar dissolve
+(approximately 1 hour). Add trace elements (previously prepared and stored in 1L containers in a
+freezer). Dispense approximately 240 mL of media. Plug with autoclavable caps (left the caps
+loose to release the vapour) and autoclave to sterilize (humid cycle 100 kPa a 121 °C by 20 min.).
+When cool, tighten the caps and label with MM, month and year.
+Trace elements solution
+Ingredients for 95 mL of distilled water:
+Citric acid 5.0 g
+ZnSO4.7H20 (zinc sulfate) 5.0 g
+Fe (NH4)2(SO4)2.6H20 (ferrous ammonia sulfate) 1.0 g
+CuSO4. H20 (copper sulfate) 0.25 g
+MnSO4. 4H2O (Manganese sulfate tetra hydrated) 50 mg
+H3BO4 (boric acid) 50 mg
+NaMoO4. 2H20 (sodium molybdate) 50 mg
+
+3. Nitrite media (Correll, J.C., Klittich, C. J. R. and Leslie, J.F., 1987. Nitrate non-utilizing
+mutants of Fusarium oxysporum and their use in vegetative compatibility tests.
+Phytopathology 77, 1640-1646).
+
+Sucrose 30 g
+BBL Agar or similar analytic grade 20 g
+KCl (potassium chloride) 0.5 g
+NaNO2 (sodium nitrite) 0.5 g
+46
+
+KH2 PO4 (de acid potassium phosphate) 1 g
+MgSO4.7H20 (heptad hydrated magnesium sulfate) 0.5 g
+FeSO4.7H20 (hepta hydrated ferrous sulfate) 10 mg
+Sterile solution of trace elements 0.2 mL
+(Add this solution after media is melted and before autoclaving).
+Method.
+Introduce the media in a water bath, shaking from time to time until the agar has dissolved
+(approximately 1 hour). Add trace elements (previously prepared and stored in 1L containers in a
+freezer). Dispense approximately 240 mL of media. Plug (with caps not tight) and autoclave to
+sterilize (humid cycle 100 kPa a 121 °C for 20 min.). When cool, tighten the caps and label with
+NM, month and year.
+Trace elements solution
+Ingredients for 95 mL of distilled water:
+Citric acid 5.0 g
+
+ZnSO4.7H20 (zinc sulfate) 5.0 g
+Fe (NH4)2(SO4)2.6H20 (ferrous ammonia sulfate) 1.0 g
+CuSO4. H20 (copper sulfate) 0.25 g
+MnSO4. 4H2O (tetra hydrated manganese sulfate) 50 mg
+H3BO4 (boric acid) 50 mg
+NaMoO4. 2H20 (dehydrated sodium molibdate) 50 mg
+
+4.
+Hypoxanthine media (Correll, J.C., Klittich, C. J. R. and Leslie, J.F., 1987. Nitrate non-
+utilizing mutants of Fusarium oxysporum and their use in vegetative compatibility tests.
+Phytopathology 77, 1640- 1646).
+ Sucrose 30 g
+ BBL agar or of analytic similar grade 20 g
+ KCl (potassium chloride) 0.5 g
+ Hypoxanthine 0.2 g
+ KH2 PO4 (Di acid potassium phosphate) 1 g
+ Mg SO4.7H20 (heptad hydrated magnesium sulfate) 0.5 g
+ Fe SO4.7H20 (heptad hydrated ferrous sulfate) 10 mg
+ Sterile traces of microelement solution 0.2 mL
+(Add this solution after media is melted and before autoclaving).
+
+## Method
+
+Introduce the media in a water bath shaking from time to time until the agar has dissolved
+(approximately 1 hour). Add trace elements (previously prepared and stored in 1L containers in a
+47
+
+freezer). Dispense approximately 240 mL of media. Plug (with caps not tight) and autoclave to
+sterilize (humid cycle 100 kPa a 121 °C by 20 min.). When cool, tighten the caps and label with
+HX, month and year.
+Trace elements solution
+Ingredients for 95 mL of distilled water:
+Citric acid 5.0 g
+ZnSO4.7H20 (zinc sulfate) 5.0 g
+Fe (NH4)2(SO4)2.6H20 (ferrous ammonia sulfate) 1.0 g
+CuSO4. H20 (copper sulfate) 0.25 g
+MnSO4. 4H2O (tetra hydrated manganese sulfate) 50 mg
+H3BO4 (boric acid) 50 mg
+NaMoO4. 2H20 (di hydrated sodium molibdate) 50 mg
+5. Ammonia media (Correll, J.C., Klittich, C. J. R. and Leslie, J.F., 1987. Nitrate non-utilizing
+mutants of Fusarium oxysporum and their use in vegetative compatibility tests.
+Phytopathology 77, 1640- 1646).
+ Sucrose 30 g
+ BBL agar or of analytic similar grade 20 g
+ KCl (potassium chloride) 0.5 g
+ Ammonium tartrate 1 g.
+ KH2 PO4 (Di acid potassium phosphate) 1 g
+ Mg SO4.7H20 (heptad hydrated magnesium sulfate) 0.5 g
+ Fe SO4.7H20 (heptad hydrated ferrous sulfate) 10 mg
+ Sterile traces of microelement solution 0.2 mL
+(Add this solution after media is melted and before autoclaving).
+
+## Method
+
+Introduce the media in a water bath shaking from time to time until the agar has dissolved
+(approximately 1 hour). Add trace elements (previously prepared and kept in 1L containers in a
+freezer). Dispense approximately 240 mL of media. Plug (with caps not tight) and autoclave to
+sterilize (humid cycle 100 kPa a 121 °C by 20 min.). When cool, tighten the caps and label with
+HX, month and year.
+Trace elements solution
+Ingredients for 95 mL of distilled water:
+Citric acid 5.0 g
+ZnSO4.7H20 (zinc sulfate) 5.0 g
+Fe (NH4)2(SO4)2.6H20 (ferrous ammonia sulfate) 1.0 g
+48
+
+CuSO4. H20 (copper sulfate) 0.25 g
+MnSO4. 4H2O (tetra hydrated manganese sulfate) 50 mg
+H3BO4 (boric acid) 50 mg
+NaMoO4. 2H20 (di hydrated sodium molibdate) 50 mg
+
+6. Uric acid media. (Correll, J.C., Klittich, C. J. R. and Leslie, J.F., 1987. Nitrate non-utilizing
+mutants of Fusarium oxysporum and their use in vegetative compatibility tests.
+Phytopathology 77, 1640- 1646).
+ KH2 PO4 (Di acid potassium phosphate) 1 g
+ Mg SO4.7H20 (heptad hydrated magnesium sulfate) 0.5 g
+ Fe SO4.7H20 (heptad hydrated ferrous sulfate) 10 mg
+ Sterile traces of microelement solution 0.2 mL
+(Add this solution after media is melted and before autoclaving).
+Method.
+Introduce the media in a water bath shaking from time to time until the agar has dissolved
+(approximately 1 hour). Add trace elements (previously prepared and stored in 1L containers in a
+freezer). Dispense approximately 240 mL of media. Plug (with caps not tight) and autoclave to
+sterilize (humid cycle 100 kPa a 121 °C by 20 min.). When cool, tighten the caps and label with
+HX, month and year.
+49
+
+VCG compatibility codes of F. oxysporum listed by formae speciales (Katan, 1999).
+
+No. HOST F. SPECIALIS VCGs NUMBER
+
+## 001 Apium apii 010-012 (3)
+
+## 002 Dianthus dianthi 020-022, 025,027, 028 (6)
+
+## 003 Lycopersicon lycopersici 030 -033 (4+)
+
+## 004 Medicago medicaginis 040-041 (2)
+
+## 005 Chrysanthemum chrysanthemi 050-051 (2)
+
+## 006 Vigna tracheiphilum 060 (1)
+
+## 007 Pisum pisi 070 (5? +)
+
+## 008 Citrullus niveum 080-082 (3)
+
+## 009 Lycopersicon radicis-lycopersici 090-094, 096-099 (9+)
+
+## 010 Brassica conglutinans 0100, 0101, 0104 (3?)
+
+## 011 Gossypium vasinfectum 0110-0119, 0111-0112 (12+)
+
+## 012 Musa cubense 0120-0126, 128-01224 (24+)
+
+## 013 Cucumis melo melonis 0130-0136, 0138 (8+)
+
+## 014 Elaeis elaeidis 0140, 0141 (5+)
+
+## 015 Cyclamen cyclaminis 0151-0153 (3)
+
+## 016 Phaseolus phaseoli 0161-0165 (5+)
+
+## 017 Phoenix dactylifera albedinis 0170 (1)
+
+## 018 Cucumis sativus cucumerinum 0180-0183 (6+)
+
+## 019 Lilium lilii 0190 (1)
+
+## 020 Ocimum basiliciz 0200 (1)
+
+## 021 Matthiola matthioli x 0210 (1)
+
+## 022 Raphanus raphani 0220 (1)
+
+## 023 Tulipa tulipae 0230 (1)
+
+## 024 Phoenix canariense canariensis 0240 (1+)
+
+## 025 Papaver papaveris
+
+## 026 Cucumis sativus radicis- cucumerinum 0260, 0261 (2)
+
+## 027 Beta betae (7+)
+
+## 028 Cicer ciceris 0280 (1)
+
+## 029 Erythroxylum erythroxyli (2)
+
+## 030 Lactuca lactucum (1)
+
+## 031 Lupino lupini 031- (2 ?)
+
+## 032 Solanum melongena melongenae w 032 (1)
+
+## 033 Spinacia spinaceae (3)
+
+## 034 Gladiolus gladioli 0340-0343 (4)
+
+## 035 Solanum tuberosum tuberoci (6)
+
+## 036 Ipomea batatas (2)
+
+## 037 Nicotiana tabacum nicotianae (2)
+
+z: Previously VCG 016- y: Previously VCG 001-
+x: Previously included in the VCG 010 w: Previously included en in the VCG 017-
++: The new VCGs are not compatible with the established VCGs.
+?: Two or more VCGs can overlap.
+50
+
+WORLD DISTRIBUTION OF FOC VCGS (Pérez, 2004).
+VCG . Complexes of VCGs Distribution by countries 2
+
+## 0120 0120 - 01215 South Africa, Australia, Brazil, Costa Rica, Canary
+
+Islands, Guadeloupe, Honduras, Indonesia, Jamaica,
+Malaysia, Taiwan (there are isolates belonging to
+subtropical race 4).
+0121 No Indonesia, Malaysia, Taiwan.
+0122 No Philippines.
+0123 0123 a – 0123 b Philippines, Indonesia, Malaysia, Thailand, Taiwan,
+Vietnam.
+0124 0124-0125 -0128-01220 Australia, Burundi, Brazil, Cuba, EUA, Honduras,
+India,
+Jamaica, Kenya, Malaysia, Malawi, Nicaragua,
+Philippines, Thailand, Uganda, Tanzania, Vietnam.
+0125 0124 -0125-0128-01220 Australia, Brazil, Jamaica, Honduras, India, Kenya,
+Malaysia, Philippines, Thailand, Uganda, Zaire.
+0124/ 0124 -0125- 0128-01220 Australia, Brazil, Cuba, EUA, Honduras, India,
+
+## Indonesia
+
+0125 Jamaica, Kenya, Malaysia, Malawi, Nicaragua,
+Philippines, Thailand, Uganda, Vietnam.
+
+## 0126 No Honduras, Indonesia (Papua New Guinea?), Philippines
+
+0128 0124-0125 -0128-1220 Australia, Comoro’s Islands, Cuba, Kenya, India,
+Thailand.
+0129 No Australia.
+01210 No Cuba, USA (Florida).
+01211 No Australia.
+01212 No Kenya, Tanzania, Uganda.
+
+## 01213 01213-01216 Australia, Indonesia, Malaysia (tropical race 4)
+
+01214 No Malawi.
+01215 0120-01215 Costa Rica, Indonesia, Malaysia.
+01216 01213-01216 Australia, Malaysia, Indonesia (tropical race 4).
+01217 No Malaysia.
+01218 No Indonesia, Malaysia, Las Filipinas, Thailand.
+01219 No Indonesia,
+01220 0124-0125 -0128-1220 Australia, India, Kenya, Thailand.
+
+## 01221 Thailand
+
+## 01222 No India, Kenya, Uganda, Australia (Heliconia chartacea)
+
+2 Data of Ploetz (1990 a y c), Bentley et al. (1998); Battle and Pérez, (1999; 2003); Magnaye, (1999); Singburaudom, (1999); Rutherford,
+(1999); Kangire and Tushemereirwe (2003), Viljoen et al. (2003), Thangavelu et al. (2003), Masdek et al., (2003).
+51
+
+Additional works on VCG analyses (Bentley et al. , 1998) have classified a set of Foc
+isolates that do not develop heterokaryons with the above listed VCGs. As a comprehensive
+VGG analysis comprising a global population of Foc is missing, new groups might be
+identified considering the genetic diversity of the pathogen.
+
+## REFERENCES AND BIBLIOGRAPHY USEFUL TO CONSULT
+
+Ainsworth, G.C., 1971. Ainsworth and Bisby’s Dictionary of the Fungi. 6 th. Ed.
+Commonwealth Mycological Institute, Kew, Surrey, England, 663 pp.
+Batlle A. y Pérez L., 1999. Grupos de compatibilidad vegetativa de las poblaciones de
+Fusarium oxysporum Schlecht. f. sp. cubense (E. F. Smith) Snyd. and Hans. presentes en
+Cuba. INFOMUSA 8 (1): 22 – 23.
+Batlle, A. and Pérez, L., 2003. Population Biology of Fusarium oxysporum f. sp. cubense in
+Cuba. In: 2 nd. International Symposium on Fusarium wilt on banana. PROMUSA-
+INIBAP/EMBRAPA. Salvador de Bahía, Brazil. 22-26 Sept.
+Bentley, S., Pegg, K.G., Moore, N.Y., Davis, D.R. and Buddenhagen, I.W. 1998. Genetic
+variation among vegetative compatibility groups of Fusarium oxysporum f. sp. cubense
+analyzed by DNA fingerprinting. Phytopathology 88, 1283- 1293.
+Burguess, L.W., Liddell, C.M. and Summerell, B.A. 1988. Laboratory manual for Fusarium
+research, 2nd Edition, University of Sydney, Australia, 156 pp.
+Cove, D.J., 1976. Chlorate toxicity in Aspergillus nidulans : the selection and
+characterization of chlorate resistant mutants. Heredity 36, 191-203.
+Correll, J.C., Klittich, C.J.R. and Leslie, J.F. 1987. Nitrate non-utilizing mutants of
+Fusarium oxysporum and their use in vegetative compatibility tests. Phytopath. 77,
+1640-1646.
+
+## Ka
+
+ngire, A. and Tushemereirwe, W. 2003. Status of Fusarium wilt of banana in Uganda.
+2nd. International Symposium on Fusarium wilt on banana. PRO MUSA-
+INIBAP/EMBRAPA. Salvador de Bahía, Brazil, 22-26 Sept.
+Katan, T., 1999. Current status of vegetative compatibility groups in Fusarium oxysporum.
+Phytoparasitica 27(1).
+Leslie, J.F., 1993. Fungal vegetative compatibility. Ann. Rev. Phytopath. 31, 127-150.
+Magnaye, L., 1999. Status of Panama disease in Philippines. In: Fusarium wilt
+management: Towards sustainable cultivation. Proceedings of the International
+Workshop on the banana Fusarium wilt disease. (Ed). Molina, A.B., Masdek, N., and
+Liew, K.W. INIBAP-ASNET/MARDI. Pp: 50-
+57.
+Masdek, N., Mahmood, M., Molina, A., Hwang, S.C., Dimyati, A., Tangaveli, R. and
+Omar, I., 2003. Global significance of Fusarium wilt: Asia. Abstracts of Papers 2 nd.
+International Symposium on Fusarium wilt on banana. PROMUSA-
+INIBAP/EMBRAPA. Salvador de Bahía, Brazil. 22 -
+26 Sept.
+Pérez, L. 2004. Fusarium wilt (Panama disease) of bananas; an updating rewiew of the
+current knowledge of the disease and its causal fungus. Proceedings of the XV
+ACORBAT, Oaxaca, México. Oct 2004. Pp 1-14.
+Ploetz, R.C., 1990 a. Variability in Fusarium oxysporum f. sp. cubense. Can. J. Botany 68,
+1357 – 1363.
+52
+
+METHODS FOR STORAGE OF CULTURES of Fusarium oxysporum
+
+Luis Pérez Vicente and Einar Martínez de la Parte.
+
+1.
+Storage in filter paper.
+Method.
+
+ Whatman #1 (5 cm of diameter) filter papers discs are sterilized in autoclave in glass
+Petri plates.
+ Discs are then aseptically placed on surface PDA ¼ strength media in Petri plates.
+ Fusarium isolates to be stored are grown in CLA for 7-10 days.
+ F. oxysporum mycelial plugs (3 mm diameter) are then placed on the sterile filter
+paper and allowed to grow for 7 -10 days in the plates until the mycelial growth
+completely covers the filter paper dishes.
+ The filter paper with the fungal growth is raised from the agar, and placed on another
+sterile piece of paper filter and allowed to dry for one day.
+ After dry, it is cut into small pieces (5 mm diameter) and placed in cryovials.
+ Cryovials are marked with the isolate number and stored at 5C until used.
+Storage period recommended: 3 months-1 year
+
+2. Storage in slants with Carnation leaves agar (CLA).
+Method.
+ Fresh carnation leaves not treated with agrochemicals are cut in small pieces of 8 ×
+3 mm before placed to dry in an oven at 70 C until dry.
+ When dry, leaf fragments are p laced in containers appropriate for Gamma radiation
+(i.e.; glass or polystyrene containers with caps or Petri dishes sealed with Parafilm).
+Note that Gamma radiation will degrade plastics after repeated exposures.
+ Containers are placed in a Gamma cell and irradiated at a total rate of 2.5 Mega
+Rad.
+ The sterile pieces are stored in a refrigerator at 4°C until ready to be used.
+ Prepare water agar (AA), dissolving 20 g agar in a 1L of distilled water and sterilize
+in autoclave at 20C for 20 min.
+ After autoclaving, aliquots of 10 ml of water agar are taken and filled in 25 -50 ml
+sterile bottles or tubes in a lamina flux bench.
+ The bottles are placed lying-down with support in a tray at a 45  angle until culture
+media slants solidify.
+53
+
+ A piece of carnation leaf is placed on agar surface. The isolate is then placed close
+to the edge of the carnation leaf piece in the water agar and allowed to grow at 25 C
+for a week.
+ All cultures are clearly marked with the number of isolate and stored at 5 C until
+ready to use.
+Storage period recommended: 3 months -2 years.
+
+3. Deep freezing.
+Method.
+ First, a glycerol stock solution is prepared and sterilized in autoclave
+ F. ox
+ysporum is cultured for 7-10 days in ¼ strength PDA at 25C
+ 10 mL of 15% glycerol is pipetted over the fungal growth in a Petri plate in a sterile
+air flow bench cabin. The spores and some hyphae are released gently with a sterile
+and cool scalpel
+ Aliquots of 1mL are pipette into 2 mL cryovials tubes.
+ Each one of the cryovials is carefully marked and stored in cryoconservation boxes
+at -80C.
+ When it is necessary to recover the isolate, small amounts of the freeze solution in
+the cryovial are scratched with a scalpel and placed in a culture media.
+Storage period recommended: Until 5 years.
+
+4. Storage in soil.
+Method:
+ The soil is primarily sterilized in small bottles or tubes.
+ Cultures are then grown in ¼ strength PDA plates for 7-10 days.
+ Distilled water (20 mL) is poured on each culture under an air lamina flow bench
+cabinet; spores are gently released with a sterile scalpel or spatula.
+ 10 mL of spore suspension is transferred aseptically from Petri plate cultures to the
+soil in the glass bottles and tubes.
+ All glass tubes and bottles are clearly labelled with isolate number and stored at
+room temperature.
+ The isolate is
+recovered placing a small amount of soil in culture media.
+Storage period recommended: Up to 5 years.
+54
+
+5. Lyophilization of Fusarium cultures.
+Method (Fisher et al. 1982. Carnation leaves as a substrate and for preserving cultures of
+Fusarium species. Phytopathology Volume 72 (1): 151 – 153).
+- Isolates for lyophilisation are grown in CLA or PDA in Petri plates for 7-10 days. In
+CLA the fungus colonize leaves and sporulate.
+- Some fractions of leaves or small pieces of mycelia and spores are transferred
+aseptically to each one of five 5 mL sterile glass vials that are tagged with the isolate
+number.
+- An aliquot of 0.5 mL of sterile skim milk is added to each vial.
+- Vials are plugged with gum plug caps with small channels that allows air evacuation.
+- Vials are placed in a tray and frozen rapidly by pouring liquid N in the tray.
+- A Lucita plaque is placed slightly higher than the used tray, on the upper part of the
+partially plugged tubes.
+- A lyophilizer chamber is use for drying.
+ The tray is placed in the cold plate in the dry chamber and submitted to vacuum.
+ When refrigeration is complete, the heater is turned on while the samples are gradually
+drying
+ Vials at then sealed in vacuum, inflating the gum diaphragm of chambers on the tray
+which press down the Lucita plate and force the gum tubes to seal the vials.
+ After lyophilisation, vials are tapped, labelled and marked at -20C.
+Storage period recommended: up to 20 years.
+55
+
+INOCULATION OF Fusarium oxysporum f. sp. cubense CAUSAL AGENT OF
+
+## FUSARIUM WILT IN BANANA
+
+Miguel Angel Dita Rodriguez (1), Luis Pérez Vicente(2), Einar Martínez(2)
+
+## 1Brazilian Research Agricultural Corporation – Embrapa, Brazil
+
+2Instituto de Investigaciones de Sanidad Vegetal, INISAV, Cuba
+
+## Introduction
+
+Use of resistant genotypes is the best control practice for Fusarium wilt (FW) of banana
+also called Panama disease. Genetic improvement plays an important role in transferring
+disease resistance alleles to the genetic background of elite genotypes. However, banana
+breeding is a complex and time-consuming process. One of the major and critical steps of
+the breeding programmes is the selection process. For instance, screening for FW resistance
+carried out at the Embrapa Cassava and Fruits is carried out in a highly-infested field area
+(Cordeiro et al., 1993). While ‘Silk’ (AAB) plants, used as susceptible control, mostly
+show high and consistent levels of FW (more than 90%), in some cases some plants remain
+symptomless, suggesting the possibility of escape. In addition, field tests are time
+consuming (3 years) and demanding in terms of manpower and space. Hence, a rapid and
+reliable method for early detection of resistant genotypes is essential. One additional
+bottleneck of banana breeding for FW resistance is the lack of knowledge about the genetic
+and molecular basis of resistance. Detailed studies to obtain such information are
+necessarily dependent on reliable greenhouse bioassay for Foc-banana interaction. Finally,
+core studies on pathogenicity, biological control and epidemiology are also dependent on
+reliable and standardized bioassays. Several protocols to infect banana with Foc under
+greenhouse conditions have been reported (Sun and Su, 1984; Mohamed et al., 2000; Smith
+et al., 2008, Ribeiro et al 2011, Dita et al. 2011). The following protocol describes a rapid
+and reliable bioassay for Foc-banana interaction, which comprises validated experiences on
+what have been developed so far. The objective of this protocol is produce symptoms of
+FW in banana and was specifically described for this training course. For protocols to be
+used on detailed plant-pathogen interactions for resistance screening purposes, see referred
+literature.
+
+## Planting Material
+
+1.
+Use acclimatized 45-days-old tissue -culture plantlets of a susceptible variety [‘Silk’
+(AAB), Gros Michel AAA, and Pisang awak (ABB) are susceptible to race 1. Bluggoe
+type varieties (ABB) are susceptible to race 2 and Cavendish type varieties are
+susceptible to tropical race 4]. Check the reaction to Foc of a set of banana genotypes
+on Table 1.
+Observations: Plants should be grown in a disease-free environment with no contact with
+Foc, which may eventually provoke accidental or cross-contamination. Plants should be at
+least 15-25 cm high and shows no nutrient deficiency.
+Inoculum production
+1. Inoculate the Foc single-spore isolates to be studied on Petri plates with Potato-
+56
+
+Dextrose-Agar (PDA) half-strength for one week [For other inoculum sources see
+Smith et al. 2008; Ribeiro et al. 2011, Dita et al. 2011]
+2. Collect conidia (macro and micronidias) and adjust inoculum concentration to 106
+conidia/ml.
+
+Inoculation procedures
+Before the inoculation, a double-pot system should be prepared (Figure 13).
+
+## Figure
+
+## 13. Double-pot system for inoculation of Fusarium oxysporum f. sp. cubense in
+
+banana.
+
+Inoculation by root dipping
+
+## 1. Remove plantlets (10 plantlets) from pots and make sure most of substrate is
+
+removed form the roots. Wash with tap water when necessary. Cut excessive root
+growth as necessary. Avoid plant stress during this process and keep plants with
+adequate water levels.
+2.
+Prepare a recipient with an appropriate volume to cover the whole plant root
+systems and fill with inoculum suspension adjusted to 106 conidia/ml.
+3.
+Leave the plants in contact with the inoculum suspension for 30 minutes. Then
+remove the plants from the inoculation recipient and allow the roots system dry out.
+4. Place plants in the double-pot systems. The substrate on the inner pot should
+preferably be autoclaved. If autoclaved, substrate should be air-dried for at least 72
+hour to allow the elimination of gases formed during sterilization process.
+Phytotoxic effects have been observed when using autoclaved soil on banana
+experiments without appropriate
+post-autoclave aeration.
+5. Apply regular watering to maintain the substrate at field capacity level.
+57
+
+Evaluation consists on visual observations of typical symptom of Fusarium wilt. The
+incubation period (the period from inoculation to the first symptoms observation) might be
+variable depending on inoculation procedures, banana genotypes used, aggressiveness of
+the Foc isolate or environmental condition. Scales for both external and internal (rhizome
+discoloration) symptoms may be used to assess disease severity when needed (Figure 14).
+
+## Figure 14
+
+. Scale for evaluation of Fusarium wilt of banana in greenhouse conditions based
+on external (upper panel) and internal symptoms (lower panel). Classes for external
+symptoms are: 1: No symptoms; 2: Initial yellowing mainly in the lower leaves; 3:
+Yellowing of all the lower leaves with some discoloration of younger leaves; 4: All
+leaves with intense yellowing; 5: Plant dead. Class for internal symptoms are: 1: No
+symptoms; 2: Initial rhizome discoloration; 3: Slight rhizome discoloration along
+the whole vascular system; 4: Rhizome with most of the internal tissues showing
+necrosis; 5: Rhizome totally necrotic.
+
+Final recommendations:
+
+Avoid visiting disease-free areas such as acclimatization rooms, or other banana
+experiments after working in Foc inoculation area.
+ Keep plants watered at field-capacity and the irrigation water confined to the double
+–
+pot system to avoid contamination on the greenhouse surfaces
+ Once the experiment is finished, carry out extensive sterilization of pots, substrate
+and other tools used in the experiment. Contaminated soil/substrate should be
+autoclaved twice with an interval of 24 h.
+
+## REFERENCES
+
+Cordeiro, Z., Shepherd, K., Soares Filho, W. and Dantas, J.L.L. 1993. Avaliação de
+resistência ao mal-do-Panamá em híbridos tetraplóides de bananeira. Fitopatol. Bras.
+18:478-483.
+
+Dita, M.A., Waalwijk, C., Paiva, L.V., Souza, Jr. M.T. and Kema, G.H.J. 2011.
+Agreenhouse bioassay for the Fusarium oxysporum f. sp. cubense x ‘Grand Naine’
+58
+
+(Musa, AAA, Cavendish subgroup) interaction. Acta Hort. 897:377-380.
+Mohamed, A.A., Mak, C., Liew, K.W. and Ho, Y.W. 2000. Early evaluation of banana plants
+at nursery stage for Fusarium wilt tolerance. p.174-185. In: A.B. Molina, N.K.
+Masdek and K.W. Liew (eds.), Banana Fusarium Wilt Management: towards
+Sustainable Cultivation, Proc. Int. Workshop on the Banana Fusarium Wilt Disease,
+384 Genting Highlands Resort, Malaysia, 18-20 October 1999.
+Ribeiro, L.R., Amorim, E.P., Cordeiro, Z.M., Silva, S. de Oliveira e and Dita, M.A. 2011.
+Discrimination of banana genotypes for Fusarium wilt resistance in greenhouse. Acta
+
+## Hort. 897:381-385
+
+Smith, L.J., Smith, M.K., Tree, D., O’Keefe, D. and Galea, V.J. 2008. Development of a
+small-plant
+bioassay to assess banana grown from tissue culture for consistent
+infection by Fusarium oxysporum f. sp. cubense. Australas. Plant Path. 37: 171-179.
+59
+
+PROTOCOLS FOR DNA EXTRACTION of Fusarium oxysporum.
+Einar Martínez de la Parte1, Miguel A. Dita2 and Luis Pérez Vicente 1
+1Instituto de Investigaciones de Sanidad Vegetal (INISAV). Ministry of Agriculture.Cuba
+2Brazilian Research Corporation - EMBRAPA
+
+## INTRODUCTION
+
+A high quality DNA is essential to carry out molecular procedures. DNA extraction
+protocols included in this manual have been reported in studies with Fusarium oxysporum
+and/or other pathogens.
+Mycelia or spores from single-spore isolates cultures are obtained from solid (media with
+agar) or liquid (culture in broth) media. (Check “Protocol to obtain and store single spore
+Fusarium cultures”)
+DNA extraction can be carried out by different protocols or by using specific DNA
+extraction kits following indications of the kit employed.
+
+EXTRACTION PROTOCOL OF Lin
+et al. (2008)
+This protocol is a modification of the protocol described by Dellaporta et al . (1983) and
+used by Lin et al. (2008) to developed molecular markers for Foc race 4 identification.
+
+Reactive and solutions
+Chloroform /isoamylicalcohol
+Potassium acetate 5M
+Sodium acetate 3M (pH 5.4)
+Isopropanol (ice cold)
+Ethanol absolute (ice cold)
+
+## Ethanol 75%
+
+## TE B
+
+uffer (10mM Tris, 1mM EDTA, pH 8.0)
+
+TNE Extraction buffer
+Sodium dodecyl sulphate (SDS) 1%
+Na2EDTA 50mM
+NaCl 50mM
+Tris-HCl (pH 8.0) 100mM
+β-mercaptoethanol 8 μM
+
+## 1 RNAase 10 μg/mL
+
+60
+
+## Method
+
+1. Grind the frozen mycelium (1g) of each sample in liquid nitrogen into a fine powder.
+Transfer to a 1.5 mL tube.
+2. Add 5mL of modified TNE buffer.
+3. Incubate at65 ºC for 30 minutes.
+
+## 4. Add 0.33 volumes (~1.65 mL) of5 M potassium acetate. Mix gently
+
+5. Centrifuge at 20000x g for 5 minutes at4°C.
+
+## 6. Transfer the supernatant to a clean tube
+
+7. Add equal volume of isopropanol to precipitate crude DNA.
+8. Incubate at−20°C for 20 minutes.
+9. Centrifuge at 20000x g for 20 minutes at4°C.
+10. Eliminate supernatant carefully.
+11. Re-suspend the pellet in 200 μL of H 2O and add 200 μL of chloroform/isoamylic
+alcohol (24:1). Mix thoroughly.
+12. Centrifuge at20000x g for 5 minutes at4°C.
+13. Transfer upper aqueous phase to a fresh tube (1. 5mL).
+14. Add 0.1 volume (~20 μL) of3M sodium acetate (pH 6.5) and 2.5 volumes (~500 μL) of
+absolute ethanol. Mix gently.
+15. Centrifuge at 20000x g for 5 minutes at4°C.
+16. Carefully discharge supernatant to avoid loses the pellet.
+17. Wash with 300 μL of ethanol 75%.
+18. Centrifuge at 20000x g for 5 minutes at4°C.
+19. Discharge supernatant and dry the pellet.
+20. Re-suspend in 1× TE buffer.
+
+EXTRACTION PROTOCOL OF Lin et al., (2001).
+This protocol is fast, simple and yields high molecular weight DNA. It has been used with
+good results to extract DNA of sugarcane orange rust ( Puccinia kuehnii ), soybean Asian
+rust (Phakokpsora pachyrhizi) (Pérez-Vicente et al., 2009 a; b) and Fusarium oxysporum f.
+sp. cubense (Pérez Vicente et al ., 2014 in edit). It is recommended for DNA extraction
+from plant tissue.
+
+Reactive and solutions
+Phenol/chloroform/isoamylic alcohol (25:24:1)
+Chloroform/isoamylic alcohol (24:1; v: v)
+Ammonium acetate
+
+## 1M
+
+Absolute ethanol
+
+## Ethanol 70%
+
+Polyvinyl pyrrolidone PVP 10%
+61
+
+## SDS 20%
+
+Β-mercaptoethanol
+RNAase A
+
+## Extraction Buffer
+
+EDTA pH-8
+50mM
+Tris-HCl (pH 8.0) 100mM
+MNaCl 500ml
+
+## Method
+
+1. Grind 100 mg of sample. Transfer to a new tube of 1.5 mL.
+2. Add 470µL of extraction buffer, 60 µL of SDS 20%, 60 µL of PVP 10%, 12 µL of ß-
+mercaptoethanol. Mix gently and incubate at
+65°C for 15 min.
+3.
+Centrifuge at 12000 g for 10 min at room temperature.
+4. Transfer supernatant to a new tube.
+
+## 5. Add equal volume of phenol-chloroform-isoamylic alcohol (25:24:1), mix by
+
+inverting the tube.
+6. Centrifuge at 12000xg for 4 min at room temperature.
+7. Transfer upper aqueous phase to a fresh tube.
+8. Add equal volume of chloroform-isoamylic alcohol (24:1).
+9. Centrifuge at 12000 x g for 4 min at room temperature. Transfer upper aqueous phase
+to a fresh tube.
+10. Add 2 µL of RNAase A, incubate at 37°C for 10 min.
+11. For DNA precipitation, add 300 µL of isopropanol (cold). Incubate at –20°C for 10
+min.
+
+## 12. Centrifuge at12000 g for 10 min and pour out the
+
+supernatant.
+13. Wash the pellet (× 2) with 600µL of ethanol 70% (cold). Centrifuge at 12000x g for 5
+min.
+
+## 14. Dry the pellet and re-suspend in 50 µL of 1X TE buffer. Keep at –
+
+20°C.
+
+## PROTOCOL FOR PLANT DNA EXTRACTION
+
+This protocol constitutes a modification of protocols described by Sreelakshmi et al. (2010)
+and Zhou et al. (2010). It is fast, simple and yields high molecular weight DNA. It has
+been used with good results to extract DNA from citrus and other crops (Canales et al .,
+2014 in edit).
+62
+
+a) Extraction Buffer: 100 mM Tris HCl pH 7.5; 500 mM de NaCl; 50 mM EDTA pH
+8.0; 1.25% SDS (p/v); 60 µL PVP; 0.2M ß mercaptoetanol.
+
+## 1. Grind 100 mg of sample ( 10 pseudostem vascular strand of 1cm length from
+
+symptomatic plants) in liquid nitrogen. Transfer to a tube of 2 mL.
+2. Add 20 mg PVPP and 750 µL of buffer extraction (a).
+
+## 3. Incubate at 65°C for 30 min and for 5 min at room temperature
+
+4. Add 400 mL of NH4Ac 6M cold. Incubate on ice for 15 min.
+
+## 5. Centrifuge 10 min at 12000 x g
+
+6. Transfer upper aqueous phase (650 µL) to a fresh tube of 1.5 mL.
+7. Add 4 µL of RNAse; incubate at 37°C for 30 min.
+8. Add equal volume (650 µL) of isopropanol cold.
+9. Incubate at -20 °C (for at least 2 hours) or at -30°C for half hour. Centrifuge at 12,000
+x g for 10 min and discharge supernatant.
+10. Wash with Ethanol 70% (1mL). Centrifuge at 12000 x g for 5 min.
+
+## 11. Repeat the wash with Ethanol 70% (0.5 mL). Centrifuge 1 min and discharge
+
+supernatant.
+12. Dry the pellet and re-suspend in 100-200 µL de TE; incubate at 4 °C overnight.
+Several extraction kits in the market are used to yield high quality DNA. Some of them as
+DNeasy Mini Plant kit (QIAGEN), Gentra PureGene cell kit (QIAGEN), ISOPLANT DNA
+extraction kit (Nippon Gene, Tokyo, Japan) and Wizard Magnetic DNA Purification
+System for Food kit (PROMEGA) have been successfully used in DNA extractions in
+Fusarium oxysporum studies (Hirano and Arie, 2009; Leong et al., 2009; 2010; Dita et al.,
+2010; Elliot et al., 2011).
+
+## REFERENCES
+
+Dellaporta, S. L., Wood, J. & Hicks, J. B. (1983). A plant DNA mini-preparation: version
+II. Plant Molecular Biology Reporter. 1:19–
+21. doi:10.1007/BF02712670.
+Dita, M.A., Waalwijk, C; Buddenhaguen, I.W., Souza, M.T., Kema, G.H.J. (2010). A
+molecular diagnosis for tropical race 4 of the banana Fusarium wilt pathogen. Plant
+Pathology. Doi: 1111/j.1365-3059.2009.02221.x
+Elliott, M. L., Des Jardin, E. A., O’Donnell, K., Geiser, D. M., Harrison, N. A., and
+Broschat, T. K. (2010). Fusarium oxysporum f. sp. palmarum, a novel forma specialis
+causing a lethal disease of Syagrus romanzoffiana and Washingtonia robusta in Florida.
+Plant Dis. 94:31-38.
+Hirano, Y. and Arie, T. (2009). Variation and phylogeny of Fusarium oxysporum isolates
+based on Nucleotide Sequences of Polygalacturonase Genes. Microbes Environ., 24(2):
+113-120.
+63
+
+Leong, S.K.; Latiffah, Z. and Baharuddin. S. (2009). Molecular Characterization of
+Fusarium oxysporum f. sp.cubense of Banana. American Journal of Applied Sciences 6
+(7): 1301-1307.
+Leong, S.K.; Latiffah, Z. and Baharuddin. S. (2010).Genetic Diversity of Fusarium
+oxysporum f sp. Cubense isolates from Malaysia. African Journal of Microbiology
+Research, 4 (11):1026-1037.
+Li RC, Ding ZS, Li LBandKuang TY.2001. A rapid and efficient DNA minipreparation
+suitable for screening transgenic plants. Plant Molecular Biology Reporter 19, 379a-
+379c.
+Pérez-Vicente L., Martínez-de la Parte E., Pérez-Miranda M., Martín-Triana E.L., Borrás-
+Hidalgo O. and Hernández-Estévez I. 2009a. First report of Asian rust of soybean
+caused by Phakopsora pachyrhiziin Cuba. BSPP New Diseases Report, en prensa.
+Pérez-Vicente L., Martín-Triana E.L., Barroso F., Martínez-de la Parte E., Borrás-Hidalgo
+O. and Hernández Estévez I. 2009b. Definitive identification of orange rust of sugarcane
+caused by Puccinia kuehnii (W. Krüger) e. j. Butler in Cuba.BSPP New Diseases
+Report, vol. 20 ().
+Sreelashmi, Y., Gupta, S., Bodanapu, R., Singh Chauhan, V., Hanjabam, M., Thomas,
+S.,Mohan, V., Sharma, S., Srinivasan, R., and Sharma R. 2010. NEATTILL: A
+simplified procedure for nucleic acid extraction from arrayed tissue for tilling and other
+high-throughput reverse genetic applications. Plant Methods , 6:3. doi:10.1186/1746-
+4811-6-3
+
+## Z
+
+hou, L.,Powell, C.A.,Hoffmann, M.T., Li., W., Fan, G., Liu, B., Lin, H. Duan, Y. 2011.
+Diversity and plasticity of the intracellular plant pathogen and insect symbiont
+Candidatus Liberobacter asiaticus” as revealed by hyper variable prophague genes with
+intragenic tandem repeats. Applied and Environmental Microbiology, 77: 6663-6675.
+64
+
+PROTOCOLS FOR MOLECULAR IDENTIFICATION OF Fusarium oxysporum f.
+sp. cubense
+
+Einar Martínez-de la Parte1, Luis Pérez-Vicente1 and Miguel A. Dita Rodríguez2.
+1) Instituto de Investigaciones de Sanidad Vegetal (INISAV) Ministry of
+
+## Agriculture. Cuba
+
+2) Brazilian Research Agricultural Corporation - EMBRAPA
+
+INTRODUCTION.
+Fusarium oxysporum is a complex of species that comprises morphologically
+indistinguishable formae speciales, which may be pathogenic or non-pathogenic strains.
+Panama disease or Fusarium wilt of banana, caused by Fusarium oxysporum f. sp. cubense
+(Foc), is one of the most important fungal disease of banana and a serious constraint to both
+commercial production of banana and cultivation for subsistence agriculture (O’Donnell et
+al., 1998). The fungus has a long latent period and symptoms can appear long after
+infection. Inoculation procedures for determining pathogenicity and “races” are time-
+consuming. Infected planting material, contaminated soil attached to farming tools,
+machinery and footwear are the main ways of disease dissemination. Early and fast
+identification to delimiting disease spreading and establish appropriate quarantine and
+d
+isease management procedures is a top priority. To achieve these actions, an accurate and
+quick diagnostic protocol of Foc is essential. Rapid and reliable diagnostic can avoid the
+propagation of infected, but symptomless planting materials and support the development
+of epidemiology-based management procedures (Lin et al., 2008
+, Dita et al 2013).
+Disease diagnostic and pathogen identification by traditional methods including pathogen
+isolation and characterization through inoculation tests are laborious and time-consuming
+(Alves-Santos et al ., 2002). Identification of Foc was usually based on morphological
+characteristics, which require an accurate knowledge of Fusarium taxonomy (Jurado et al.,
+2006). Though morphology-based methods still play an important role in phytopathological
+diagnostic of these species, advanced molecular methods are able to categorize at race
+level.
+Polymerase Chain Reaction (PCR) technique, described in the 1980
+s, has revolutionized
+molecular biology (Saiki et al ., 1985; Mullis y Faloona, 1987) and phytopathological
+diagnostic procedures.
+PCR-based diagnostics have a high analytic sensitivity in differentiating Fusarium
+oxysporum strains (Grajal-Martín et al., 1993; Assigbetse et al., 1994; Kelly et al., 1994;
+Bentley et al., 1995; Migheli et al., 1995; 1998; Alves-Santos et al., 2002; Lin et al., 2008).
+These methods allow processing a great number of samples in short time periods and the
+pathogen detection in complex mixes even when mycelia is not detected under microscope
+(Jurado et al., 2006).
+65
+
+I. Genomic regions used in phylogenetic analysis and characterization of fungi
+DNA ribosomal nuclear genes: The ribosomal DNA (DNAr) has an important function in
+protein synthesis and its variability can reflect the genomic evolution (Otero et al., 2004)
+and also provide a useful intra and inter polymorphism in eukaryotic organisms (Kim et al.,
+2001). Within nuclear DNA, ribosomal genes are in multiple copies separated by non-
+codifier spacer. Each repetitive unit of rDNA consists in 18S, 5.8S and 28S genes of rRNA
+and two Internal Transcribed Spacer (ITS1 and ITS2) that are located between these genes
+(Figure 1). Major intergenic spacers (IGS, intergenic spacer) or non -transcribed spacers
+(NTS) are found between the regions codifying for larger and minor subunits of
+consecutive cistrons (Reed et al., 2000). The IGS that separates repetitive units of DNAr
+are the spacer regions that evolve faster and that´s why narrowly related spaces can show a
+considerable diversity, showing frequent variations with regard to length and sequences
+(Hills et al., 1991)
+(Figure 15).
+
+Figure 15 . Structure of ribosomal DNA (rDNA) with some sites of cut of restriction
+enzymes (reproduced from Vilgalys et al., 1994).
+Every repetitive unit of rDNA contains regions that codify for 18S, 5.8S y 28S genes of
+RNAr as well as for the two transcribed internal spacers (Internal Transcribed Spacer; ITS1
+and ITS2) that are between these genes (Figure1). Even when not translated inside of the
+protein, ITS regions have a critical role in functional rRNA (Sugimoto et al., 2001). ITS
+constitute an ideal target for specific primers development due to are highly variable in
+length and nucleotide development, presenting differences between species and in
+occasions in the same specie as shown in Metharrizium (Entz et al., 2005). At intraspecific
+level however the variability of sequences is low or not detected (Lee and Taylor, 1992).
+The ITS sequences are the ideal targets for specific primers development due to their high
+number of copies, their relative fast evolution and being highly variable in length and
+sequences among closely- related species, allowing differentiation of species or of isolates
+of the same species. (Esteve-Zarzoso et al., 1999; Entz et al., 2005). These regions are now
+the ones more widely sequenced of fungal DNA.
+66
+
+The rDNA genes and spacer regions have been extensively employed in genetic studies
+with fungi to examine the relationship between genera and species closely related or of the
+same species (Moore and Frazer, 2002). ITS have been used frequently in phylogenetic
+studies wherever used rDNA (Lee and Taylor, 1992; Bidochka et al., 1999; Collins et al.,
+2003; Fahleson et al., 2003; Sugimoto et al., 2003). Recent studies indicate however, that
+intraspecific heterogeneity of rDNA is higher in IGS region and hence, this region has been
+used for characterization and discrimination of fungal species. such as Verticillum spp.
+(Collins et al., 2003; Sugimoto et al., 2003, Qin et al., 2006), Fusarium spp. (Edel et al.,
+1995; Kim et al ., 2001; 2005; Cai et al ., 2003; Lori et al ., 2004) and Sclerotinia spp.
+(Freeman et al., 2002) among others.
+Besides DNAr, other genes have been frequently used in phylogenetic studies. The ß-
+tubulin gene has been successfully used in phylogenetic studies among fungi (Moore and
+Frazer, 2002), including phytopathogenic species such as Fusarium spp. (Appel and
+Gordon, 1996; O´Donnell et al.,
+2000; Skovgarard et al ., 2001; Kim et al ., 2005),
+Phytophthora spp. (Kroon et al., 2005) and Verticillium spp. (Qin et al., 2006; Otero et al.,
+2004).
+Extrachromosomic information can be useful in the clarification of taxonomic positions
+(Collins et al., 2003; Otero et al., 2004; Skovgarard et al., 2003):
+LSU and SSU rRNA. The mitochondrial genome has genes that codify for mitochondrial
+proteins, as well as for all tRNA and rRNA subunits (LSU y SSU rRNA). Mitochondrial
+RNA genes have evolved in fungi sixteen times faster than nuclear rDNA, so inter and intra
+specific variations can be potentially detected and is the reason why they are used together
+with ITS and IGS rDNA regions (Skovgarard et al., 2001; Kroon et al., 2005).
+Enterobacterial Repetitive Intergenic Consensus (ERIC) . Primers ERIC 1R and 2F are
+based in sequences of enterobacterial consensus repetitive regions (ERIC, Versalovic et al.
+1991) and have been used to group isolates of Fusarium oxysporum (Edel et al. 1995;
+Smith-White et al., 2001) and F. oxysporum f. sp. cubense characterization (Leong et al.,
+2009).
+Elongation factor -1α gen (EF-1α). Other markers used in genetic variability analysis and
+phylogenetic analysis are the elongation factor-1α gen (EF-1α, O´Donnell et al., 1998) and
+elements of transposition or transposons that seems to be highly distributed in Fusarium
+oxysporum and that show a high level of genetic variability (Hua-Van et al., 2001).
+
+II. Genes commonly used in phylogenetic analysis and characterization of Fusarium
+oxysporum f. sp. cubense.
+Different studies have been carried out to determine variability of Fusarium oxysporum
+species complex (O’Donnell et al ., 1998). The genome regions more useful to develop
+specific markers have been the sequences of the Inter-Genic Spacer (IGS) and Internal
+Transcribed Spacer (ITS) of ribosomal operon, the elongation translation factor-1 α (TEF-
+1α), histone (H3) genes and mitochondrial β-tubulin genes, (tub-2)
+Lin et al. (2008) developed a molecular marker for the identification of Foc race 4. These
+authors achieved the specific detection of Foc race 4 by PCR amplification with primers
+Foc-1(5′-CAGGGGATGTATGAGGAGGCT-3′) and Foc-2 (5′-
+GTGACAGCGTCGTCTAGTTCC-3′). Foc race 4 was detected on DNA samples from
+67
+
+both pure isolates and infected plant material. This method yields an amplification product
+of 242 bp that is specific to Foc race 4 (both subtropical and tropical). Dita et al. (2010)
+demonstrate that this primer set reacted with isolates of 10 different VCGs (0120, 0121,
+0122, 0126, 0129, 01210, 01211 and 01215) including those belonging to the 01213 group,
+which is indicative of tropical race 4 is (TR4). Although that method can detects Foc TR4,
+it is not specific for TR4 and can react with isolates present in Latin American and the
+Caribbean, which are not pathogenic to Cavendish under tropical conditions.
+Based on two single nucleotide polymorphisms present in the IGS region of Foc, Dita et al.
+(2010), develop ed a PCR-based diagnostic tool to specifically detect isolates from TR4
+(VCG 01213). Primers FocTR4-F (5´-CACGTTTAAGGTGCCATGAGAG-3 ´) and
+FocTR4-R (5′-GCCAGGACTGCCTCGTGA-3′) yield an amplification product of 462 bp
+specific to VCG 01213 (Foc TR4). Validation of the specificity of these primers involved
+TR4 isolates from different geographic regions, as well as Foc isolates from 19 other
+VCGs, other fungal plant pathogens and DNA samples from infected tissues of the
+Cavendish banana cultivar Grand Nain (AAA).
+Pérez et al . (2012),
+using primers developed from IGS sequences, developed a real time
+PCR diagnostic method able to differentiate isolates of Foc TR4, Foc R1 and Foc R2 races
+present in Cuba.
+In the present manual PCR and qPCR methods for diagnostic of Foc TR4 and R1 and R2
+are described.
+
+PCR IDENTIFICATION OF Foc TR4 (Dita et al., 2010).
+For PCR identification of Foc TR4 by PCR with primers FocTR4-F/FocTR4-R we should
+follow the work scheme showed in Figure 16.
+
+## F
+
+igure 16 . Work scheme for PCR identification of Foc TR4 with primers FocTR4-
+F/FocTR4-R.
+68
+
+DNA Extraction
+For DNA extraction from Foc strains, Dita et al. (2010; 2011) used the Wizard Magnetic
+DNA Purification System for Food kit (Promega). Nevertheless, other methods can be used
+for DNA extraction (see “DNA extraction protocols for Fusarium oxysporum strains”). The
+selection of DNA extraction protocol depends on the equipment and reactive available in
+the laboratory.
+
+Amplification reaction
+Reaction conditions
+For a final volume of 25 µL, add:
+
+DNA is amplified with primers FocTR4-F/FocTR4-R and the following program:
+1.
+Initial denaturation 95°C for 5 min.
+2. Denaturation 95°C for 1min.
+
+## 3. Annealing 60°C for 1min. 30 cycles
+
+4. Extension 72°C for 3min.
+5. Final extension 72ºC for 10 min.
+
+## Electrophoresis
+
+PCR products are subjected to an agarose gel (1.5%) electrophoresis. With primers
+FocTR4-F/FocTR4-R a 463 pb amplification product will be obtained specifically for Foc
+TR4 (see Dita et al., 2010.).
+DNA 2 µL.
+primer FocTR4-F 1.0 µL (10 µM).
+primer FocTR4-R 1.0 µL (10 µM).
+Buffer Pfu 2.5 µL.
+DNTPs 0.5 µL (4 µM).
+Taq DNA Pol Pfu 0.25 µL.
+Water 17.75 µL.
+69
+
+Figure 15. DNA amplification of six Foc VCGs with FocTR4-F ⁄ FocTR4-R primers (Dita
+et al., 2010; 2011). Line 1- Nit M-24322 (0120), Line 2- Nit M- PHL-18 (0123),
+Line 3- MoGU3 (0124), Line 4- SC-3 (0128), Line 5-CAM -3 (01210), Line 6-
+Nit M- CV-3-5 (01213), Line 7- Nit M- CV-1-5 (01213), Line 8- Nit M-Indo
+19-1 (01213), Line 9- Nit M-Mal 25A (0124/0125), Line 10- F. oxysporum from
+necrotic banana roots, Line 11- F. pallidoroseum , Line 12- 1 DNA ladder plus.
+Number between parentheses indicate VCG.
+
+IDENTIFICATION OF FOC RACES USING REAL TIME PCR.
+For DNA extraction from fungal strains, several methods can be used (see “DNA extraction
+protocols for Fusarium oxysporum strains”).
+Amplification reaction
+Pérez-Vicente et al . (2013) developed two primer combinations for Foc races TR4
+(qFocR4T-f and qFocR4T-r1) and R1/R2 (qFocR1R2-f and qFocR1R2-r) identification by
+qPCR.
+
+Reaction conditions
+
+*primer combination for TR4= qFocR4T-f + qFocR4T-r1
+primer combination for R1/R2= qFocR1R2-f + qFocR1R2-r
+Components Final volume
+
+## 15 µL 20 µL
+
+DNA 3 µL. 3 µL.
+primer combination* 1.0 µL (10 µM). 0.75 µL (10 µM).
+SYBR 10 µL 7.5 µL
+Water 6.0 µL. 3.75 µL.
+70
+
+DNA is amplified with primers qFocR4T-f and qFocR4T-r1 and the following program:
+1) 95°C for 15 min.
+2) 94°C for 15 sec.
+3) 69°C for 30 sec. 30 cycles
+4) 72°C for 30 sec.
+
+In case of R1/R2 detection with qFocR1R2-f and qFocR1R2-r primers the program will be:
+1) 95°C for 15 min.
+2)
+94°C for 15 sec.
+3) 57°C for 30 sec. 22 cycles
+4) 72°C for 30 sec.
+
+## REFERENCES
+
+Alves-Santos F.M., Ramos, B., García-Sánchez, M.A., Eslava, A.P. y Díaz- Mínguez, J.M.
+2002. A DNA-based procedure for in plant detection of Fusarium oxysporum f. sp.
+phaseoli. Phytopathology 92: 237-244.
+Appel, D.J. and Gordon. T.R. 1996. Relationship among pathogenic and nonpathogenic
+isolates of Fusarium oxysporum based on the partial sequence of the Intergenic Spacer
+Region of the ribosomal DNA. MPMI. 9(2):125-136.
+Assigbetse, K.B., Fernández, D., Dubois, M. P., and Geiger, J.P. 1994. Differentiation of
+Fusarium oxysporum f. sp. vasinfectum races on cotton by random amplified
+polymorphic DNA (RAPD) analysis. Phytopathology 84:622-626.
+
+## B
+
+entley, S., Pegg, K. G., and Dale, J.L. 1995. Genetic variation among a worldwide
+collection of isolates of Fusarium oxysporu m f. sp. cubense analyzed by RAPD-PCR
+fingerprinting. Mycol. Res. 99:1378-1384.
+Bidochka, M.J., St. Leger, R.J., Stuart, A. and Gowanlock, K. 1999. Nuclear rDNA
+phylogeny in the fungal genus Verticillium and its relationship to insect and plant
+virulence, extracellular proteases and carbohydrases. Microbiology. 145, 955–963.
+Cai, G., Gale, L.R., Schneider, R.W., Kistler, H.C., Davis, R.M., Elias, K.S., and Miyao,
+E.M. 2003. Origin of race 3 of Fusarium oxysporum f. sp. lycopersici at a single site in
+California. Phytopathology 93:1014-1022.
+Collins, A., Okoli, C.A.N., Morton, A., Parry, D., Edwards, S.G., and Barbara, D.J. 2003.
+Isolates of Verticillium dahliae pathogenic to crucifers are of at least three distinct
+molecular types. Phytopathology 93:364-376.
+71
+
+Dellaporta, S.L., Wood, J. & Hicks, J.B. 1983. A plant DNA mini-preparation: version II.
+Plant Molecular Biology Reporter. 1:19–21. doi:10.1007/BF02712670.
+Dita, M.A., Waalwijk, C., Buddenhagen, I.W., Souza Jr., M.T. and Kema, G.H.J., 2011.
+Corrigendum. Plant Pathology 60: 384.
+Dita,
+M.A., Waalwijk, C., Buddenhaguen, I.W., Souza, M.T., Kema, G.H.J. 2010. A
+molecular diagnosis for tropical race 4 of the banana Fusarium wilt pathogen. Plant
+Pathology. Doi:1111/j.1365-3059.2009.02221.x
+Edel, V., Steinberg, C., Avelange, I., Laguerre, G. and Alabouvette, C. 1995. Comparison
+of three molecular methods for the characterization of Fusarium oxysporum strains.
+Phytopathology. 85:579-585.
+Entz S.C., Johnson, D.L. and Kawchuk L.M. 2005. Development of a PCR-based
+diagnostic assay for the specific detection of the entomopathogenic fungus Metarhizium
+anisopliae var. acridum. Mycol. Res. 109 (11):1302–1312.
+Esteve-Zarsoso, B., Belloch, C., Uruburu, F. and Querol, A. 1999. Identification of yeast by
+RFLP analysis of 5.8S rRNA gene and the two ribosomal internal transcribed spacers.
+International Journal of Systematic Bacteriology. 49: 329-337.
+Fahleson, J., Lagercrantz, U., Hu, Q., Steventon, L. A., and Dixelius, C. 2003. Estimation
+of genetic variation among Verticillium isolates using AFLP analysis. Eur. J. Plant
+Pathol. 109: 361-371.
+Freeman, J. Ward, E., Calderon, C. and McCartney, A. 2002. A Polymerase Chain
+Reaction (PCR) Assay for the Detection of Inoculum of Sclerotinia sclerotiorum .
+European Journal of Plant Pathology, 108 (9): 877-886.
+Grajal-Martín, M.J., Simon, C.J., and Muehlbauer, F.J. 1993. Use of random amplified
+polymorphic DNA (RAPD) to characterize race 2 of Fusarium oxysporum f. sp. pisi.
+Phytopathology 83:612-615.
+Hills, D.M. and Dixon, M.T. 1991. Ribosomal DNA: molecular evolution and phylogenetic
+inference. Q. Rev. Biol. 66, 411-453.
+Hua-Van, A., Langin, T. and Daboussi, M.J. 2001. Evolutionary history of the Impala
+Transposon in Fusarium oxysporum Mol. Biol. Evol. 18(10):1959–1969.
+Jurado, M., Vázquez, C., Marín, S., Sanchis, V., & González-Jaéna, M. T. 2006. PCR-
+based strategy to detect contamination with mycotoxigenic Fusari um species in maize.
+Systematic and Applied Microbiology, 29, 681–689.
+Kelly, A., Alcalá-Jiménez, A.R., Bainbridge, B.W., Heale, J.B., Pérez-Artés, E., and
+Jiménez-Díaz, R. M. 1994. Use of genetic fingerprinting and random amplified
+polymorphic DNA to characterize pathotypes of Fusarium oxysporum f. sp. ciceris
+infecting chickpea. Phytopathology 84:1293-1298.
+72
+
+Kim H.J. Choi Y.K. and Min, B.R. 2001. Variation of the Intergenic Spacer (IGS) Region
+of Ribosomal DNA among Fusarium oxysporum formae speciales. Journal of
+Microbiology. 39(4): 265-272.
+Kim, Y., Hutmacher, R.B., and Davis, R.M. 2005. Characterization of California isolates of
+Fusarium oxysporum f. sp. vasinfectum. Plant Disease. 89: 366-372.
+Kroon, L.P.N.M., Bakker, F.T., van den Bosch, G.B.M., Bonants, P.J.M., and Flier, W.G.
+
+## 2005. Phylogenetic analysis of Phytophthora species based on mitochondrial and
+
+nuclear DNA sequences. Fungal Genet. Biol. 41:766-782.
+Lee, S.B. and Taylor, J.W. 1992. Phylogeny of five fungus-like proctistan Phytophthora
+species, inferred from internal transcribed spacer of ribosomal DNA. Mol. Biol. Evol.
+9:636-653.
+Leong S.K., Latiffah, Z. and Baharuddin, S. 2009. Molecular Characterization of Fusarium
+oxysporum f. sp. cubense of Banana. American Journal of Applied Sciences 6 (7): 1301-
+1307
+Lin, Y.H., Chang J.Y., Liu E.T., Huang J.W and Chang P.F.L. 2008. Development of a
+molecular marker for specific detection of Fusarium oxysporum f. sp. cubense race 4.
+Eur J Plant Pathol. DOI 10.1007/s10658-008-9372-4.
+Lori, G., Edel-Hermann, V., Gautheron, N., and Alabouvette, C. 2004. Genetic diversity of
+pathogenic and nonpathogenic populations of Fusarium oxysporum isolated from
+carnation fields in Argentina. Phytopathology 94:661-668.
+Migheli, Q., Berio, T., Gullino, M.L., and Garibaldi, A. 1995. Electrophoretic karyotype
+variation among pathotypes of Fusarium oxysporum f. sp. dianthi. Plant Pathol. 44:308-
+315.
+Migheli, Q., Briatore, E., and Garibaldi, A. 1998. Use of random amplified polymorphic
+DNA (RAPD) to identify races 1, 2, 4 and 8 of Fusarium oxysporum f. sp. dianthi in
+Italy. Eur. J. Plant Pathol. 104:49-57.
+Moore, D., and Frazer, L.N. 2002. Essential Fungal Genetics. Springer Verlag, UK.
+Mullis, K.B. and Faloona, F. 1987. Specific synthesis of DNA in vitro via polymerase
+catalyzed chain reaction. Methods Enzymol. 55:335-350.
+O’Donnell, K., Kistler, H., Cigelnik, E. and Ploetz, R.C. 1998. Multiple evolutionary
+origins of the fungus causing Panama disease of banana: Concordant evidence from
+nuclear and mitochondrial gene genealogies. Applied Biological Sciences . Proc. Natl.
+Acad. Sci. USA. 95: 2044–2049.
+O’Donnell, K., Kistler, H.C., Tacke, B.K., and Casper, H.H. 2000. Gene genealogies reveal
+global phylogeographic structure and reproductive isolation among lineages of Fusarium
+73
+
+graminearum, the fungus causing wheat scab. Proc. Natl. Acad. Sci. USA 97:7905-
+7910.
+Otero, L., Ducasse, D. & Miller, R.N.G. 2004. Variability in ribosomal DNA genic and
+spacer regions in Verticillium dahliae isolates from different hosts. Fitopatologia
+Brasileira 29:441-446.
+Qin, Q.M., Vallad, G.E., Wu, B.M., and Subbarao, K.V. 2006. Phylogenetic analyses of
+phytopathogenic isolates of Verticillium spp. Phytopathology 96:582-592.
+Qi, Y.X, Zhang, X., Pu, J. J., Xie, Y. X., Zhang, H.Q. and Huang, S. L. 2008. Australasian
+
+## Plant Disease Notes 3, 46-47
+
+Reed, K.M., Hackett, J.D. and Phillips. R.B. 2000. Comparative analysis of intra-individual
+and inter-species DNA sequence variation in Salmonid ribosomal DNA cistron. Gene
+249, 115-125.
+
+## S
+
+aiki, R.K., Scharf, S., Faloona, F., Mullis, K.B., Horn, G.T., Erlich, H.A., Arnheim, N.
+
+## 1985. Primer-directed enzymatic amplification of β-globin genomic sequences and
+
+restriction site analysis for diagnosis of sickle cell anemia. Science 230, 1230-1350.
+Shen, Z., Zhong, S., Wang, Y., Wang, B., Mei, X., Li, R., Ruan, Y. and Shen Q. European
+Journal of Soil Biology 57 (2013) 1- 8
+Skovgaard, K., Nirenberg, H. I., O’Donnell, K., and Rosendahl, S. 2001. Evolution of
+Fusarium oxysporum f. sp. vasinfectum races inferred from multigene genealogies.
+Phytopathology 91:1231-1237.
+Skovgaard, K., Rosendahl, S, O’Donnell, K. and Nirenberg, H.I. 2003. Fusarium commune
+is a new species identified by morphological and molecular phylogenetic data.
+Mycologia, 95(4): 630–636.
+Smith-White J. L., Gunn L. V. and Summerell B. A. 2001. Analysis of diversity within
+Fusarium oxysporum populations using molecular and vegetative compatibility
+grouping. Australasian Plant Pathology. 30:153–157
+Sreelakshmi, Y., Gupta, S., Bodanapu, R., Chauhan, V., Hanjabam, M., Thomas, S.,
+Mohan, V. Sharma, S., Srinivasan, R. and Sharma , R. 2010 . NEATTILL: A simplified
+procedure for nucleic acid extraction from arrayed tissue for TILLING and other high-
+throughput reverse genetic applications. Plant Methods, 6:3.
+Sugimoto M, Koike M and Naga H. 2001. Ribotyping of Entomopathogenic Verticillium
+lecanii in Japan. Phytoparasitica 29 (5):1-8
+Sugimoto, M., Koike, M., Hiyama, N. and Nagaob, H. 2003. Genetic, morphological, and
+virulence characterization of the entomopathogenic fungus Verticillium lecanii. Journal
+of Invertebrate Pathology 82:176–187
+74
+
+Versalovic, J., Koeuth, T., Lupski, J.R. 1991. Distribution of repetitive DNA sequences in
+eubacteria and application to fingerprinting of bacterial genomes. Nucleic Acid Research
+19, 6823–6831.
+Vilgalys, R. Hopple, J.S. and Hibbett D.S. 1994. Phylogenetic implications of generic
+concepts in fungal taxonomy: The impact of molecular systematic studies. Mycologica
+Helvetica 6: 73-91.
+Zhou, L.,Powell, C.A.,Hoffmann, M.T., Li., W., Fan, G., Liu, B., Lin, H. Duan, Y. 2011.
+Diversity and plasticity of the intracellular plant pathogen and insect symbiont
+Candidatus Liberobacter asiaticus” as revealed by hyper variable prophague genes with
+intragenic tandem repeats. Applied and Environmental Microbiology, 77: 6663-6675.

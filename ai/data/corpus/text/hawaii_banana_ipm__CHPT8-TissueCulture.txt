@@ -1,0 +1,84 @@
+Banana Pest and Disease Management in the Tropical Pacific: A guidebook for banana growers
+
+## Chapter VIII: Tissue Culture of Banana
+
+## Tissue culture
+
+Tissue culture is the growth of tissues or cells separate from the organism. This is typically facilitated via the use of a liquid, semi-solid, or solid growth medium, such as broth or agar, in vitro under sterile growing conditions. Banana is typically propagated vegetatively; thus tissue culture as a propagation technique provides a robust means to prepare disease-free planting materials that can provide the first line of defense in developing an integrated disease-management program for banana. Tissue-culture techniques established for banana include shoot and meristem culture, callus culture, somatic embryogenesis, cell suspension, and protoplast cultures. However, commercial tissue-cultured banana seedlings are not always conveniently available. Larger-scale banana farmers may wish to establish a banana tissue-culture facility in-farm to ensure availability of disease-free seedlings for replanting in conjunction with a practice of rogueing (destroying) diseased plants. This book chapter will describe a banana shoot tip culture technique developed by Damasco (2005).
+
+## Collection of suckers
+
+- Different stages of banana keikis (peepers, sword, or maiden suckers) about 1–3 ft (40–100 cm) tall that are free of BBTV symptoms can be collected for tissue culture.
+- Separate the desired keiki from the main stem without cracking the corm of the keiki. Collect at least two suckers from each plant source, one for micropropagation and the other for a nursery farm for future keiki needs.
+- Banana suckers selected are excised to obtain approximately 4 inches (10 cm) of inner pseudostem tissue containing the banana meristem, as described in detail in Fig. 8-2. To ensure the plant is BBTV-free, it is recommended to collect a newly unfolded banana leaf from the keiki and submit it to a plant disease diagnostic laboratory such as the Agriculture Diagnostic Service Center (ADSC) at the College of Tropical of Agriculture and Human Resources (CTAHR) to check for BBTV.
+
+## Disinfection of propagule
+
+- Wash the pseudostem collected from the field with running water to remove adhering soil.
+- Immerse the excised pseudostem in a container of undiluted household bleach (5.25% NaOCl) for 30–45 minutes.
+- Decant the bleach solution and keep the surface-sterilized pseudostem in the container.
+
+## Tissue-culture medium for shoot growth
+
+(based on Damasco and Barba’s (1984) recipe.
+
+## Inoculation
+
+- Mix the medium according to Table 1. Autoclave medium scalpels, forceps, cutting plates, and Magenta boxes (Fig. 8-4) according to standard autoclaving procedure.
+- Work under surface-sterilized laminar flow hood.
+- Trim the surface-sterilized banana pseudostem, peeling off the outer leaf sheath that come in contact with the bleach. Transfer to a clean cutting dish and continue cutting until the shoot measures 1×1 cm, with the corm tissue as thin as possible.
+- Transfer the shoot tip to a fresh cutting dish and cut the shoot into quarters longitudinally, through the center. Transplant each quarter onto a solid culture medium.
+
+## Maintenance of shoot cultures
+
+- Keep shoot cultures in an air-conditioned room under a 16-hour photoperiod 40 µE/m 2 S -1 (provided by two 40-watt fluorescent tubes).
+- Observe the cultures for contamination. Discard contaminated cultures as soon as contamination is noted.
+- Observe for browning and bulging of corm tissue, greening of leaf tissues, and growth of new shoots during the first month of culture.
+- When shoots coming out from the apex of the leaf axis are almost 2 cm tall, the shoot tips are ready for subculture.
+
+## Proliferation of shoots (subculture)
+
+- Transfer the shoot or sections of shoot to fresh culture medium in vitro whenever the propagules are about 2 cm tall. Overgrown shoots are less proliferative. If shoots are beyond 2 cm, make a longitudinal cut through the apex of the growing shoot.
+- Subculture onto half-strength MS medium supplemented with 5 mg/l BAP and 100 ml/l coconut water. This medium, without auxins, is used to avoid early forming of nubbins at high frequencies. All subculturing needs to be conducted in sterile conditions.
+- Subculture about 3–4 weeks until desired number of shoots is obtained.
+- Record number of proliferated shoots.
+- Repeat the subculture for no more than 5 cycles. A higher number of subculturing cycles will lead to off-type banana mutations such as dwarfism, elongation, or other abnormalities.
+- When sufficient shoots have proliferated as nuclear stock, proceed with rooting.
+
+## Rooting
+
+- Prepare rooting medium in Table 2 (Damasco 2005) and use within a week of preparation for best results.
+- Let the last cycle of the shoot subculture establish 3–4
+week (proliferation period) so as to obtain small plantlets.
+- Separate individual shoots from a cluster of shoots and transfer
+them onto rooting medium.
+- Roots will form in 3–4 weeks.
+- When the plantlets have 3–4 expanded leaves and are well
+rooted, they are ready to be planted into soil.
+
+## Preparing tissue-cultured banana plantlets for field planting
+
+- Prior to planting tissue-cultured banana plantlets into soil, the seedlings need to be hardened or acclimatized to the external environment. This can be done by transferring them to a liquid medium (without agar), or exposing them to partial sunlight in the tissue-culture vessel under greenhouse conditions for a few days.
+- Any agar medium adhering to the tissue-cultured plantlets should be gently washed off, after which they are ready to be planted into potting media in a nursery.
+- Choose a potting mix with good moisture-holding and drainage characteristics, for example 2 parts Sunshine Pro mix, 1 part perlite, and 3 parts medium- to coarse-grade vermiculite. Keeping the media moist to maintaining the health of the tissue-cultured seedlings.
+- Fertilize with slow-release or liquid fertilizer.
+- Place banana seedlings in a partially shaded area (50% shade) for 2 weeks before exposing them to full sunlight.
+- Plants should be placed in a BBTV-free and banana aphid-free area. Other aphids, whiteflies, and spider mites are commonly found on banana plants in greenhouses and clustered nurseries, and these should be managed by employing insecticide when populations are high. However, after the plants are transplanted into the field, these pests are typically not problematic.
+- The full acclimatization process should take about 2 months, or until seedlings reach about 8 inches or taller, depending on variety, before field planting.
+- If using tissue-cultured banana to replace plants in a BBTV-infected field, an aggressive scouting program for BBTV should be in place. This includes inspecting young plants every 5 days, as new leaves unfold every 5 days.
+- The length of time to harvest after transplanting tissue-cultured banana depends on the cultivar. In general, ‘Dwarf Apple’ bananas may be harvestable within 9–10 months after transplanting into the field.
+
+## Home Gardener’s and Farmer’s Corner
+
+Tissue culture of plants requires a sterile working environment to avoid contamination of the growing medium. Commercial tissue-culture laboratories are generally equipped with laminar flow hoods and autoclaves, and they operate using sterile techniques. Home gardeners can purchase tissue-cultured banana at plant sales if available. Farmers who are interested in propagating tissue-cultured banana but do not have the right facilities to do their own tissue-culture production can contact tissue-culture laboratories that provide these services. For example, Hawaii Agriculture Research Center (HARC) provides micropropagation services upon special order ( http://www.harc-hspa.com/index.php?section=services&page=microprop ).
+
+## Web Resources
+
+Sathes, R. 2010. Banana culture. http://www.slideshare.net/sathes32/tissue-culture-techniques-of-banana
+Jamale, A.V. 2011. Micropropagation for production of quality banana planting material. http://www.slideshare.net/ajamale7/micro-propagation-of-banana .
+
+## References
+
+Damasco, O.P. 2005. Tissue culture of banana. pp. 59-62. In : F.S. dela Cruz et al. (eds). Towards management of Musa nematodes in Asia and the Pacific. International Plant Genetic Resources Institute (INIBAP), Laguna, Philippines.
+Perez, E.A. and C.R.R. Hooks. 2008. Preparing tissue-cultured banana plantlets for field planting. CTAHR Cooperative Extension Service Publication. BIO-8. 3 pp
+If you require information in an Alternative format, please contact us at: koonhui@hawaii.edu

@@ -1,0 +1,24 @@
+Banana Pest and Disease Management in the Tropical Pacific: A guidebook for banana growers
+
+## Chapter VII: IPM Strategies against Panama Wilt Disease
+
+## Resistant cultivars
+
+Since the fungus can persist in the soil for a long time, and cannot be control by any fungicide or chemical, the best solution is replacing the susceptible cultivars with resistant ones when planted in a Foc infested soil. ‘ Gros Michel ’, ‘ Silk ’, ‘ Pome ’ and ‘ Pisang A wak ’ are generally resistant to race 2 but susceptible to races 1 and 4. Cavendish cultivars are generally resistant to races 1 and 2 strains but susceptible to race 4. Plantain and East African highland bananas (EAHB) cultivars are generally resistant to race 1.
+Fortunately, the FHIA improvement program has produced hybrids that are resistant to races 1 and 4, while the Taiwan Banana Research Institute ( TBRI ) has released Giant Cavendish tissue-culture variants (GCTCV) that display varying levels of resistance to TR4 . In field trials conducted in China, FHIA-01 , FHIA-02 , FHIA-18 , FHIA-25 , Pisang Jari Buaya , Rose (AA), and to a lesser extent GCTCV-119 and FHIA-03 , have shown resistance to TR4. In addition, preliminary study in the Philippines in 2011-2012 suggest that EAHB and Plantain might be resistant to TR4 except for Ibwi (ITC1465). In a separate field trial conducted in the Philippines, only 1% of the GCTCV-219 plants exhibited symptoms of Fusarium wilt in the second cropping cycle, whereas none of plants of the Cardava cultivar (Saba subgroup) did.
+
+## Crop Rotation
+
+Crop rotation can be a viable option if the non-banana crop has anti-fungal activity. In China, farmers have been able to grow bananas in the presence of TR4 by rotating them with Chinese leek ( Allium tuberosum ). Chinese leeks has also been used as an intercrop.
+
+## Biological control
+
+Drainage, environmental conditions and soil type influence the host-pathogen interactions between banana and Foc . Soils that suppress the disease have been reported in Central America, the Canary Islands, Australia and South Africa. However, the chemical, biological and physical factors responsible for this phenomenon are not well understood. The wide spread of TR4 definitely reignited interest in biological control and the role of the soil microbial community in suppressing the pathogen. A preliminary study in South Africa showed that application of humic acid in Foc infested soil shifted the soil microbial population towards more beneficial bacteria including Cynobacteria and Rhodopseudomonas palustris , but less Foc.
+
+## Exclusion
+
+A comprehensive IPM strategy against Fusarium wilt of banana should also include planting disease-free planting materials either through tissue culture or by other means. How long the plantation remains productive will depend on the efficiency of the quarantine and exclusion measures implemented to prevent the entry of the pathogen.
+
+## Reference
+
+If you require information in an Alternative format, please contact us at: koonhui@hawaii.edu

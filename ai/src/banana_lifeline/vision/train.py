@@ -99,14 +99,15 @@ def build_dataloaders(
     shuffle = True
     if train_cfg.balanced_sampling:
         # Oversample panama so the gradient signal is not dominated by sigatoka.
-        weights = torch.as_tensor(sample_weights(train_rows), dtype=torch.double)
+        weights = sample_weights(train_rows)
         sampler = WeightedRandomSampler(weights, num_samples=len(weights), replacement=True)
         shuffle = False
 
-    common = {
+    # pin_memory only helps when copying to a GPU; on CPU it just wastes RAM.
+    common: dict[str, Any] = {
         "batch_size": train_cfg.batch_size,
         "num_workers": train_cfg.num_workers,
-        "pin_memory": True,
+        "pin_memory": torch.cuda.is_available(),
         "persistent_workers": train_cfg.num_workers > 0,
     }
     return (
@@ -178,6 +179,10 @@ def train(
     set_seed(train_cfg.seed)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
+    # channels_last is a GPU tensor-core optimisation; on CPU it is neutral at best and
+    # slower with some kernels, so it is forced off there regardless of config.
+    use_channels_last = train_cfg.channels_last and device.type == "cuda"
+
     stamp = run_name or datetime.now(UTC).strftime("%Y%m%d-%H%M%S")
     run_dir = paths.runs / stamp
     run_dir.mkdir(parents=True, exist_ok=True)
@@ -200,7 +205,7 @@ def train(
     train_loader, val_loader = build_dataloaders(manifest, train_cfg, data_cfg, paths)
 
     model = build_model(train_cfg.model).to(device)
-    if train_cfg.channels_last:
+    if use_channels_last:
         model = model.to(memory_format=torch.channels_last)
 
     criterion = nn.CrossEntropyLoss(label_smoothing=train_cfg.optim.label_smoothing)
@@ -246,7 +251,7 @@ def train(
 
         for step, batch in enumerate(train_loader):
             images = batch["image"].to(device, non_blocking=True)
-            if train_cfg.channels_last:
+            if use_channels_last:
                 images = images.to(memory_format=torch.channels_last)
             labels = batch["label"].to(device, non_blocking=True)
 
@@ -266,7 +271,7 @@ def train(
                     scheduler.step()
 
         val_loss, val_metrics, _ = evaluate_epoch(
-            model, val_loader, criterion, device, channels_last=train_cfg.channels_last
+            model, val_loader, criterion, device, channels_last=use_channels_last
         )
 
         result = EpochResult(
@@ -280,10 +285,13 @@ def train(
             seconds=time.time() - started,
         )
         history.append(asdict(result))
+        # flush=True matters when stdout is a file: without it Python buffers ~8 KB, so a
+        # long unattended run looks frozen for its first hour even while making progress.
         print(
             f"epoch {epoch + 1:>3}/{train_cfg.epochs}  "
             f"train {result.train_loss:.4f}  val {result.val_loss:.4f}  "
-            f"{val_metrics.headline()}  ({result.seconds:.0f}s)"
+            f"{val_metrics.headline()}  ({result.seconds:.0f}s)",
+            flush=True,
         )
 
         score = getattr(val_metrics, train_cfg.monitor_metric, val_metrics.macro_f1)

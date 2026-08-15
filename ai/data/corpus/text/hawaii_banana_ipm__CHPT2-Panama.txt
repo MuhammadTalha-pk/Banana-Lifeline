@@ -1,0 +1,28 @@
+Banana Pest and Disease Management in the Tropical Pacific: A guidebook for banana growers
+
+## Chapter II: Key Pests and pathogens of banana in the Pacific
+
+## II-4. Fusarium wilt of banana or Panama Disease
+
+Fusarium wilt or Panama disease is among the most destructive plant diseases of banana. The original strain of Fusarium wilt, Race 1 ravaged ‘Gros Michel’ banana trades worldwide until the cultivar was replaced by resistant Cavendish cultivars. However, a new strain of Fusarium oxysporum f. sp. cubense ( Foc ) Tropical Race 4 (TR4) was identified in Southeast Asia in 1992 and has spread throughout the region, threatening the production of Cavendish banana in Southeast Asia, impacting the subsistence banana production in the region. Now there is a huge concern that TR4 will further disseminate in Africa and possibly in Hawaii. It has already been found in Latin America as of November 2013 and would thereby threatening other vital banana-growing regions.
+
+## The pathogen
+
+Panama disease of banana is caused by the soil-borne fungus Fusarium oxysporum f. sp. cubense ( Foc ) that enters the plant through the roots and colonizes the xylem vessels thereby blocking the flow of water and resulting in total plant wilt. The fungus persists in soil for an indefinite period of time and cannot be managed using chemical pesticides. This is a pathogen of bananas that has spread globally. The pathogenic isolates of Foc are classified into races based on the susceptibility of different banana cultivars to the pathogen. Race 1 is pathogenic to cultivars in the Gros Michel, Silk and Pome subgroups. When Cavendish cultivars exhibiting symptoms of Fusarium wilt were first observed, the isolates were classified as race 4. They were later subdivided into subtropical race 4 (STR4) and tropical race 4 (TR4). Tropical race 4 is the fungal strains that readily cause Fusarium wilt on Cavendish bananas without the requirement of predisposing factors such as low temperatures and waterlogging, whereas STR4 requires these predisposing factors to cause disease.
+Symptoms of Fusarium wilt can be confused with Moko disease which is caused by Ralstonia solanacearum race 2 that also causes vascular discoloration. Unlike Moko, Fusarium wilt does not cause wilting and blackening of young suckers or a dry rot in the fruit. The first symptoms of Moko on rapidly growing plants are the chlorosis, yellowing and collapse of the three youngest leaves, not the older leaves as with Fusarium wilt. Finally, with Moko the vascular discoloration is concentrated near the center of the pseudostem and not peripherally, which is common with Fusarium wilt.
+
+## Transmission
+
+The pathogen is most often transmitted by planting infected planting material and responsible for the local, national and international spread of the disease. Tissue culture plantlets free of Foc is critical to stop the spread of the disease. Fusarium spores can be carried in surface run-off water, or contaminated irrigation water. Most importantly, the fungus can persist in soil for decades, even in the absence of susceptible bananas. It can survive in infested plant debris and in the roots of alternative hosts.
+
+## Economic Impact of TR4
+
+The emergence of TR4 started affecting commercial plantations of Cavendish cultivars, which is currently the dominant commercial banana in the world. Banana production in Taiwan decreased from about 50,000 hectares in 1960 to only about 6,000 ha in 2000 due to Foc . In Indonesia and Malaysia, the arrival of TR4 in the early 1990s destroyed recently established export plantations within a few years. The fungus did the same to the banana industry in Australia. In mainland China, about 6,700 ha had been severely affected by TR4 in Guangdong province based on 2006 survey and more extensive damage was reported in 2012. Thus, it is important to not let this pathogen become widespread in Hawaii.
+
+## References
+
+Vézina , A. 2017. Fusarium wilt of banana. Musapedia. www.promusa.org/Fusarium+wilt.
+García-Bastidas, F. et al. 2014. First Report of Fusarium oxysporum f. sp. cubense . Tropical Race 4 associated with Panama disease of banana outside Southeast Asia. Plant Dis. 98: 694. https://doi.org/10.1094/PDIS-09-13-0954-PDN.
+Ploetz, R.C. and Churchill, A.C.L. 2011. Fusarium wilt: the banana disease that refuses to go away. Pp. 519-526. In: Van den Bergh, I., Smith, M., Swennen, R. and Hermanto, C. (eds.).
+Proceedings of International ISHS-ProMusa Symposium on Global Perspectives on Asian Challenges, Guangzhou, China, 14-18/09/2009. Acta Horticulturae 897. ISHS, Leuven, Belgium.
+If you require information in an Alternative format, please contact us at: koonhui@hawaii.edu

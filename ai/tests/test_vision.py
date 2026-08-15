@@ -217,3 +217,70 @@ def test_balanced_sampling_is_on_by_default() -> None:
 def test_effective_batch_size_accounts_for_accumulation() -> None:
     cfg = TrainConfig(batch_size=16, grad_accum_steps=2)
     assert cfg.effective_batch_size == 32
+
+
+# --------------------------------------------------------------------------------------
+# Calibration must travel with the checkpoint
+# --------------------------------------------------------------------------------------
+
+
+def test_uncalibrated_checkpoint_is_detectable() -> None:
+    """A freshly trained checkpoint carries temperature=1.0 and no threshold.
+
+    Regression guard for a real defect: calibration was fitted after training and written
+    only into the evaluation report, so the shipped checkpoint claimed temperature 1.0.
+    Anything consuming that confidence would have been silently overconfident and the
+    abstain threshold would never have fired.
+    """
+    from banana_lifeline.vision.model import LoadedModel
+
+    fresh = LoadedModel(
+        model=None,
+        train_config=TrainConfig(),
+        class_names=("healthy", "panama", "sigatoka"),
+        temperature=1.0,
+        metrics={},
+        abstain_threshold=None,
+    )
+    assert fresh.is_calibrated is False
+
+    calibrated = LoadedModel(
+        model=None,
+        train_config=TrainConfig(),
+        class_names=("healthy", "panama", "sigatoka"),
+        temperature=2.582,
+        metrics={},
+        abstain_threshold=0.936,
+    )
+    assert calibrated.is_calibrated is True
+
+
+def test_temperature_without_threshold_is_not_calibrated() -> None:
+    """Both halves are required: a temperature with no threshold cannot gate anything."""
+    from banana_lifeline.vision.model import LoadedModel
+
+    half = LoadedModel(
+        model=None,
+        train_config=TrainConfig(),
+        class_names=("healthy", "panama", "sigatoka"),
+        temperature=2.5,
+        metrics={},
+        abstain_threshold=None,
+    )
+    assert half.is_calibrated is False
+
+
+def test_shipped_checkpoint_carries_its_calibration() -> None:
+    """The model we would actually deploy must not ship uncalibrated."""
+    from banana_lifeline.config import get_paths
+
+    checkpoint = get_paths().runs / "cpu_clean" / "best.pt"
+    if not checkpoint.is_file():
+        pytest.skip("no trained checkpoint yet")
+
+    torch = pytest.importorskip("torch")
+    payload = torch.load(checkpoint, map_location="cpu", weights_only=False)
+
+    assert payload.get("temperature", 1.0) != 1.0, "checkpoint ships uncalibrated"
+    assert payload.get("abstain_threshold") is not None, "checkpoint has no abstain threshold"
+    assert 0.0 < payload["abstain_threshold"] <= 1.0

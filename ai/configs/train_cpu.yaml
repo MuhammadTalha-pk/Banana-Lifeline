@@ -1,0 +1,68 @@
+# CPU training recipe — 8-core laptop, no GPU.
+#
+# Measured on this machine (EfficientNet-B0, batch of 8, forward+backward):
+#   384px  546 ms/img  ~16.5 min/epoch   30 epochs = 8.3 h
+#   224px  202 ms/img  ~ 6.1 min/epoch   30 epochs = 3.1 h
+#
+# 384px is what the GPU config uses and what the lesion detail really wants. It is simply
+# not affordable here, so this config trades that away deliberately rather than silently.
+
+# 224 instead of 384. This is the real cost of CPU training: Sigatoka's diagnostic signal
+# is fine speckling and thin dark streaks, and some of it does not survive the smaller
+# input. Expect slightly weaker sigatoka/panama separation than the GPU config would give.
+image_size: 224
+
+# Small batches suit CPU cache behaviour; 16 measured faster per image than 32 here.
+batch_size: 16
+grad_accum_steps: 1
+
+# 20, not 30. With early stopping on macro-F1 (patience 6) most runs stop well before this;
+# the cap keeps the worst case near two hours instead of three.
+epochs: 20
+early_stop_patience: 6
+
+# 8 logical cores, 4 physical. Loader workers compete with the training threads for the
+# same cores, so more is not better — 2 leaves compute room while hiding JPEG decode.
+num_workers: 2
+seed: 1337
+
+# No GPU, so no mixed precision: fp16 autocast on CPU is slower, not faster, and the
+# GradScaler is a no-op. channels_last is likewise a tensor-core optimisation and is
+# forced off on CPU by train.py regardless of what is set here.
+amp: false
+amp_dtype: float16
+channels_last: false
+
+monitor_metric: macro_f1
+balanced_sampling: true
+
+model:
+  architecture: efficientnet_b0
+  pretrained: true
+  drop_rate: 0.3
+  drop_path_rate: 0.1
+
+optim:
+  learning_rate: 0.0003
+  backbone_lr_scale: 0.1
+  weight_decay: 0.0001
+  warmup_epochs: 2
+  label_smoothing: 0.05
+
+augment:
+  horizontal_flip: 0.5
+  vertical_flip: 0.5
+  rotate_limit: 30
+  scale_min: 0.5
+  scale_max: 1.0
+  brightness: 0.2
+  contrast: 0.2
+  saturation: 0.1
+
+  # Still zero, and for the same reason as always: leaf yellowing IS the class signal, so
+  # randomising hue manufactures mislabelled training data. build_train_transform raises
+  # if this is ever set above 0.
+  hue_shift: 0.0
+
+  blur_prob: 0.2
+  coarse_dropout_prob: 0.2

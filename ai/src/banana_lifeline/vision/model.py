@@ -13,6 +13,7 @@ beyond the architecture choice:
 from __future__ import annotations
 
 from dataclasses import dataclass
+from functools import lru_cache
 from pathlib import Path
 from typing import Any
 
@@ -28,6 +29,18 @@ class LoadedModel:
     class_names: tuple[str, ...]
     temperature: float
     metrics: dict[str, Any]
+    abstain_threshold: float | None = None
+
+    @property
+    def is_calibrated(self) -> bool:
+        """Whether a fitted temperature was written back after training.
+
+        Calibration is fitted post-training, so a freshly saved checkpoint carries the
+        placeholder ``temperature == 1.0``. Consuming that as if it were calibrated yields
+        overconfident scores and makes any abstain threshold meaningless -- so callers that
+        depend on confidence must check this rather than assume.
+        """
+        return self.temperature != 1.0 and self.abstain_threshold is not None
 
 
 def build_model(cfg: ModelConfig, num_classes: int = len(CLASS_NAMES)) -> Any:
@@ -99,7 +112,11 @@ def save_checkpoint(
 
 
 def load_checkpoint(path: Path, *, device: str = "cpu") -> LoadedModel:
-    """Rebuild a model exactly as it was saved."""
+    """Rebuild a model exactly as it was saved.
+
+    Uncached, because training and evaluation want a fresh model they are free to mutate.
+    Inference should call :func:`load_cached_checkpoint` instead.
+    """
     import torch
 
     if not path.is_file():
@@ -120,10 +137,50 @@ def load_checkpoint(path: Path, *, device: str = "cpu") -> LoadedModel:
     model.to(device)
     model.eval()
 
+    threshold = payload.get("abstain_threshold")
     return LoadedModel(
         model=model,
         train_config=train_config,
         class_names=class_names,
         temperature=float(payload.get("temperature", 1.0)),
         metrics=payload.get("metrics", {}),
+        abstain_threshold=float(threshold) if threshold is not None else None,
     )
+
+
+@lru_cache(maxsize=2)
+def load_cached_checkpoint(path: Path, device: str = "cpu") -> LoadedModel:
+    """The inference path's checkpoint: read from disk once per process.
+
+    ``diagnose`` called ``load_checkpoint`` directly, so every photograph rebuilt
+    EfficientNet-B0 from a torch.load before classifying anything.
+
+    Safe to share because inference never mutates it -- the model is in eval mode and every
+    forward pass runs under ``torch.no_grad``. Anything that trains, fine-tunes, or reassigns
+    parameters must keep using :func:`load_checkpoint` and get its own copy.
+    """
+    return load_checkpoint(path, device=device)
+
+
+def attach_calibration(
+    path: Path,
+    *,
+    temperature: float,
+    abstain_threshold: float,
+    extra: dict[str, Any] | None = None,
+) -> None:
+    """Write a fitted temperature and abstain threshold into an existing checkpoint.
+
+    Training cannot do this itself: calibration is fitted on validation logits only once
+    training has finished. Leaving it in a side report instead means every consumer of the
+    checkpoint silently gets uncalibrated confidence, so it is written back to the file that
+    actually travels.
+    """
+    import torch
+
+    payload = torch.load(path, map_location="cpu", weights_only=False)
+    payload["temperature"] = float(temperature)
+    payload["abstain_threshold"] = float(abstain_threshold)
+    if extra:
+        payload.update(extra)
+    torch.save(payload, path)

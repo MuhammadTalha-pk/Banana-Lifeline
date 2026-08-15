@@ -1,0 +1,34 @@
+## Banana Pest and Disease Management in the Tropical Pacific: A guidebook for banana growers
+
+Koon-Hui Wang | Jensen Uyeda | Jari Sugano
+
+## Table of Contents
+
+I. Importance of an integrated pest management program for banana
+II. Key pests and pathogens of banana in the Pacific
+1. Banana bunchy top virus (BBTV)
+2. Plant-parasitic nematodes
+3. Sigatoka diseases
+4. Fusarium wilt of banana (Panama disease)
+III. Other pests and pathogens of banana
+1. Arthropods (insects and mites)
+2. Fungi
+3. Bacteria
+IV. IPM strategies against BBTV
+V. IPM strategies against plant-parasitic nematodes
+VI. IPM strategies against Sigatoka diseases
+VII. IPM strategies against Panama disease
+VIII. Micropropagation (Tissue culture) of banana
+IX. Macropropagation of banana
+X. Integrated disease management against key pests and pathogens of banana in the Pacific
+Appendix I. Banana cultivars and ploidy levels
+LINK to full document
+
+## Acknowledgements
+
+The authors extend their gratitude to many contributors and readers who gave their time and knowledge to help us get this book published. We thank Cerruti Hooks and Eden Perez for providing technical advice; Donna Meyer for copyediting, Jody Smith for uploading the text into the website, Scot Nelson, Angela Kapler and Frank Rust for sharing their pictures. Funding for this book was provided by the University of Hawaii, College of Tropical Agriculture and Human Resources, through Multistate Project 9034R and 16-964 Smith-Lever Fund, Western Region IPM Grant No. HAWN16-994, and NIFA Agriculture Economics and Rural Communities Grant HAW09702-G.
+
+## Disclaimer
+
+Mention of a trade name or description of a pesticide use pattern is in no way intended as an endorsement of the product or a recommendation to the exclusion of other suitable product or a recommendation to the exclusion of other suitable products not mentioned. The mention or description is provided for the convenience of the reader. The individuals and organizations contributing to or supporting this publication make no claim of product warranty. Before making any pesticide application, the user must read the product label; all safety and use precautions on the label should be followed.
+If you require information in an Alternative format, please contact us at: koonhui@hawaii.edu

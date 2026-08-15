@@ -1,0 +1,139 @@
+Banana Pest and Disease Management in the Tropical Pacific: A guidebook for banana growers
+
+## Chapter III: Other Pests and Pathogens of Banana
+
+## Arthropods (insects and mites)
+
+## 1. Banana aphids ( Pentalonia nigronervosa )
+
+- Piercing and sucking mouthparts.
+- Feed on the pseudostem and leaves.
+- Winged aphids (alates) form with high population densities.
+- Ants protect them from natural enemies.
+- Peak season: dry, warm conditions (February to April).
+- Hosts: Banana, ginger, heliconia, and taro.
+- Vector of Banana bunchy top virus (BBTV).
+- For greater detail please refer to Chapter II-1, Banana Aphid section.
+- Web resource: http://www.extento.hawaii.edu/Kbase/crop/Type/pentalon.htm
+
+## 2. Banana rust thrips ( Chaetanophothrips signipennis )
+
+- Rasping/sucking mouthparts.
+- Feed on the pseudostem and fruit.
+- Peak season: dry periods or in low-rainfall areas.
+- Leaf symptoms: dark, v-shaped marks on the outer surfaces of leaf petioles.
+- Fruit symptoms: water-soaked appearance, oval-shaped reddish “stains” where fingers touch.
+Web resources:
+- http://www.extento.hawaii.edu/Kbase/crop/Type/BR_thrips.htm
+- http://www.ctahr.hawaii.edu/oc/freepubs/pdf/IP-10.pdf
+
+## 3. Banded greenhouse thrips ( Hercinothrips femoralis )
+
+- Rasping/sucking mouthparts.
+- Symptoms: Silver and bronze scars, reddish discoloration on fruit.
+- Control: Insecticides, bagging, oils, soapy water.
+Web resource:
+- http://www.extento.hawaii.edu/Kbase/crop/Type/h_femora.htm
+
+## 4. Hawaiian flower thrips ( Thrips hawaiiensis )
+
+- Feed on flowers.
+- Symptoms: Flecked, spotted, deformed flowers, pimple-like bumps on fruit, damage inside flower bell.
+- Prefer wet and shady areas.
+- Control: remove older leaves and avoid shady conditions.
+- Difficult to control, because damage is done inside flower bell.
+Web resource:
+- http://www.extento.hawaii.edu/Kbase/crop/Type/t_hawai.htm
+
+## 5. Banana weevil ( Cosmopolites sordidus )
+
+- Bore through the corm, suckers, and roots of living and decaying plant material.
+- Symptoms: root destruction, slowed plant growth, reduced fruit production, and toppled plants.
+- Young banana plants at risk.
+- Feed and breed at night.
+- Control: hot water, trapping, sanitation, minimizing root exposure.
+Web resource:
+- http://www.extento.hawaii.edu/Kbase/crop/Type/cosmopol.htm
+
+## 6. Banana skipper ( Erionota thrax )
+
+- Symptoms: Rolled leaves originating from the midrib of plants, resulted in severe defoliation.
+Web resource:
+- http://www.extento.hawaii.edu/kbase/crop/Type/pelopida.htm
+
+## 7. Long-legged ant ( Anoploepis longipes )
+
+- Love sugar.
+- Move and protect aphids.
+- Release a toxic chemical causing dry, necrotic lesions on the fruit surface.
+- Prefer wet, high-rainfall areas.
+- Peak season: June through October.
+Web resource:
+- http://www.extento.hawaii.edu/kbase/crop/Type/A_longip.htm
+
+## 8. Big-headed ant ( Pheidole megacephala )
+
+- Move and protect aphids.
+- Also protect other honeydew-producing insects such as scales and whiteflies.
+- Love grease.
+- Peak season: May through October.
+
+## 9. Chinese rose beetle ( Adoretus sinicus )
+
+- Damage is done by the feeding of the adult beetle.
+- Nocturnal feeder of leaves and interveinal tissue.
+- Peak season: May through November.
+Web resource:
+- http://www.extento.hawaii.edu/kbase/crop/Type/adoretus.htm
+
+## 10. Banana moth ( Opogona sacchari )
+
+- Lay eggs on senescing flowers, decaying leaves, pseudostems, or fruit.
+- Larvae feed on decaying plant material.
+Web resource:
+- http://www.ctahr.hawaii.edu/sustainag/extn_pub/fruitpubs/Banana%20Moth.pdf
+
+## Spiraling whitefly ( Aleurodicus disperses )
+
+- Sap-suckers that damage and discolor plant leaves and tissue.
+- Excrete honeydew that can cause black sooty mold.
+- Protected by ants.
+Web resource:
+- http://www.extento.hawaii.edu/kbase/crop/Type/a_disper.htm
+
+## 12. Banana fruit-piercing moth ( Othreis fullonia )
+
+- Adults puncture and feed on ripening fruit.
+- Larvae feed on Erythrina (wiliwili).
+- Symptoms: premature ripening and fruit drop, secondary infections caused by fungus and bacteria.
+Web resource:
+- http://www.extento.hawaii.edu/kbase/crop/Type/othreis.htm
+
+## 13. Mites (Various species)
+
+- Piercing and sucking mouthparts.
+- Symptoms: damage to plant tissue and fruit.
+Web resource:
+- http://www.extento.hawaii.edu/kbase/crop/Type/mitemenu.htm
+
+## Fungi
+
+## Black pitting caused by Verticillium theobromae
+
+Widespread in the tropics, this fungus initially causes black pitting and spot of banana fruit. It is presumably dispersed by air and through banana debris. The powdery, greyish conidia form on the shriveled black end of the fruit, giving rise to what is called “cigar end rot” on immature fingers. The corrugated necrotic tissues become covered with fungus and resemble the greyish ash of a cigar end (Holiday 1980).
+
+## Bacteria
+
+Moko disease of banana is a deadly disease of banana and plantains. It is caused by a bacterium, Ralstonia solanacearum (Race 2). It can cause wilting and blackening of young suckers or a dry rot in the fruit. The first symptoms of Moko on rapidly growing plants are the chlorosis, yellowing and collapse of the three youngest leaves. Infection in the vascular system resulted in discoloration concentrated near the center of the pseudostem.
+Resources: http://www.padil.gov.au/pests-and-diseases/pest/main/136650/3651
+
+## Web Resources
+
+Insect and other pests of banana: http://www.extento.hawaii.edu/kbase/crop/crops/banana.htm
+CTAHR Plant Doctor app: https://sites.google.com/a/hawaii.edu/leafdoctor/
+Shoura Chemical website on banana diseases. http://www.shouragroup.com/i_banana_e.htm
+
+## References
+
+Holiday, P. 1980. Fungus diseases of tropical crops. Press Syndicate of the University of Cambridge, New York, NY. 555 pp.
+If you require information in an Alternative format, please contact us at: koonhui@hawaii.edu

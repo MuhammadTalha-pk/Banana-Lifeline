@@ -1,0 +1,74 @@
+{
+  "train": {
+    "image_size": 224,
+    "batch_size": 16,
+    "grad_accum_steps": 1,
+    "epochs": 20,
+    "num_workers": 2,
+    "seed": 1337,
+    "amp": false,
+    "amp_dtype": "float16",
+    "channels_last": false,
+    "early_stop_patience": 6,
+    "monitor_metric": "macro_f1",
+    "balanced_sampling": true,
+    "model": {
+      "architecture": "efficientnet_b0",
+      "pretrained": true,
+      "drop_rate": 0.3,
+      "drop_path_rate": 0.1
+    },
+    "optim": {
+      "learning_rate": 0.0003,
+      "backbone_lr_scale": 0.1,
+      "weight_decay": 0.0001,
+      "warmup_epochs": 2,
+      "label_smoothing": 0.05
+    },
+    "augment": {
+      "horizontal_flip": 0.5,
+      "vertical_flip": 0.5,
+      "rotate_limit": 30,
+      "scale_min": 0.5,
+      "scale_max": 1.0,
+      "brightness": 0.2,
+      "contrast": 0.2,
+      "saturation": 0.1,
+      "hue_shift": 0.0,
+      "blur_prob": 0.2,
+      "coarse_dropout_prob": 0.2
+    }
+  },
+  "data": {
+    "raw_root": "Banana_Leaf_Dataset",
+    "raw_splits": [
+      "train",
+      "val",
+      "test"
+    ],
+    "class_names": [
+      "healthy",
+      "panama",
+      "sigatoka"
+    ],
+    "image_glob": "*.jpg",
+    "fingerprint": {
+      "dhash_size": 8,
+      "hamming_threshold": 5,
+      "decode_scale": 4
+    },
+    "split": {
+      "train": 0.7,
+      "val": 0.15,
+      "test": 0.15,
+      "seed": 1337
+    },
+    "cache": {
+      "longest_side": 512,
+      "jpeg_quality": 90
+    }
+  },
+  "git_sha": "5874a713861d58ff26a43924fd535d8ecd3f67f6",
+  "device": "cpu",
+  "started": "2026-08-14T08:35:56.613817+00:00"
+}

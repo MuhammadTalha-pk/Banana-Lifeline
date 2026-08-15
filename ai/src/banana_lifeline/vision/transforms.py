@@ -21,6 +21,50 @@ IMAGENET_MEAN = (0.485, 0.456, 0.406)
 IMAGENET_STD = (0.229, 0.224, 0.225)
 
 
+# --------------------------------------------------------------------------------------
+# albumentations compatibility
+#
+# 1.4 renamed several constructors. We support both because 1.4+ pulls in a dependency
+# that needs a C toolchain to build on Windows, so a Windows CPU box realistically runs
+# 1.3.x while Colab and CI run 1.4+. Rather than pin everyone to the lowest version, the
+# two call shapes are bridged here and nowhere else.
+# --------------------------------------------------------------------------------------
+
+
+def _is_modern(module: Any) -> bool:
+    return tuple(int(p) for p in module.__version__.split(".")[:2]) >= (1, 4)
+
+
+def _random_resized_crop(module: Any, size: int, scale_min: float, scale_max: float) -> Any:
+    if _is_modern(module):
+        return module.RandomResizedCrop(
+            size=(size, size), scale=(scale_min, scale_max), ratio=(0.8, 1.25)
+        )
+    return module.RandomResizedCrop(
+        height=size, width=size, scale=(scale_min, scale_max), ratio=(0.8, 1.25)
+    )
+
+
+def _coarse_dropout(module: Any, size: int, prob: float) -> Any:
+    """Occlusion patches sized 5-15% of the frame, expressed for either API."""
+    if _is_modern(module):
+        return module.CoarseDropout(
+            num_holes_range=(1, 6),
+            hole_height_range=(0.05, 0.15),
+            hole_width_range=(0.05, 0.15),
+            p=prob,
+        )
+    return module.CoarseDropout(
+        max_holes=6,
+        max_height=int(size * 0.15),
+        max_width=int(size * 0.15),
+        min_holes=1,
+        min_height=int(size * 0.05),
+        min_width=int(size * 0.05),
+        p=prob,
+    )
+
+
 def build_train_transform(image_size: int, cfg: AugmentationConfig) -> Any:
     """Training-time augmentation.
 
@@ -40,11 +84,7 @@ def build_train_transform(image_size: int, cfg: AugmentationConfig) -> Any:
 
     return A.Compose(
         [
-            A.RandomResizedCrop(
-                size=(image_size, image_size),
-                scale=(cfg.scale_min, cfg.scale_max),
-                ratio=(0.8, 1.25),
-            ),
+            _random_resized_crop(A, image_size, cfg.scale_min, cfg.scale_max),
             A.HorizontalFlip(p=cfg.horizontal_flip),
             A.VerticalFlip(p=cfg.vertical_flip),
             A.Rotate(limit=cfg.rotate_limit, border_mode=0, p=0.7),
@@ -65,12 +105,7 @@ def build_train_transform(image_size: int, cfg: AugmentationConfig) -> Any:
             # Farmers shoot one-handed, often in wind.
             A.MotionBlur(blur_limit=5, p=cfg.blur_prob),
             # Neighbouring leaves occlude the subject constantly in a real plantation.
-            A.CoarseDropout(
-                num_holes_range=(1, 6),
-                hole_height_range=(0.05, 0.15),
-                hole_width_range=(0.05, 0.15),
-                p=cfg.coarse_dropout_prob,
-            ),
+            _coarse_dropout(A, image_size, cfg.coarse_dropout_prob),
             A.Normalize(mean=IMAGENET_MEAN, std=IMAGENET_STD),
             ToTensorV2(),
         ]

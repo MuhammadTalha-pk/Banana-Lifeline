@@ -10,12 +10,22 @@ Phase 1 is fully driven from here:
 
 from __future__ import annotations
 
+import sys
 from pathlib import Path
+from typing import Any
 
 import pandas as pd
 import typer
 
 from banana_lifeline.config import get_paths, load_data_config
+
+# Windows consoles default to cp1252, which cannot encode Urdu. Since this CLI prints
+# farmer questions verbatim, that turns a successful evaluation into a UnicodeEncodeError
+# at the point of reporting the result -- losing the run, not just the formatting.
+for _stream in (sys.stdout, sys.stderr):
+    _reconfigure = getattr(_stream, "reconfigure", None)
+    if _reconfigure is not None:
+        _reconfigure(encoding="utf-8", errors="replace")
 
 app = typer.Typer(
     add_completion=False,
@@ -360,6 +370,285 @@ def evaluate_command(
 
         overlay_dir = generate_overlays(loaded.model, test_rows, train_cfg, data_cfg, paths)
         typer.echo(f"Grad-CAM overlays: {overlay_dir}")
+
+
+rag_app = typer.Typer(help="Knowledge corpus: fetch, build, query.", no_args_is_help=True)
+app.add_typer(rag_app, name="rag")
+
+
+@rag_app.command("sources")
+def rag_sources() -> None:
+    """List the source registry and what it covers."""
+    from banana_lifeline.rag.sources import REGISTRY, coverage_summary
+
+    _echo_header("Source registry")
+    for source in REGISTRY:
+        typer.echo(
+            f"  {source.slug:<28} {source.source:<32} "
+            f"{source.region:<8} {'/'.join(source.diseases)}"
+        )
+
+    summary = coverage_summary()
+    _echo_header("Coverage")
+    typer.echo(f"  documents      {summary['documents']}")
+    for disease, count in summary["per_disease"].items():
+        typer.echo(f"    {disease:<12} {count} sources")
+    typer.echo(f"  regions        {', '.join(summary['regions'])}")
+
+    if summary["pakistani_sources"] == 0:
+        typer.secho(
+            "\n  No Pakistani sources. Pesticide registration is jurisdiction-specific, so\n"
+            "  chemical advice from these documents needs a 'verify local registration'\n"
+            "  caveat until PARC or provincial extension material is added.",
+            fg=typer.colors.YELLOW,
+        )
+
+
+@rag_app.command("fetch")
+def rag_fetch(
+    force: bool = typer.Option(False, "--force", help="Re-download sources already cached."),
+    only: str | None = typer.Option(None, help="Fetch a single source by slug."),
+) -> None:
+    """Download the source documents and record their provenance."""
+    from banana_lifeline.rag.fetch import fetch_all
+
+    paths = get_paths()
+    _echo_header("Fetching sources")
+    typer.echo("  one at a time, with a delay between requests\n")
+
+    results = fetch_all(paths, force=force, only=only)
+
+    total = 0
+    for result in results:
+        if result.skipped:
+            typer.secho(
+                f"  -- {result.slug:<28} cached ({len(result.files)} files)",
+                fg=typer.colors.BRIGHT_BLACK,
+            )
+        elif result.ok and result.error:
+            typer.secho(f"  ~  {result.slug:<28} {result.error}", fg=typer.colors.YELLOW)
+        elif result.ok:
+            typer.secho(
+                f"  OK {result.slug:<28} {len(result.files)} files, "
+                f"{result.total_bytes / 1e6:.2f} MB",
+                fg=typer.colors.GREEN,
+            )
+        else:
+            typer.secho(f"  !! {result.slug:<28} {result.error}", fg=typer.colors.RED)
+        total += result.total_bytes
+
+    ok = sum(1 for r in results if r.ok)
+    typer.echo(f"\n  {ok}/{len(results)} sources available, {total / 1e6:.1f} MB total")
+    typer.echo(f"  {paths.corpus / 'raw'}")
+
+
+@rag_app.command("parse")
+def rag_parse() -> None:
+    """Convert fetched documents into structured text."""
+    from banana_lifeline.rag.parse import parse_corpus, write_text_corpus
+
+    paths = get_paths()
+    _echo_header("Parsing corpus")
+
+    documents = parse_corpus(paths)
+    usable = [d for d in documents if d.usable]
+    rejected = [d for d in documents if not d.usable]
+
+    by_slug: dict[str, list[int]] = {}
+    for document in usable:
+        by_slug.setdefault(document.slug, []).append(document.n_chars)
+
+    for slug, sizes in sorted(by_slug.items()):
+        typer.secho(
+            f"  OK {slug:<28} {len(sizes):>2} docs  {sum(sizes):>8,} chars", fg=typer.colors.GREEN
+        )
+
+    for document in rejected:
+        typer.secho(
+            f"  !! {document.slug:<28} {document.filename}: {document.warning}",
+            fg=typer.colors.YELLOW,
+        )
+
+    total = sum(d.n_chars for d in usable)
+    headings = sum(d.n_headings for d in usable)
+    typer.echo(
+        f"\n  {len(usable)}/{len(documents)} documents usable, "
+        f"{total:,} characters, {headings:,} headings"
+    )
+    typer.echo(f"  roughly {total // 4:,} tokens, ~{total // 1800:,} pages")
+
+    destination = write_text_corpus(documents, paths)
+    typer.secho(f"  written to {destination}", fg=typer.colors.GREEN)
+
+
+@rag_app.command("chunk")
+def rag_chunk() -> None:
+    """Split parsed text into chunks and assign disease/topic metadata."""
+    from banana_lifeline.rag.chunk import chunk_corpus, write_chunks
+    from banana_lifeline.rag.classify import classify_chunks
+    from banana_lifeline.rag.sources import REGISTRY
+
+    paths = get_paths()
+    _echo_header("Chunking")
+
+    chunks = chunk_corpus(paths)
+    declared = {s.slug: s.diseases for s in REGISTRY}
+    stats = classify_chunks(chunks, declared)
+
+    typer.echo(f"  chunks         {stats.n_chunks}")
+    typer.echo(f"  mean tokens    {sum(c.n_tokens for c in chunks) // max(len(chunks), 1)}")
+
+    _echo_header("Disease")
+    for disease, count in stats.disease_counts.most_common():
+        typer.echo(f"  {disease:<12} {count:>5}  ({count / stats.n_chunks:.0%})")
+
+    _echo_header("Topic")
+    for topic, count in stats.topic_counts.most_common():
+        typer.echo(f"  {topic:<12} {count:>5}  ({count / stats.n_chunks:.0%})")
+
+    if stats.ambiguous_disease:
+        typer.secho(
+            f"\n  {stats.ambiguous_disease} chunks from disease-specific documents stayed "
+            "'general'.\n  Left unassigned deliberately: a chunk filed under the wrong "
+            "disease is worse\n  than one filed under none, because the filter would surface "
+            "it confidently.",
+            fg=typer.colors.YELLOW,
+        )
+
+    destination = write_chunks(chunks, paths)
+    typer.secho(f"\n  written to {destination}", fg=typer.colors.GREEN)
+
+
+@rag_app.command("index")
+def rag_index(
+    model: str = typer.Option(None, help="Embedding model. Defaults to BAAI/bge-m3."),
+    batch_size: int = typer.Option(8, help="Lower this if the machine runs out of memory."),
+    recreate: bool = typer.Option(True, help="Drop and rebuild the collection."),
+) -> None:
+    """Embed the chunks and load them into Qdrant."""
+    from banana_lifeline.rag.chunk import read_chunks
+    from banana_lifeline.rag.embed import DEFAULT_MODEL, Embedder
+    from banana_lifeline.rag.index import index_chunks
+
+    paths = get_paths()
+    chunks = read_chunks(paths)
+
+    _echo_header("Indexing")
+    typer.echo(f"  chunks   {len(chunks)}")
+    typer.echo(f"  model    {model or DEFAULT_MODEL}")
+    typer.echo("  first run downloads the model (~2 GB) and is slow on CPU\n")
+
+    embedder = Embedder(model or DEFAULT_MODEL, batch_size=batch_size)
+    embedder.load()
+    typer.echo(
+        f"  loaded   {embedder.model_name}  dim={embedder.dimension}  "
+        f"sparse={'yes' if embedder.produces_sparse else 'no'}"
+    )
+
+    with typer.progressbar(length=len(chunks), label="  embedding") as bar:
+        state = {"done": 0}
+
+        def advance(done: int, _total: int) -> None:
+            bar.update(done - state["done"])
+            state["done"] = done
+
+        stats = index_chunks(
+            chunks, embedder, batch_size=batch_size, recreate=recreate, progress=advance
+        )
+
+    typer.secho(
+        f"\n  {stats.n_points} points in '{stats.collection}' "
+        f"(dim {stats.dense_dim}, sparse {'on' if stats.has_sparse else 'off'})",
+        fg=typer.colors.GREEN,
+    )
+
+
+@rag_app.command("ask")
+def rag_ask(
+    question: str = typer.Argument(..., help="The question, in English or Urdu."),
+    disease: str = typer.Option(None, help="Disease from the CNN: panama | sigatoka."),
+    topic: str = typer.Option(None, help="Narrow to a topic, e.g. treatment."),
+    top_k: int = typer.Option(5, help="Passages to return."),
+    rerank: bool = typer.Option(True, help="Cross-encoder reranking (slower, better)."),
+) -> None:
+    """Retrieve passages for a question."""
+    from banana_lifeline.rag.retrieve import retrieve
+
+    _echo_header("Retrieving")
+    result = retrieve(question, disease=disease, topic=topic, top_k=top_k, rerank=rerank)
+
+    if result.is_empty:
+        typer.secho("  nothing found", fg=typer.colors.RED)
+        raise typer.Exit(1)
+
+    if result.fell_back:
+        typer.secho("  (filters relaxed to find results)", fg=typer.colors.YELLOW)
+    if result.is_weak:
+        typer.secho(
+            "  WEAK MATCH — generation should refuse rather than answer from this.",
+            fg=typer.colors.YELLOW,
+        )
+
+    for rank, passage in enumerate(result.passages, 1):
+        typer.secho(f"\n  [{rank}] {passage.score:.3f}  {passage.citation()}", fg=typer.colors.CYAN)
+        typer.echo(f"      {passage.disease}/{passage.topic} · {passage.region}")
+        body = " ".join(passage.text.split())
+        typer.echo(f"      {body[:260]}...")
+
+
+@rag_app.command("eval")
+def rag_eval(
+    top_k: int = typer.Option(5, help="Cut-off for recall."),
+    rerank: bool = typer.Option(True, help="Cross-encoder reranking."),
+) -> None:
+    """Score retrieval against the golden set."""
+    from banana_lifeline.rag.embed import Embedder
+    from banana_lifeline.rag.eval import evaluate_retrieval, write_report
+    from banana_lifeline.rag.golden import GOLDEN_SET
+    from banana_lifeline.rag.retrieve import retrieve
+
+    paths = get_paths()
+    embedder = Embedder()
+    embedder.load()
+
+    _echo_header("Evaluating retrieval")
+    typer.echo(
+        f"  {len(GOLDEN_SET)} questions "
+        f"({sum(1 for q in GOLDEN_SET if q.unanswerable)} unanswerable)\n"
+    )
+
+    def retriever(question: str, disease: str | None, topic: str | None) -> Any:
+        return retrieve(
+            question, disease=disease, topic=topic, embedder=embedder, top_k=top_k, rerank=rerank
+        )
+
+    with typer.progressbar(GOLDEN_SET, label="  querying") as bar:
+        report = evaluate_retrieval(list(bar), retriever, top_k=top_k)
+
+    typer.secho(f"\n  {report.summary()}", fg=typer.colors.GREEN, bold=True)
+
+    if report.per_language:
+        _echo_header("By language")
+        for language, value in sorted(report.per_language.items()):
+            typer.echo(f"  {language}   Recall@{top_k} {value:.2f}")
+
+    misses = [r for r in report.results if r.correctly_refused is None and not r.hit_at_5]
+    if misses:
+        _echo_header(f"Missed ({len(misses)})")
+        for miss in misses:
+            typer.echo(f"  - {miss.question[:72]}")
+
+    bad_refusals = [r for r in report.results if r.correctly_refused is False]
+    if bad_refusals:
+        _echo_header(f"Answered when it should have refused ({len(bad_refusals)})")
+        for bad in bad_refusals:
+            typer.secho(
+                f"  - {bad.question[:60]} -> {bad.top_source} ({bad.top_score:.3f})",
+                fg=typer.colors.RED,
+            )
+
+    destination = write_report(report, paths)
+    typer.secho(f"\n  report: {destination}", fg=typer.colors.GREEN)
 
 
 @app.command()
