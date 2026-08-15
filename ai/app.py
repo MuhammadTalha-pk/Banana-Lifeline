@@ -90,10 +90,14 @@ ACTION_STYLE: dict[str, tuple[str | None, str]] = {
 
 @st.cache_resource(show_spinner="Loading models — 30-60 seconds the first time...")
 def warm_up() -> bool:
-    """Load the models once per server, not once per interaction."""
-    from banana_lifeline.pipeline import ask
+    """Load the models once per server, not once per interaction.
 
-    ask("banana", language="en")
+    This used to warm up by asking a real question, which spent a DeepSeek call on every
+    restart to do what loading the models does directly.
+    """
+    from banana_lifeline.pipeline import warm_up as load_models
+
+    load_models()
     return True
 
 

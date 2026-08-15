@@ -23,6 +23,7 @@ from banana_lifeline.generation.intent import (
     greeting_text,
     looks_like_greeting,
     looks_technical,
+    names_other_subject,
     normalise,
     out_of_scope_text,
 )
@@ -280,3 +281,56 @@ def test_the_refusal_redirects_rather_than_just_declining() -> None:
     text = out_of_scope_text("en")
     assert "banana" in text.lower()
     assert "soil" in text.lower()
+
+
+# --------------------------------------------------------------------------------------
+# Other subjects — farming, but not this corpus
+# --------------------------------------------------------------------------------------
+
+
+@pytest.mark.parametrize(
+    "message",
+    [
+        "What fertiliser dose should I apply to my wheat crop?",
+        "How do I treat foot and mouth disease in my cattle?",
+        "Which bank gives the best agricultural loan in Punjab?",
+        "What is the current market price of bananas in Lahore?",
+        "کیلے کی آج کی قیمت کیا ہے؟",
+        "گندم کے لیے کھاد",
+    ],
+)
+def test_other_subjects_leave_the_rule_fast_path(message: str) -> None:
+    """These are full of farming words and have no answer in a banana corpus.
+
+    A keyword scan cannot tell "fertiliser for my wheat" from "fertiliser for my bananas",
+    so naming another crop, animal, or market topic sends the message to the model instead
+    of fast-pathing it to technical.
+    """
+    assert names_other_subject(message) is True
+    assert looks_technical(message) is False
+
+
+@pytest.mark.parametrize(
+    "message",
+    [
+        "what fertiliser should I use on my bananas",
+        "کیلے کے پتوں پر پیلے دھبے ہیں",
+        "my banana leaves have yellow spots",
+    ],
+)
+def test_banana_questions_keep_the_fast_path(message: str) -> None:
+    assert names_other_subject(message) is False
+    assert looks_technical(message) is True
+
+
+def test_crop_context_is_not_added_to_another_crops_question() -> None:
+    """The regression this guards against halved refusal accuracy once already.
+
+    Appending "(banana cultivation)" to a wheat question turned it into a banana question,
+    which then retrieved banana passages and scored as answerable.
+    """
+    from banana_lifeline.rag.retrieve import add_crop_context
+
+    wheat = "What fertiliser dose should I apply to my wheat crop?"
+    assert add_crop_context(wheat) == wheat
+    assert add_crop_context("when should i water") != "when should i water"

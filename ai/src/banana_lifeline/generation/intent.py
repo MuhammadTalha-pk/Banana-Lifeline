@@ -76,6 +76,40 @@ class Classification:
 # Fast path 1 — farming vocabulary means technical, no model call
 # --------------------------------------------------------------------------------------
 
+#: Subjects that are farming-adjacent but are NOT this corpus. A question naming one of
+#: these skips the fast path entirely and goes to the model, whatever farming words sit
+#: beside it.
+#:
+#: This exists because the vocabulary check alone cannot tell "what fertiliser dose for my
+#: wheat crop" from "what fertiliser dose for my bananas" -- both are full of farming terms,
+#: and only one has an answer here. Matched on word boundaries, because "price" contains
+#: "rice" and "operate" contains "rate".
+_OTHER_SUBJECTS: tuple[str, ...] = (
+    "wheat", "rice", "paddy", "maize", "cotton", "sugarcane", "mango", "citrus",
+    "orange", "potato", "tomato", "onion", "chilli", "pulses", "gram", "millet",
+    "cattle", "cow", "cows", "buffalo", "goat", "sheep", "poultry", "chicken",
+    "livestock", "fish", "dairy", "milk",
+    "price", "prices", "rate", "rates", "market", "mandi", "sell", "selling", "buy",
+    "loan", "loans", "bank", "credit", "subsidy", "insurance", "tax", "export",
+    "tractor", "machinery", "fuel", "diesel", "labour", "wages",
+)
+
+_OTHER_SUBJECT_RE = re.compile(
+    r"\b(" + "|".join(_OTHER_SUBJECTS) + r")\b", re.IGNORECASE
+)
+
+#: The same list in Urdu, matched as substrings -- word boundaries do not work usefully in
+#: Arabic script. Needed because the Urdu domain terms ("کیلے") fast-path a question to
+#: technical, so "کیلے کی آج کی قیمت کیا ہے؟" ("what is today's banana price") reached
+#: retrieval as a banana question when the corpus holds no prices at all.
+_URDU_OTHER_SUBJECTS: tuple[str, ...] = (
+    "قیمت", "قیمتیں", "نرخ", "منڈی", "بازار", "بھاؤ",
+    "قرض", "بینک", "سبسڈی", "بیمہ", "ٹیکس",
+    "گندم", "چاول", "دھان", "مکئی", "کپاس", "گنا", "آم",
+    "مویشی", "گائے", "بھینس", "بکری", "مرغی", "دودھ",
+    "ٹریکٹر", "ڈیزل", "مزدوری",
+)
+
 #: Substrings that settle it. Deliberately generous: a false "technical" costs one search
 #: that refuses, while a false "greeting" costs a farmer their answer.
 #:
@@ -185,8 +219,22 @@ def normalise(text: str) -> str:
     return re.sub(r"\s+", " ", stripped).strip()
 
 
+def names_other_subject(text: str) -> bool:
+    """Whether the message names a crop, animal, or topic this corpus does not cover."""
+    return bool(_OTHER_SUBJECT_RE.search(text)) or any(
+        term in text for term in _URDU_OTHER_SUBJECTS
+    )
+
+
 def looks_technical(text: str) -> bool:
-    """Whether the message names anything from the farming domain."""
+    """Whether the message is confidently about banana growing, on rules alone.
+
+    Returns False when another subject is named, even alongside farming vocabulary. The
+    model decides those: "what fertiliser for my wheat" and "what fertiliser for my bananas"
+    are indistinguishable to a keyword scan and have opposite correct answers.
+    """
+    if names_other_subject(text):
+        return False
     lowered = text.lower()
     return any(term in lowered for term in _DOMAIN_TERMS) or any(
         term in text for term in _URDU_DOMAIN_TERMS
@@ -224,14 +272,20 @@ Reply with ONE word and nothing else:
 
 greeting - a greeting, thanks, goodbye, small talk, OR a question about you and what you can \
 do, such as "who are you", "what can you do", "can you help me"
-technical - anything about bananas, plants, crops, soil, weather, pests, disease, or farming, \
-including vague ones like "any tips?" and follow-ups like "how much?"
-out_of_scope - clearly nothing to do with bananas or farming, such as sport, politics, \
-celebrities, coding, or general trivia
+technical - growing bananas or their diseases: symptoms, soil, planting, irrigation, \
+fertiliser, pests, harvesting. Vague ones like "any tips?" and follow-ups like "how much?" \
+count, because the farmer is standing in a banana field.
+out_of_scope - anything else, INCLUDING other farming topics this assistant does not cover: \
+other crops (wheat, rice, cotton, mango), livestock, market prices, loans, subsidies, \
+machinery. Also sport, politics, celebrities, coding, and general trivia.
 
-Never answer out_of_scope for a question about you or about what this assistant does. \
-Someone asking "can you help me" is asking to be helped, not asking about an unrelated topic.
-If you are unsure between technical and out_of_scope, answer technical.
+Two things to get right:
+- A question about a DIFFERENT crop or about animals is out_of_scope even though it is \
+farming. This assistant only knows bananas.
+- Never answer out_of_scope for a question about you or about what this assistant does. \
+Someone asking "can you help me" is asking to be helped.
+
+If a question could plausibly be about bananas, answer technical.
 Reply with the single word only."""
 
 

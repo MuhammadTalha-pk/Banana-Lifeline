@@ -16,6 +16,7 @@ comfortably on a laptop CPU.
 from __future__ import annotations
 
 from dataclasses import dataclass
+from functools import lru_cache
 from typing import Any
 
 import numpy as np
@@ -132,6 +133,24 @@ class Embedder:
 
     def encode_query(self, text: str) -> EmbeddingBatch:
         return self.encode([text])
+
+
+@lru_cache(maxsize=4)
+def get_embedder(model_name: str = DEFAULT_MODEL, *, batch_size: int = 8) -> Embedder:
+    """The shared embedder for this process. Loads the weights once, then reuses them.
+
+    ``Embedder.load`` is idempotent per *instance*, which is no help when a new instance is
+    built per call -- and ``retrieve`` did exactly that, so all-mpnet's 420 MB were read off
+    disk and rebuilt for every single question. Each query paid several seconds to produce a
+    model bit-identical to the one the previous query had just discarded.
+
+    Cached on the model name so a caller asking for a different model still gets one, and the
+    default is loaded eagerly here rather than on first encode, so the cost lands in a warm-up
+    the caller controls instead of inside a farmer's first question.
+    """
+    embedder = Embedder(model_name, batch_size=batch_size)
+    embedder.load()
+    return embedder
 
 
 def bm25_sparse(

@@ -13,6 +13,7 @@ from __future__ import annotations
 
 import uuid
 from dataclasses import dataclass
+from functools import lru_cache
 from typing import TYPE_CHECKING, Any
 
 from banana_lifeline.rag.embed import Embedder
@@ -35,7 +36,14 @@ class IndexStats:
     model: str
 
 
+@lru_cache(maxsize=4)
 def _client(url: str | None = None, api_key: str | None = None) -> Any:
+    """The Qdrant client for this process, connection and all.
+
+    Cached because the collection is on a cloud cluster: an uncached client meant a fresh
+    TLS handshake per call, and ``_search`` builds two calls per question. That was ~5s of a
+    ~9s query spent re-establishing a connection that was already available.
+    """
     from qdrant_client import QdrantClient
 
     from banana_lifeline.secrets import load_credentials

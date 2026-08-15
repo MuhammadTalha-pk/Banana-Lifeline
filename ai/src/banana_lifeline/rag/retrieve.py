@@ -19,9 +19,10 @@ answering from an empty set.
 from __future__ import annotations
 
 from dataclasses import dataclass, field
+from functools import lru_cache
 from typing import Any
 
-from banana_lifeline.rag.embed import Embedder
+from banana_lifeline.rag.embed import Embedder, get_embedder
 from banana_lifeline.rag.index import COLLECTION_NAME, _client
 
 #: RRF damping. 60 is the value from the original paper and behaves well without tuning.
@@ -41,22 +42,36 @@ def add_crop_context(query: str) -> str:
 
     Only the *search* text is expanded. The farmer's question is unchanged in what is shown
     and in what generation is asked to answer.
+
+    Never expands a question that names something else. Appending "(banana cultivation)" to
+    "what fertiliser dose for my wheat crop" turned an off-topic question into an on-topic
+    one and it started retrieving banana fertiliser passages -- which is how this helper,
+    added to stop vague banana questions being refused, silently halved refusal accuracy.
     """
-    if any(term in query.lower() for term in _CROP_TERMS):
+    from banana_lifeline.generation.intent import names_other_subject
+
+    if any(term in query.lower() for term in _CROP_TERMS) or names_other_subject(query):
         return query
     return f"{query} (banana cultivation)"
 
 
 #: Cross-encoder score below which the corpus is treated as unable to answer.
 #:
-#: Measured on the golden set, not guessed. Answerable questions score -3.1 to +7.5;
-#: unanswerable ones -10.8 to -1.9. -3.5 sits below every answerable question, so it refuses
-#: 4 of 5 unanswerable questions while losing none of the real ones.
+#: **A backstop, not the refusal mechanism.** Re-measuring on the golden set plus real user
+#: questions showed the two populations overlap badly: answerable questions span -4.9 to
+#: +7.5, unanswerable ones -8.0 to -1.3. No threshold separates them. At -3.5 this refused
+#: "I have panama disease in my farm, what should I do" (-4.47) while answering "what
+#: fertiliser dose for my wheat crop" (-1.53).
 #:
-#: This works where cosine similarity did not because a cross-encoder reads the question and
-#: passage together. Cosine only knows "banana price" and "banana disease" are both about
-#: bananas; the cross-encoder knows one passage does not answer the other question.
-MIN_RERANK_SCORE = -3.5
+#: The reason is that the two questions being asked are different. "Does this passage answer
+#: this question?" is what a cross-encoder judges, and it judges it well enough to rank.
+#: "Is this question about bananas at all?" is a topic judgement, and it now happens in
+#: ``generation.intent`` before retrieval runs -- where a model reads the question as a whole
+#: instead of scoring it against a passage that was never going to match.
+#:
+#: So this sits below every answerable question measured (-4.93 worst) with headroom, and
+#: catches only the residual case: a genuine banana question the corpus simply lacks.
+MIN_RERANK_SCORE = -6.0
 
 #: Minimum cosine similarity for the corpus to be considered capable of answering.
 #:
@@ -161,6 +176,18 @@ def _build_filter(disease: str | None, topic: str | None, language: str | None) 
     return models.Filter(must=conditions) if conditions else None
 
 
+@lru_cache(maxsize=8)
+def _collection_has_sparse(collection: str) -> bool:
+    """Whether the collection declares a sparse vector, asked once per process.
+
+    Asking the collection rather than trusting the embedder to describe itself is what
+    stopped a mismatch producing a 400 on every question. But it is a schema fact, fixed for
+    the life of the collection, and it was being fetched over the network on every query --
+    doubling the round-trips to find out something that cannot change mid-session.
+    """
+    return bool(_client().get_collection(collection).config.params.sparse_vectors or {})
+
+
 def _search(
     embedder: Embedder,
     query: str,
@@ -184,11 +211,8 @@ def _search(
         with_payload=True,
     ).points
 
-    # Ask the collection what it actually has rather than trusting the embedder to
-    # describe itself. A mismatch here is a 400 on every single query.
     sparse_hits: list[Any] = []
-    has_sparse = bool(client.get_collection(collection).config.params.sparse_vectors or {})
-    if has_sparse and embedder.produces_sparse and embedded.sparse:
+    if _collection_has_sparse(collection) and embedder.produces_sparse and embedded.sparse:
         weights = embedded.sparse[0]
         if weights:
             sparse_hits = client.query_points(
@@ -326,7 +350,9 @@ def retrieve(
     guidance wins ties — currently a no-op, since no Pakistani source is in the corpus yet,
     but it is the hook that makes adding one immediately effective.
     """
-    active = embedder or Embedder()
+    # The process-wide embedder, not a fresh one: building an Embedder per call re-read
+    # 420 MB of weights for every question asked.
+    active = embedder or get_embedder()
 
     # The corpus and the embedder are both English-only, so an Urdu question is translated
     # before anything is searched. Both forms are kept on the result: when an answer is

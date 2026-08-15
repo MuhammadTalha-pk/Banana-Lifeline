@@ -112,10 +112,10 @@ def main() -> int:
     print(BANNER)
     print("  Loading models (30-60 seconds the first time)...", flush=True)
 
-    from banana_lifeline.pipeline import ask, diagnose
+    from banana_lifeline.pipeline import ask, diagnose, warm_up
 
-    # Warm the models now rather than on the user's first question.
-    ask("banana", language="en")
+    # Load the models now rather than on the user's first question.
+    warm_up()
     paths = get_paths()
     print(f"  Ready. Knowledge base: {paths.corpus / 'chunks.jsonl'}\n")
 

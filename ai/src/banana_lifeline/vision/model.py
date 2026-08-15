@@ -13,6 +13,7 @@ beyond the architecture choice:
 from __future__ import annotations
 
 from dataclasses import dataclass
+from functools import lru_cache
 from pathlib import Path
 from typing import Any
 
@@ -111,7 +112,11 @@ def save_checkpoint(
 
 
 def load_checkpoint(path: Path, *, device: str = "cpu") -> LoadedModel:
-    """Rebuild a model exactly as it was saved."""
+    """Rebuild a model exactly as it was saved.
+
+    Uncached, because training and evaluation want a fresh model they are free to mutate.
+    Inference should call :func:`load_cached_checkpoint` instead.
+    """
     import torch
 
     if not path.is_file():
@@ -141,6 +146,20 @@ def load_checkpoint(path: Path, *, device: str = "cpu") -> LoadedModel:
         metrics=payload.get("metrics", {}),
         abstain_threshold=float(threshold) if threshold is not None else None,
     )
+
+
+@lru_cache(maxsize=2)
+def load_cached_checkpoint(path: Path, device: str = "cpu") -> LoadedModel:
+    """The inference path's checkpoint: read from disk once per process.
+
+    ``diagnose`` called ``load_checkpoint`` directly, so every photograph rebuilt
+    EfficientNet-B0 from a torch.load before classifying anything.
+
+    Safe to share because inference never mutates it -- the model is in eval mode and every
+    forward pass runs under ``torch.no_grad``. Anything that trains, fine-tunes, or reassigns
+    parameters must keep using :func:`load_checkpoint` and get its own copy.
+    """
+    return load_checkpoint(path, device=device)
 
 
 def attach_calibration(

@@ -62,10 +62,10 @@ def _classify(image_path: Path, checkpoint: Path, paths: Paths) -> tuple[str | N
     from PIL import Image
 
     from banana_lifeline.vision.calibrate import softmax
-    from banana_lifeline.vision.model import extract_features, load_checkpoint
+    from banana_lifeline.vision.model import extract_features, load_cached_checkpoint
     from banana_lifeline.vision.transforms import build_eval_transform
 
-    loaded = load_checkpoint(checkpoint)
+    loaded = load_cached_checkpoint(checkpoint)
     transform = build_eval_transform(loaded.train_config.image_size)
 
     with Image.open(image_path) as handle:
@@ -239,6 +239,33 @@ def ask(
         reason="text-only question",
         intent=Intent.TECHNICAL.value if routing is not None else "",
     )
+
+
+def warm_up(*, checkpoint: Path | None = None, paths: Paths | None = None) -> None:
+    """Load every model this process needs, before a user is waiting on one.
+
+    All three loaders cache for the life of the process, so this is purely about *when* the
+    cost is paid. Call it at server start; the first question then costs a forward pass
+    instead of several hundred megabytes of disk reads.
+
+    Deliberately touches no API. The apps used to warm up by asking a real question, which
+    spent a DeepSeek call on every restart to load models that a plain import could load.
+
+    Missing artifacts are not an error here: the RAG half is useful on a machine that has no
+    trained checkpoint, and warm-up must not be the thing that decides otherwise.
+    """
+    from banana_lifeline.rag.embed import get_embedder
+    from banana_lifeline.rag.retrieve import _load_reranker
+
+    get_embedder()
+    _load_reranker()
+
+    resolved = paths or get_paths()
+    checkpoint_path = checkpoint or (resolved.runs / "cpu_clean" / "best.pt")
+    if checkpoint_path.is_file():
+        from banana_lifeline.vision.model import load_cached_checkpoint
+
+        load_cached_checkpoint(checkpoint_path)
 
 
 def _is_technical(question: str) -> bool:
