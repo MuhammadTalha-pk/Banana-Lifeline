@@ -230,6 +230,13 @@ def test_manifests_reference_files_that_exist() -> None:
         assert (root / str(relpath)).is_file(), f"manifest points at a missing file: {relpath}"
 
 
+def test_known_missing_file_is_not_in_manifests() -> None:
+    relpath = "test/sigatoka/IMG_20251205_164848_result_result.jpg"
+    for variant in ("clean", "original"):
+        manifest = _manifest_or_skip(variant)
+        assert relpath not in set(manifest["relpath"])
+
+
 def test_cache_paths_are_unique() -> None:
     """The 0->P bug means basenames repeat across folders; flattened names must not collide."""
     manifest = _manifest_or_skip("clean")
