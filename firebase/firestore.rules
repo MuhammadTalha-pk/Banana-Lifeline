@@ -1,0 +1,112 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() {
+      return request.auth != null;
+    }
+
+    function currentUserOwns() {
+      return signedIn() && resource.data.ownerId == request.auth.uid;
+    }
+
+    function incomingUserOwns() {
+      return signedIn()
+        && request.resource.data.ownerId == request.auth.uid;
+    }
+
+    match /users/{uid} {
+      allow read: if signedIn() && request.auth.uid == uid;
+      allow create: if signedIn()
+        && request.auth.uid == uid
+        && request.resource.data.uid == uid;
+      allow update: if signedIn()
+        && request.auth.uid == uid
+        && request.resource.data.uid == resource.data.uid;
+      allow delete: if false;
+    }
+
+    match /farms/{farmId} {
+      allow read: if currentUserOwns();
+      allow create: if incomingUserOwns();
+      allow update: if currentUserOwns()
+        && request.resource.data.ownerId == resource.data.ownerId;
+      allow delete: if currentUserOwns();
+    }
+
+    match /plant_scans/{scanId} {
+      allow read: if currentUserOwns();
+
+      // Flutter creates farmer metadata first with blank imageUrl/storagePath.
+      // The authenticated FastAPI service later writes the real local-media
+      // URL/path and diagnosis with Firebase Admin privileges.
+      allow create: if incomingUserOwns()
+        && request.resource.data.keys().hasOnly([
+          'ownerId',
+          'imageUrl',
+          'storagePath',
+          'location',
+          'note',
+          'language',
+          'status',
+          'createdAt',
+          'updatedAt'
+        ])
+        && request.resource.data.status == 'processing';
+
+      // Mobile may only update retry/failure state.
+      allow update: if currentUserOwns()
+        && request.resource.data.ownerId == resource.data.ownerId
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly([
+          'status',
+          'errorMessage',
+          'updatedAt'
+        ]);
+
+      allow delete: if currentUserOwns();
+    }
+
+    match /chat_sessions/{sessionId} {
+      allow read: if currentUserOwns();
+
+      // Chat sessions/messages are created only by the authenticated backend.
+      allow create, update, delete: if false;
+
+      match /messages/{messageId} {
+        function sessionOwnedByCurrentUser() {
+          return signedIn()
+            && get(
+              /databases/$(database)/documents/chat_sessions/$(sessionId)
+            ).data.ownerId == request.auth.uid;
+        }
+
+        allow read: if sessionOwnedByCurrentUser();
+        allow write: if false;
+      }
+    }
+
+    match /notifications/{notificationId} {
+      allow read: if currentUserOwns();
+      allow create, delete: if false;
+
+      allow update: if currentUserOwns()
+        && request.resource.data.ownerId == resource.data.ownerId
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly([
+          'read'
+        ]);
+    }
+
+    match /user_settings/{uid} {
+      allow read, create, update: if signedIn() && request.auth.uid == uid;
+      allow delete: if false;
+    }
+
+    match /knowledge_documents/{docId} {
+      allow read, write: if false;
+    }
+
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

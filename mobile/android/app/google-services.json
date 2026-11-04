@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "7502006541",
+    "project_id": "banana-lifeline",
+    "storage_bucket": "banana-lifeline.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:7502006541:android:50dcd72b30debc55e24844",
+        "android_client_info": {
+          "package_name": "com.muhammadtalha.banana_lifeline"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLiZDUClU19Kr4T9apU74toMN3si5rf38"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
